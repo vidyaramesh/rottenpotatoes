@@ -32,6 +32,13 @@ class MoviesController < ApplicationController
     end
   end
 
+  def search        
+    respond_to do |format|
+      format.html # search.hmtl.erb
+      format.xml { render :xml => @movie}
+    end
+  end
+  
   # GET /movies/1/edit
   def edit
     @movie = Movie.find(params[:id])

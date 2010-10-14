@@ -8758,3 +8758,173 @@ Processing MoviesController#index (for 0.0.0.0 at 2010-10-12 15:17:24) [GET]
 Rendering template within layouts/movies
 Rendering movies/index
 Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies]
+Rendering movies/show.html.erb
+Rendering movies/new.html.erb
+Rendering movies/new.html.erb
+Rendering movies/index.html.erb
+Rendering movies/edit.html.erb
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;35;1mMovie Create (0.4ms)[0m   [0mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES('G', '2010-10-13 22:22:22', 'Pocahontas', '1995-01-01 08:00:00', '2010-10-13 22:22:22', 'A movie about the new world.')[0m
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT * FROM "movies" WHERE ("movies"."rating" IN ('G','PG')) [0m
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas Gone Wild') LIMIT 1[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES('R', '2010-10-13 22:22:22', 'Pocahontas Gone Wild', '1995-01-01 08:00:00', '2010-10-13 22:22:22', 'A movie about a girl')[0m
+  [4;35;1mMovie Load (0.1ms)[0m   [0mSELECT * FROM "movies" WHERE ("movies"."rating" IN ('G','PG')) [0m
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas 3') LIMIT 1[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES('G', '2010-10-13 22:22:22', 'Pocahontas 3', '1995-01-01 08:00:00', '2010-10-13 22:22:22', 'A movie about a girl')[0m
+  [4;36;1mMovie Load (0.3ms)[0m   [0;1mSELECT * FROM "movies" WHERE ("movies"."rating" IN ('G','PG')) [0m
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas 3') LIMIT 1[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES('G', '2010-10-13 22:22:22', 'Pocahontas 3', '1995-01-01 08:00:00', '2010-10-13 22:22:22', 'A movie about a girl')[0m
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT * FROM "movies" WHERE ("movies"."rating" IN ('G','PG')) [0m
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas Gone Wild') LIMIT 1[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES('R', '2010-10-13 22:22:22', 'Pocahontas Gone Wild', '1995-01-01 08:00:00', '2010-10-13 22:22:22', 'A very scary movie about Pocahontas becoming possessed')[0m
+  [4;36;1mMovie Load (0.1ms)[0m   [0;1mSELECT * FROM "movies" WHERE ("movies"."rating" IN ('G','PG')) [0m
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas 3') LIMIT 1[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES('G', '2010-10-13 22:22:22', 'Pocahontas 3', '1995-01-01 08:00:00', '2010-10-13 22:22:22', 'A movie about a girl')[0m
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas 3') LIMIT 1[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES('G', '2010-10-13 22:22:22', 'Pocahontas 3', '1995-01-01 08:00:00', '2010-10-13 22:22:22', 'A movie about a girl')[0m
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Spiderman 3') LIMIT 1[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES('PG-13', '2010-10-13 22:22:22', 'Spiderman 3', '1995-01-01 08:00:00', '2010-10-13 22:22:22', 'A movie about a spider-boy')[0m
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Spiderman 3') LIMIT 1[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES('PG-13', '2010-10-13 22:22:22', 'Spiderman 3', '1995-01-01 08:00:00', '2010-10-13 22:22:22', 'A movie about a spider-boy')[0m
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Spiderman 3') LIMIT 1[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES('PG-13', '2010-10-13 22:22:22', 'Spiderman 3', '1995-01-01 08:00:00', '2010-10-13 22:22:22', 'A movie about a spider-boy')[0m
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Inception') LIMIT 1[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES('R', '2010-10-13 22:22:22', 'Inception', '1995-01-01 08:00:00', '2010-10-13 22:22:22', 'A movie about dreams')[0m
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Inception') LIMIT 1[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES('R', '2010-10-13 22:22:22', 'Inception', '1995-01-01 08:00:00', '2010-10-13 22:22:22', 'A movie about dreams')[0m
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Inception') LIMIT 1[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES('R', '2010-10-13 22:22:22', 'Inception', '1995-01-01 08:00:00', '2010-10-13 22:22:22', 'A movie about dreams')[0m
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Saving Private Ryan') LIMIT 1[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES('NC-17', '2010-10-13 22:22:22', 'Saving Private Ryan', '1995-01-01 08:00:00', '2010-10-13 22:22:22', 'A movie about a war')[0m
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Saving Private Ryan') LIMIT 1[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES('NC-17', '2010-10-13 22:22:22', 'Saving Private Ryan', '1995-01-01 08:00:00', '2010-10-13 22:22:22', 'A movie about a war')[0m
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Saving Private Ryan') LIMIT 1[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES('NC-17', '2010-10-13 22:22:22', 'Saving Private Ryan', '1995-01-01 08:00:00', '2010-10-13 22:22:22', 'A movie about a war')[0m
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas 3') LIMIT 1[0m
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas 3') LIMIT 1[0m
+  [4;35;1mMovie Load (0.1ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas 3') LIMIT 1[0m
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas 3') LIMIT 1[0m
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;36;1mMovie Create (0.5ms)[0m   [0;1mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES('G', '2010-10-13 22:22:22', 'Pocahontas', '1995-01-01 08:00:00', '2010-10-13 22:22:22', 'A movie about a girl')[0m
+  [4;35;1mMovie Load (0.1ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas 2') LIMIT 1[0m
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES('G', '2010-10-13 22:22:22', 'Pocahontas', '1995-01-01 08:00:00', '2010-10-13 22:22:22', 'A movie about a girl 1')[0m
+  [4;36;1mMovie Load (0.1ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas 2') LIMIT 1[0m
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES('G', '2010-10-13 22:22:22', 'Pocahontas', '1995-01-01 08:00:00', '2010-10-13 22:22:22', 'A movie about a girl 1')[0m
+  [4;35;1mMovie Load (0.1ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas 2') LIMIT 1[0m
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;35;1mMovie Load (0.1ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" IS NULL) LIMIT 1[0m
+  [4;36;1mMovie Load (0.1ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'A movie about the new world.') LIMIT 1[0m
+  [4;35;1mMovie Load (0.1ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES('G', '2010-10-13 22:22:22', 'Pocahontas', '1995-01-01 08:00:00', '2010-10-13 22:22:22', 'A movie about a girl')[0m
+  [4;35;1mMovie Load (0.1ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas 2') LIMIT 1[0m
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas 3') LIMIT 1[0m
+  [4;36;1mMovie Load (0.1ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas 4') LIMIT 1[0m
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES('G', '2010-10-13 22:22:22', 'Pocahontas', '1995-01-01 08:00:00', '2010-10-13 22:22:22', 'A movie about the new world.')[0m
+
+
+Processing MoviesController#destroy (for 0.0.0.0 at 2010-10-13 15:22:22) [DELETE]
+  Parameters: {"id"=>"37"}
+Redirected to http://test.host/movies
+Completed in 2ms (DB: 13) | 302 Found [http://test.host/movies/37]
+
+
+Processing MoviesController#destroy (for 0.0.0.0 at 2010-10-13 15:22:22) [DELETE]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies/1]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-10-13 15:22:22) [PUT]
+  Parameters: {"id"=>"37", "movie"=>{"these"=>"params"}}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37?movie%5Bthese%5D=params]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-10-13 15:22:22) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/1]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-10-13 15:22:22) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/1]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-10-13 15:22:22) [PUT]
+  Parameters: {"id"=>"37", "movie"=>{"these"=>"params"}}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/movies/37?movie%5Bthese%5D=params]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-10-13 15:22:22) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies/1013
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies/1]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-10-13 15:22:22) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies/1014
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies/1]
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-10-13 15:22:22) [POST]
+  Parameters: {"movie"=>{"these"=>"params"}}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies?movie%5Bthese%5D=params]
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-10-13 15:22:22) [POST]
+  Parameters: {"movie"=>{}}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies?]
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-10-13 15:22:22) [POST]
+  Parameters: {"movie"=>{"these"=>"params"}}
+Redirected to http://test.host/movies/1017
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies?movie%5Bthese%5D=params]
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-10-13 15:22:22) [POST]
+  Parameters: {"movie"=>{}}
+Redirected to http://test.host/movies/1018
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies?]
+
+
+Processing MoviesController#edit (for 0.0.0.0 at 2010-10-13 15:22:22) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37/edit]
+
+
+Processing MoviesController#new (for 0.0.0.0 at 2010-10-13 15:22:22) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/new]
+
+
+Processing MoviesController#show (for 0.0.0.0 at 2010-10-13 15:22:22) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/movies
+Rendering movies/show
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37]
+
+
+Processing MoviesController#index (for 0.0.0.0 at 2010-10-13 15:22:22) [GET]
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies]
