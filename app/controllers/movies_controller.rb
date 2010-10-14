@@ -20,7 +20,22 @@ class MoviesController < ApplicationController
       format.xml  { render :xml => @movie }
     end
   end
+  
+  def search
+    respond_to do |format|
+      format.html #search.html.erb
+      format.xml
+    end
+  end
 
+  def results
+    @movies = Movie.find(:all)
+    respond_to do |format|
+      format.html #search.html.erb
+      format.xml
+    end
+  end
+  
   # GET /movies/new
   # GET /movies/new.xml
   def new
