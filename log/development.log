@@ -3877,3 +3877,307 @@ Processing MoviesController#search (for 127.0.0.1 at 2010-10-14 11:49:26) [GET]
 Rendering template within layouts/movies
 Rendering movies/search
 Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search/1]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-14 12:09:52) [GET]
+  [4;36;1mMovie Load (0.6ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 34ms (View: 28, DB: 1) | 200 OK [http://localhost/movies]
+
+
+Processing MoviesController#show (for 127.0.0.1 at 2010-10-14 12:09:54) [GET]
+  Parameters: {"id"=>"search"}
+  [4;35;1mMovie Load (0.1ms)[0m   [0mSELECT * FROM "movies" WHERE ("movies"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Movie with ID=search):
+  app/controllers/movies_controller.rb:16:in `show'
+
+Rendered rescues/_trace (42.4ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (not_found)
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-14 12:10:51) [GET]
+  [4;36;1mMovie Load (0.5ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 91ms (View: 86, DB: 1) | 200 OK [http://localhost/movies/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-14 12:10:53) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-14 15:00:31) [GET]
+  [4;36;1mMovie Load (0.6ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 34ms (View: 28, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-14 15:00:33) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/movies/search?id=1]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-14 15:00:42) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-14 15:03:38) [GET]
+  [4;35;1mMovie Load (0.6ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 25ms (View: 19, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-14 15:03:40) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-14 15:03:43) [POST]
+  Parameters: {"commit"=>"Search", "title"=>"something", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+  [4;36;1mMovie Load (0.5ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 87ms (View: 81, DB: 0) | 200 OK [http://localhost/search]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-14 15:03:52) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-14 15:04:37) [GET]
+  [4;35;1mMovie Load (0.5ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 18ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-14 15:04:39) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-14 15:04:44) [POST]
+  Parameters: {"commit"=>"Search", "title"=>"something", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+  [4;36;1mMovie Load (0.5ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 17ms (View: 11, DB: 0) | 200 OK [http://localhost/search]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-14 15:06:44) [GET]
+  [4;36;1mMovie Load (0.6ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 37ms (View: 31, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-14 15:06:48) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 23ms (View: 18, DB: 0) | 200 OK [http://localhost/movies/new]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-14 15:06:54) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo=", "movie"=>{"rating"=>"G", "title"=>"somethign", "released_on(1i)"=>"2010", "released_on(2i)"=>"10", "released_on(3i)"=>"14", "description"=>"something"}}
+  [4;35;1mMovie Load (0.5ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 17ms (View: 11, DB: 1) | 200 OK [http://localhost/movies]
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-14 15:06:57) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 18ms (View: 12, DB: 0) | 200 OK [http://localhost/movies/new]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-14 15:07:04) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo=", "movie"=>{"rating"=>"PG-13", "title"=>"somethign2", "released_on(1i)"=>"2010", "released_on(2i)"=>"10", "released_on(3i)"=>"14", "description"=>"domethingakjljasdf"}}
+  [4;36;1mMovie Load (0.5ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 18ms (View: 12, DB: 1) | 200 OK [http://localhost/movies]
+
+
+Processing MoviesController#destroy (for 127.0.0.1 at 2010-10-14 15:07:29) [DELETE]
+  Parameters: {"authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo=", "id"=>"1"}
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT * FROM "movies" WHERE ("movies"."id" = 1) [0m
+  [4;36;1mMovie Destroy (0.4ms)[0m   [0;1mDELETE FROM "movies" WHERE "id" = 1[0m
+Redirected to http://localhost:3000/movies
+Completed in 10ms (DB: 1) | 302 Found [http://localhost/movies/1]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-14 15:07:29) [GET]
+  [4;35;1mMovie Load (0.4ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 15ms (View: 10, DB: 0) | 200 OK [http://localhost/movies]
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-14 15:07:31) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 17ms (View: 12, DB: 0) | 200 OK [http://localhost/movies/new]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-14 15:07:35) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo=", "movie"=>{"rating"=>"G", "title"=>"sientugb", "released_on(1i)"=>"2010", "released_on(2i)"=>"10", "released_on(3i)"=>"14", "description"=>"ajshkfjhaskdf"}}
+  [4;36;1mMovie Load (0.4ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 14ms (View: 9, DB: 0) | 200 OK [http://localhost/movies]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-14 15:07:47) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+
+ActionView::TemplateError (undefined local variable or method `search_path' for #<ActionView::Base:0x10345e580>) on line #3 of app/views/movies/search.html.erb:
+1: <h1>Search to Add A Movie</h1>
+2: 
+3: <% form_tag(search_path, :method=>'post') do %>
+4:   <p>
+5:     <%= label_tag :title %><br/>
+6: 	<%= text_field_tag :title %>
+
+    app/views/movies/search.html.erb:3
+    app/controllers/movies_controller.rb:36:in `search'
+
+Rendered rescues/_trace (125.2ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-14 15:09:35) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-14 15:09:39) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"some", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+  [4;35;1mMovie Load (0.4ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 15ms (View: 9, DB: 0) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-14 15:10:03) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 17ms (View: 12, DB: 0) | 200 OK [http://localhost/movies/new]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-14 15:10:12) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo=", "movie"=>{"rating"=>"PG-13", "title"=>"vidya", "released_on(1i)"=>"2010", "released_on(2i)"=>"10", "released_on(3i)"=>"14", "description"=>"vidya is awesomest "}}
+  [4;36;1mMovie Load (0.5ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 15ms (View: 9, DB: 1) | 200 OK [http://localhost/movies]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-14 15:12:42) [GET]
+  [4;35;1mMovie Load (0.5ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 15ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-14 15:12:45) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-14 15:12:48) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"laksdjf", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+  [4;36;1mMovie Load (0.4ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 14ms (View: 9, DB: 0) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-14 15:13:37) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 18ms (View: 12, DB: 0) | 200 OK [http://localhost/movies/new]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-14 15:13:40) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo=", "movie"=>{"rating"=>"G", "title"=>"", "released_on(1i)"=>"2010", "released_on(2i)"=>"10", "released_on(3i)"=>"14", "description"=>""}}
+  [4;35;1mMovie Load (0.5ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 15ms (View: 9, DB: 0) | 200 OK [http://localhost/movies]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-14 15:20:18) [GET]
+  [4;36;1mMovie Load (0.5ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 34ms (View: 28, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-14 15:20:20) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 22ms (View: 17, DB: 0) | 200 OK [http://localhost/movies/new]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-14 15:20:22) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo=", "movie"=>{"rating"=>"G", "title"=>"", "released_on(1i)"=>"2010", "released_on(2i)"=>"10", "released_on(3i)"=>"14", "description"=>""}}
+  [4;35;1mMovie Load (0.4ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 15ms (View: 9, DB: 0) | 200 OK [http://localhost/movies]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-14 15:24:52) [GET]
+  [4;36;1mMovie Load (0.5ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 32ms (View: 27, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-14 15:24:54) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 21ms (View: 16, DB: 0) | 200 OK [http://localhost/movies/new]
+
+
+Processing MoviesController#create (for 127.0.0.1 at 2010-10-14 15:25:10) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo=", "movie"=>{"rating"=>"PG", "title"=>"test movie", "released_on(1i)"=>"2010", "released_on(2i)"=>"10", "released_on(3i)"=>"6", "description"=>"test movie 1"}}
+  [4;35;1mMovie Load (0.1ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'test movie') LIMIT 1[0m
+  [4;36;1mMovie Create (0.4ms)[0m   [0;1mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES('PG', '2010-10-14 22:25:10', 'test movie', '2010-10-06 00:00:00', '2010-10-14 22:25:10', 'test movie 1')[0m
+Redirected to http://localhost:3000/movies/4
+Completed in 14ms (DB: 1) | 302 Found [http://localhost/movies]
+
+
+Processing MoviesController#show (for 127.0.0.1 at 2010-10-14 15:25:10) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT * FROM "movies" WHERE ("movies"."id" = 4) [0m
+Rendering template within layouts/movies
+Rendering movies/show
+Completed in 14ms (View: 8, DB: 0) | 200 OK [http://localhost/movies/4]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-14 15:25:12) [GET]
+  [4;36;1mMovie Load (0.5ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 18ms (View: 12, DB: 1) | 200 OK [http://localhost/movies]
