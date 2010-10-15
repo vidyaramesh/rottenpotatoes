@@ -5921,3 +5921,423 @@ Processing MoviesController#index (for 127.0.0.1 at 2010-10-14 23:39:51) [GET]
 Rendering template within layouts/movies
 Rendering movies/index
 Completed in 46ms (View: 40, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-15 00:07:33) [GET]
+  [4;35;1mMovie Load (0.7ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 31ms (View: 25, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-15 00:07:35) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-15 00:07:39) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"transformer", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+
+NoMethodError (undefined method `score=' for #<Movie:0x1033eef50>):
+  app/controllers/movies_controller.rb:124:in `getData'
+  app/controllers/movies_controller.rb:120:in `each'
+  app/controllers/movies_controller.rb:120:in `getData'
+  app/controllers/movies_controller.rb:47:in `results'
+
+Rendered rescues/_trace (112.3ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-15 00:08:38) [GET]
+
+SyntaxError (/Users/vidya/Documents/currentWorkspace/assignments/rottentpot/hw3/rottenpotatoes/app/models/movie.rb:3: syntax error, unexpected tSYMBEG, expecting kDO or '{' or '('
+	validates_uniqueness_of :title
+	                         ^):
+  app/controllers/movies_controller.rb:8:in `index'
+
+Rendered rescues/_trace (42.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-15 00:10:09) [GET]
+  [4;36;1mMovie Load (0.7ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 31ms (View: 24, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-15 00:10:11) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-15 00:10:17) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"transformer", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+
+NoMethodError (undefined method `score=' for #<Movie:0x10364ae98>):
+  app/controllers/movies_controller.rb:124:in `getData'
+  app/controllers/movies_controller.rb:120:in `each'
+  app/controllers/movies_controller.rb:120:in `getData'
+  app/controllers/movies_controller.rb:47:in `results'
+
+Rendered rescues/_trace (39.6ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-15 00:10:38) [GET]
+  [4;35;1mMovie Load (0.7ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 31ms (View: 25, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-15 00:10:40) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-15 00:10:44) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"transformer", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+
+NoMethodError (undefined method `release_date=' for #<Movie:0x10364cbd0>):
+  app/controllers/movies_controller.rb:126:in `getData'
+  app/controllers/movies_controller.rb:120:in `each'
+  app/controllers/movies_controller.rb:120:in `getData'
+  app/controllers/movies_controller.rb:47:in `results'
+
+Rendered rescues/_trace (38.5ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-15 00:11:10) [GET]
+  [4;36;1mMovie Load (0.6ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 30ms (View: 24, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-15 00:11:11) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-15 00:11:23) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"transformer", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+
+NoMethodError (undefined method `release_on=' for #<Movie:0x10364e2c8>):
+  app/controllers/movies_controller.rb:126:in `getData'
+  app/controllers/movies_controller.rb:120:in `each'
+  app/controllers/movies_controller.rb:120:in `getData'
+  app/controllers/movies_controller.rb:47:in `results'
+
+Rendered rescues/_trace (39.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-15 00:11:38) [GET]
+  [4;35;1mMovie Load (0.7ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 31ms (View: 25, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-15 00:11:39) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-15 00:11:46) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"transformer", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+
+NoMethodError (undefined method `score' for #<Movie:0x10364de68>):
+  app/controllers/movies_controller.rb:129:in `getData'
+  app/controllers/movies_controller.rb:129:in `sort!'
+  app/controllers/movies_controller.rb:129:in `getData'
+  app/controllers/movies_controller.rb:47:in `results'
+
+Rendered rescues/_trace (38.2ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-15 00:12:18) [GET]
+
+TypeError (can't convert nil into String):
+  app/controllers/movies_controller.rb:116:in `+'
+  app/controllers/movies_controller.rb:116:in `getData'
+  app/controllers/movies_controller.rb:47:in `results'
+
+Rendered rescues/_trace (38.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-15 00:12:23) [GET]
+  [4;36;1mMovie Load (0.7ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 110ms (View: 104, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-15 00:12:25) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-15 00:12:29) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"transformer", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 922ms (View: 9, DB: 0) | 200 OK [http://localhost/results]
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateMovies (20100915094852)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("movies")[0m
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-15 00:14:14) [GET]
+  [4;36;1mMovie Load (0.8ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 50ms (View: 44, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-15 00:14:16) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-15 00:14:21) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"transformers", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+
+NoMethodError (undefined method `score=' for #<Movie:0x10352d290>):
+  app/controllers/movies_controller.rb:124:in `getData'
+  app/controllers/movies_controller.rb:120:in `each'
+  app/controllers/movies_controller.rb:120:in `getData'
+  app/controllers/movies_controller.rb:47:in `results'
+
+Rendered rescues/_trace (40.7ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateMovies (20100915094852)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("movies")[0m
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-15 00:24:10) [GET]
+  [4;36;1mMovie Load (0.7ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 51ms (View: 44, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-15 00:24:12) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-15 00:24:15) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"matrix", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+
+NoMethodError (undefined method `score=' for #<Movie:0x1035965d8>):
+  app/controllers/movies_controller.rb:124:in `getData'
+  app/controllers/movies_controller.rb:120:in `each'
+  app/controllers/movies_controller.rb:120:in `getData'
+  app/controllers/movies_controller.rb:47:in `results'
+
+Rendered rescues/_trace (40.0ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateMovies (20100915094852)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("movies")[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateMovies (20100915094852)
+Migrating to AddScore (20101015073249)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (30.1ms)[0m   [0mALTER TABLE "movies" ADD "score" integer DEFAULT 0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20101015073249')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("movies")[0m
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-15 00:34:45) [GET]
+  [4;36;1mMovie Load (0.7ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 49ms (View: 43, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-15 00:34:47) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-15 00:34:50) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"matrix", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 753ms (View: 10, DB: 0) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#add (for 127.0.0.1 at 2010-10-15 00:34:57) [POST]
+  Parameters: {"commit"=>"Choose", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo=", "movie"=>"#<Movie:0x103595f70>"}
+Redirected to http://localhost:3000/create_movie
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/add]
+
+
+Processing MoviesController#create (for 127.0.0.1 at 2010-10-15 00:34:57) [GET]
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" IS NULL) LIMIT 1[0m
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 38ms (View: 29, DB: 0) | 200 OK [http://localhost/create_movie]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-15 00:39:08) [GET]
+  [4;36;1mMovie Load (0.8ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 51ms (View: 44, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-15 00:39:11) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-15 00:39:15) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"The Matrix", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+
+URI::InvalidURIError (bad URI(is not URI?): http://api.themoviedb.org/2.1/Movie.search/en/xml/427e9c369e1ace82a41bcc7e68bfc5cc/The Matrix):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/uri/common.rb:436:in `split'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/uri/common.rb:485:in `parse'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:29:in `open'
+  app/controllers/movies_controller.rb:116:in `getData'
+  app/controllers/movies_controller.rb:47:in `results'
+
+Rendered rescues/_trace (40.3ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-15 00:39:40) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"matrix", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 592ms (View: 9, DB: 0) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-15 00:46:20) [GET]
+  [4;35;1mMovie Load (0.7ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 109ms (View: 103, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-15 00:46:24) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-15 00:46:28) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"the Matrix", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+
+URI::InvalidURIError (bad URI(is not URI?): http://api.themoviedb.org/2.1/Movie.search/en/xml/427e9c369e1ace82a41bcc7e68bfc5cc/the Matrix):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/uri/common.rb:436:in `split'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/uri/common.rb:485:in `parse'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:29:in `open'
+  app/controllers/movies_controller.rb:117:in `getData'
+  app/controllers/movies_controller.rb:47:in `results'
+
+Rendered rescues/_trace (40.0ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-15 00:46:59) [GET]
+  [4;36;1mMovie Load (0.7ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 30ms (View: 25, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-15 00:47:00) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-15 00:47:03) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"the matrix", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 631ms (View: 4, DB: 0) | 200 OK [http://localhost/results]

@@ -112,8 +112,8 @@ class MoviesController < ApplicationController
   end
   
   def getData(title)
-    title = "Transformer"
-    url = "http://api.themoviedb.org/2.1/Movie.search/en/xml/" + "427e9c369e1ace82a41bcc7e68bfc5cc" + "/" + title
+    title = title.sub(/[\s]/, '+')
+    url = "http://api.themoviedb.org/2.1/Movie.search/en/xml/427e9c369e1ace82a41bcc7e68bfc5cc/" + title
     doc = Hpricot(open(url))
     eles = doc.search("movie")
     @topFive = Array.new()
@@ -123,10 +123,10 @@ class MoviesController < ApplicationController
       movie.description = eles[i].search("overview").inner_html
       movie.score = eles[i].search("score").inner_html
       movie.rating = eles[i].search("rating").inner_html
-      movie.release_date = Time.parse(eles[i].search("released").inner_html)
+      movie.released_on = Time.parse(eles[i].search("released").inner_html)
       @topFive << movie
     end
-    @topFive.sort! { |a,b| a.score <=> b.score }
+    @topFive.sort! { |a,b| b.score <=> a.score }
   end
     
 end
