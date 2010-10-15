@@ -5641,3 +5641,283 @@ Processing MoviesController#index (for 127.0.0.1 at 2010-10-14 22:13:48) [GET]
 Rendering template within layouts/movies
 Rendering movies/index
 Completed in 88ms (View: 82, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#search (for 127.0.0.1 at 2010-10-14 22:54:38) [GET]
+
+SyntaxError (/Users/vidya/Documents/currentWorkspace/assignments/rottentpot/hw3/rottenpotatoes/app/controllers/movies_controller.rb:118: syntax error, unexpected $end, expecting kEND):
+  
+
+Rendered rescues/_trace (37.7ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-14 22:55:04) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-14 22:59:19) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"asdlkjf", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+  [4;35;1mMovie Load (0.6ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/results
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #11 of app/views/movies/results.html.erb:
+8:     		<th>Description</th>
+9:   		</tr>
+10: 
+11: 		<% @topFive.each do |movie| %>
+12:   			<tr>
+13:     			<td><%= radio_button_tag :movie, movie, @movie == movie %></td>
+14:     			<td><%=h movie.title %></td>
+
+    app/views/movies/results.html.erb:11
+    app/views/movies/results.html.erb:3
+    app/controllers/movies_controller.rb:49:in `results'
+
+Rendered rescues/_trace (129.7ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-14 23:12:58) [GET]
+
+TypeError (can't convert nil into String):
+  app/controllers/movies_controller.rb:114:in `+'
+  app/controllers/movies_controller.rb:114:in `getData'
+  app/controllers/movies_controller.rb:46:in `results'
+
+Rendered rescues/_trace (37.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-14 23:13:24) [GET]
+  [4;36;1mMovie Load (0.7ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 31ms (View: 24, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-14 23:13:25) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-14 23:13:27) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"alskdf", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+
+Errno::ENOENT (No such file or directory - http://api.themoviedb.org/2.1/Movie.search/en/xml/427e9c369e1ace82a41bcc7e68bfc5cc/alskdf):
+  app/controllers/movies_controller.rb:115:in `initialize'
+  app/controllers/movies_controller.rb:115:in `open'
+  app/controllers/movies_controller.rb:115:in `getData'
+  app/controllers/movies_controller.rb:46:in `results'
+
+Rendered rescues/_trace (114.2ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-14 23:13:55) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"matrix", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+
+Errno::ENOENT (No such file or directory - http://api.themoviedb.org/2.1/Movie.search/en/xml/427e9c369e1ace82a41bcc7e68bfc5cc/matrix):
+  app/controllers/movies_controller.rb:115:in `initialize'
+  app/controllers/movies_controller.rb:115:in `open'
+  app/controllers/movies_controller.rb:115:in `getData'
+  app/controllers/movies_controller.rb:46:in `results'
+
+Rendered rescues/_trace (38.7ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-14 23:15:28) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"matrix", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+
+Errno::ENOENT (No such file or directory - http://api.themoviedb.org/2.1/Movie.search/en/xml/427e9c369e1ace82a41bcc7e68bfc5cc/Transformer):
+  app/controllers/movies_controller.rb:116:in `initialize'
+  app/controllers/movies_controller.rb:116:in `open'
+  app/controllers/movies_controller.rb:116:in `getData'
+  app/controllers/movies_controller.rb:46:in `results'
+
+Rendered rescues/_trace (38.1ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-14 23:16:29) [GET]
+  [4;35;1mMovie Load (0.7ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 31ms (View: 25, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-14 23:16:30) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-14 23:16:32) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"asfd", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+
+NoMethodError (undefined method `search' for nil:NilClass):
+  app/controllers/movies_controller.rb:122:in `getData'
+  app/controllers/movies_controller.rb:120:in `each'
+  app/controllers/movies_controller.rb:120:in `getData'
+  app/controllers/movies_controller.rb:47:in `results'
+
+Rendered rescues/_trace (109.6ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-14 23:19:06) [GET]
+  [4;36;1mMovie Load (0.7ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 32ms (View: 25, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-14 23:19:08) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-14 23:19:11) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"asf", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+
+NoMethodError (undefined method `search' for nil:NilClass):
+  app/controllers/movies_controller.rb:123:in `getData'
+  app/controllers/movies_controller.rb:120:in `each'
+  app/controllers/movies_controller.rb:120:in `getData'
+  app/controllers/movies_controller.rb:47:in `results'
+
+Rendered rescues/_trace (109.6ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-14 23:20:14) [GET]
+
+ActionController::DoubleRenderError (Can only render or redirect once per action):
+  app/controllers/movies_controller.rb:48:in `results'
+
+Rendered rescues/_trace (44.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-14 23:21:05) [GET]
+
+NoMethodError (undefined method `search' for nil:NilClass):
+  app/controllers/movies_controller.rb:122:in `getData'
+  app/controllers/movies_controller.rb:120:in `each'
+  app/controllers/movies_controller.rb:120:in `getData'
+  app/controllers/movies_controller.rb:47:in `results'
+
+Rendered rescues/_trace (39.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-14 23:21:21) [GET]
+
+NoMethodError (undefined method `score=' for #<Movie:0x1036397b0>):
+  app/controllers/movies_controller.rb:124:in `getData'
+  app/controllers/movies_controller.rb:120:in `each'
+  app/controllers/movies_controller.rb:120:in `getData'
+  app/controllers/movies_controller.rb:47:in `results'
+
+Rendered rescues/_trace (38.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-14 23:21:37) [GET]
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 848ms (View: 4, DB: 0) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-14 23:22:19) [GET]
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 1038ms (View: 4, DB: 0) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-14 23:22:40) [GET]
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 1107ms (View: 4, DB: 0) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-14 23:22:42) [GET]
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 1037ms (View: 4, DB: 0) | 200 OK [http://localhost/results]
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateMovies (20100915094852)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("movies")[0m
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-14 23:31:22) [GET]
+  [4;36;1mMovie Load (0.7ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 49ms (View: 43, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-14 23:31:46) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-14 23:31:46) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-14 23:31:49) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"ljasdf", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+
+NoMethodError (undefined method `score=' for #<Movie:0x1034bc158>):
+  app/controllers/movies_controller.rb:124:in `getData'
+  app/controllers/movies_controller.rb:120:in `each'
+  app/controllers/movies_controller.rb:120:in `getData'
+  app/controllers/movies_controller.rb:47:in `results'
+
+Rendered rescues/_trace (40.0ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-14 23:39:51) [GET]
+  [4;36;1mMovie Load (0.7ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 46ms (View: 40, DB: 1) | 200 OK [http://localhost/]

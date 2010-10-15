@@ -1,4 +1,5 @@
 require 'hpricot'
+require 'open-uri'
 
 class MoviesController < ApplicationController
   # GET /movies
@@ -43,9 +44,7 @@ class MoviesController < ApplicationController
   end
 
   def results
-    @movies = Movie.find(:all)
-    @movies = @movies[0..4]
-    @movie_choice
+    self.getData(params[:title])
     respond_to do |format|
       format.html #search.html.erb
       format.xml
@@ -112,7 +111,22 @@ class MoviesController < ApplicationController
     end
   end
   
-  def getData(title) 
-    @url = "http://api.themoviedb.org/2.1/Movie.search/en/xml/" + "427e9c369e1ace82a41bcc7e68bfc5cc" + "/" + @title
+  def getData(title)
+    title = "Transformer"
+    url = "http://api.themoviedb.org/2.1/Movie.search/en/xml/" + "427e9c369e1ace82a41bcc7e68bfc5cc" + "/" + title
+    doc = Hpricot(open(url))
+    eles = doc.search("movie")
+    @topFive = Array.new()
+    (0..4).each do |i|
+      movie = Movie.new
+      movie.title = eles[i].search("name").inner_html
+      movie.description = eles[i].search("overview").inner_html
+      movie.score = eles[i].search("score").inner_html
+      movie.rating = eles[i].search("rating").inner_html
+      movie.release_date = Time.parse(eles[i].search("released").inner_html)
+      @topFive << movie
+    end
+    @topFive.sort! { |a,b| a.score <=> b.score }
+  end
     
 end
