@@ -27,9 +27,23 @@ class MoviesController < ApplicationController
       format.xml
     end
   end
+  
+  def add
+    respond_to do |format|
+      if params[:movie]
+        format.html { redirect_to(create_movie_path()) }
+        format.xml
+      else
+        format.html { redirect_to(movies_url) }
+        format.xml
+      end
+    end
+  end
 
   def results
     @movies = Movie.find(:all)
+    @movies = @movies[0..4]
+    @movie_choice
     respond_to do |format|
       format.html #search.html.erb
       format.xml
