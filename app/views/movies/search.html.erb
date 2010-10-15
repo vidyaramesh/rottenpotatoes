@@ -1,0 +1,13 @@
+<h1>Search to Add A Movie</h1>
+
+<% form_tag(results_path, :method=>'post') do %>
+  <p>
+    <%= label_tag :title %><br/>
+	<%= text_field_tag :title %>
+  </p>
+  <p>
+    <%= submit_tag 'Results', :action=>'results' %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', movies_path %>
