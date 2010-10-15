@@ -1,0 +1,20 @@
+# Logfile created on Fri Oct 15 00:52:30 -0700 2010
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-15 00:52:44) [GET]
+  [4;36;1mMovie Load (0.8ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 51ms (View: 45, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-15 00:52:46) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-15 00:52:49) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"the matrix", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 665ms (View: 9, DB: 0) | 200 OK [http://localhost/results]
