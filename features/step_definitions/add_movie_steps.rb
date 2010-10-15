@@ -24,7 +24,7 @@ Then /^the user should see a listing of at most (\d+) possible results$/ do |arg
 end
 
 Given /^the user is looking at the not empty search results for a query$/ do
-  visit seach_path()
+  visit search_path()
   fill_in "Title", :with=>"The Matrix"
   click_button "Search"
   response.should contain "The Matrix" # express the regexp above with the code you wish you had
