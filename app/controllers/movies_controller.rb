@@ -1,3 +1,5 @@
+require 'hpricot'
+
 class MoviesController < ApplicationController
   # GET /movies
   # GET /movies.xml
@@ -109,4 +111,8 @@ class MoviesController < ApplicationController
       format.xml  { head :ok }
     end
   end
+  
+  def getData(title) 
+    @url = "http://api.themoviedb.org/2.1/Movie.search/en/xml/" + "427e9c369e1ace82a41bcc7e68bfc5cc" + "/" + @title
+    
 end

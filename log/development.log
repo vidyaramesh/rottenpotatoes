@@ -5634,3 +5634,10 @@ Processing MoviesController#create (for 127.0.0.1 at 2010-10-14 22:07:38) [GET]
 Rendering template within layouts/movies
 Rendering movies/new
 Completed in 65ms (View: 56, DB: 0) | 200 OK [http://localhost/create_movie]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-14 22:13:48) [GET]
+  [4;36;1mMovie Load (0.7ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 88ms (View: 82, DB: 1) | 200 OK [http://localhost/]
