@@ -1,5 +1,5 @@
-require 'hpricot'
-require 'open-uri'
+#require 'hpricot'
+#require 'open-uri'
 
 class MoviesController < ApplicationController
   # GET /movies
