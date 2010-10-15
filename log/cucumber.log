@@ -1,1 +1,21 @@
-# Logfile created on Tue Oct 12 15:45:26 -0700 2010
+# Logfile created on Tue Oct 12 15:45:26 -0700 2010REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-14 22:38:44) [GET]
+
+
+Processing ApplicationController#search (for 127.0.0.1 at 2010-10-14 22:38:44) [GET]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-14 22:38:44) [GET]
+
+
+Processing ApplicationController#search (for 127.0.0.1 at 2010-10-14 22:38:44) [GET]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-14 22:38:44) [GET]
+
+
+Processing ApplicationController#search (for 127.0.0.1 at 2010-10-14 22:38:44) [GET]
