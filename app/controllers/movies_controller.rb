@@ -33,8 +33,10 @@ class MoviesController < ApplicationController
   
   def add
     respond_to do |format|
-      if params[:movie]
-        format.html { redirect_to(create_movie_path(), :movie=> params[:movie]) }
+      if params[:movieChoice]
+        @movie = params[:movieChoice]
+        @movie.save
+        format.html { redirect_to(create_movie_path(), :choice=> @movie.id) }
         format.xml
       else
         format.html { redirect_to(movies_url) }
@@ -59,8 +61,8 @@ class MoviesController < ApplicationController
   # GET /movies/new.xml
   def new
     @movie = Movie.new
-    if(params[:movie])
-      @movie = params[:movie]
+    if(params[:choice])
+      @movie = Move.find(params[:choice])
     end
     respond_to do |format|
       format.html # new.html.erb
