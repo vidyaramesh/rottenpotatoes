@@ -1813,3 +1813,1607 @@ NoMethodError (undefined method `save' for "#<Movie:0x10318ce10>":String):
 Rendered rescues/_trace (38.6ms)
 Rendered rescues/_request_and_response (0.4ms)
 Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-15 22:29:23) [GET]
+  [4;36;1mMovie Load (0.8ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 80ms (View: 74, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-15 22:29:26) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-15 22:29:31) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"Harry Potter", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 582ms (View: 10, DB: 0) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#add (for 127.0.0.1 at 2010-10-15 22:29:33) [POST]
+  Parameters: {"commit"=>"Results", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo=", "movieChoice"=>"#<Movie:0x103590020>"}
+
+NoMethodError (undefined method `save' for "#<Movie:0x103590020>":String):
+  app/controllers/movies_controller.rb:38:in `add'
+  app/controllers/movies_controller.rb:35:in `add'
+
+Rendered rescues/_trace (41.0ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-15 23:27:09) [GET]
+  [4;36;1mMovie Load (0.9ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 52ms (View: 45, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-15 23:27:10) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-15 23:27:13) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"results", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 784ms (View: 10, DB: 0) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#add (for 127.0.0.1 at 2010-10-15 23:27:24) [POST]
+  Parameters: {"commit"=>"Results", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+Redirected to http://localhost:3000/movies
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/add]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-15 23:27:24) [GET]
+  [4;35;1mMovie Load (0.8ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 35ms (View: 28, DB: 1) | 200 OK [http://localhost/movies]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-15 23:27:50) [GET]
+  [4;36;1mMovie Load (0.7ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 33ms (View: 27, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-15 23:27:52) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 75ms (View: 73, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-15 23:27:54) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"harry potter", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 1241ms (View: 5, DB: 0) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#add (for 127.0.0.1 at 2010-10-15 23:27:59) [POST]
+  Parameters: {"commit"=>"Results", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo=", "movieChoice"=>"#<Movie:0x103532830>"}
+
+NoMethodError (undefined method `save' for "#<Movie:0x103532830>":String):
+  app/controllers/movies_controller.rb:38:in `add'
+  app/controllers/movies_controller.rb:35:in `add'
+
+Rendered rescues/_trace (40.7ms)
+Rendered rescues/_request_and_response (73.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-15 23:29:29) [GET]
+
+SyntaxError (/Users/vidya/Documents/currentWorkspace/assignments/hw3/rottenpotatoes/app/controllers/movies_controller.rb:129: syntax error, unexpected $end, expecting kEND):
+  
+
+Rendered rescues/_trace (35.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-15 23:29:48) [GET]
+  [4;35;1mMovie Load (0.7ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 32ms (View: 27, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-15 23:29:49) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-15 23:29:52) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"harry potter", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 670ms (View: 78, DB: 0) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-15 23:30:11) [GET]
+  [4;36;1mMovie Load (0.7ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 32ms (View: 26, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-15 23:30:12) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-15 23:30:15) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"harry potter", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+Redirected to http://localhost:3000/search
+Completed in 627ms (DB: 0) | 302 Found [http://localhost/results]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-15 23:30:15) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/search]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-15 23:38:54) [GET]
+  [4;35;1mMovie Load (0.7ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 33ms (View: 26, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-15 23:38:56) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-15 23:39:00) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"harry potter", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 609ms (View: 5, DB: 0) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#add (for 127.0.0.1 at 2010-10-15 23:39:03) [POST]
+  Parameters: {"commit"=>"Results", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo=", "movieChoice"=>"#<Movie:0x1035a6398>"}
+Redirected to http://localhost:3000/movies
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/add]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-15 23:39:03) [GET]
+  [4;36;1mMovie Load (0.8ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 32ms (View: 26, DB: 1) | 200 OK [http://localhost/movies]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-15 23:40:55) [GET]
+  [4;35;1mMovie Load (0.8ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 33ms (View: 27, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-15 23:40:56) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 73ms (View: 71, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-15 23:41:00) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"harry potter", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 605ms (View: 5, DB: 0) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#add (for 127.0.0.1 at 2010-10-15 23:41:03) [POST]
+  Parameters: {"commit"=>"Results", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo=", "movieChoice"=>"#<Movie:0x1036052d0>"}
+Redirected to http://localhost:3000/movies
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/add]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-15 23:41:03) [GET]
+  [4;36;1mMovie Load (0.8ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 33ms (View: 27, DB: 1) | 200 OK [http://localhost/movies]
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateMovies (20100915094852)
+Migrating to AddScore (20101015073249)
+Migrating to CreateChoices (20101016062153)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCREATE TABLE "choices" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "topFive" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20101016062153')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("choices")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("movies")[0m
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-15 23:45:33) [GET]
+  [4;36;1mMovie Load (0.8ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 65ms (View: 59, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-15 23:45:34) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-15 23:45:36) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"harry potter", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 620ms (View: 10, DB: 0) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#add (for 127.0.0.1 at 2010-10-15 23:45:39) [POST]
+  Parameters: {"commit"=>"Results", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo=", "movieChoice"=>"#<Movie:0x10357e848>"}
+Redirected to http://localhost:3000/movies
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/add]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-15 23:45:39) [GET]
+  [4;35;1mMovie Load (0.8ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 35ms (View: 28, DB: 1) | 200 OK [http://localhost/movies]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-15 23:47:37) [GET]
+  [4;36;1mMovie Load (0.8ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 35ms (View: 28, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-15 23:47:38) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-15 23:47:42) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"Harry Potter", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.delete):
+  app/controllers/movies_controller.rb:128:in `getData'
+  app/controllers/movies_controller.rb:50:in `results'
+  app/controllers/movies_controller.rb:49:in `results'
+
+Rendered rescues/_trace (40.5ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-15 23:48:27) [GET]
+  [4;36;1mMovie Load (0.9ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 52ms (View: 46, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-15 23:48:28) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-15 23:48:31) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"harry potter", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.delete):
+  app/controllers/movies_controller.rb:128:in `getData'
+  app/controllers/movies_controller.rb:50:in `results'
+  app/controllers/movies_controller.rb:49:in `results'
+
+Rendered rescues/_trace (41.5ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-15 23:49:07) [GET]
+  [4;35;1mMovie Load (0.8ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 34ms (View: 28, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-15 23:49:08) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-15 23:49:11) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"harry potter", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.delete):
+  app/controllers/movies_controller.rb:128:in `getData'
+  app/controllers/movies_controller.rb:50:in `results'
+  app/controllers/movies_controller.rb:49:in `results'
+
+Rendered rescues/_trace (40.6ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-15 23:49:30) [GET]
+  [4;36;1mMovie Load (0.9ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 53ms (View: 46, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-15 23:49:32) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-15 23:49:34) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"harry potter", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.delete):
+  app/controllers/movies_controller.rb:128:in `getData'
+  app/controllers/movies_controller.rb:50:in `results'
+  app/controllers/movies_controller.rb:49:in `results'
+
+Rendered rescues/_trace (43.1ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-15 23:53:39) [GET]
+  [4;35;1mMovie Load (0.8ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 34ms (View: 27, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-15 23:53:41) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-15 23:53:44) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"harry potter", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.delete):
+  app/controllers/movies_controller.rb:128:in `getData'
+  app/controllers/movies_controller.rb:50:in `results'
+  app/controllers/movies_controller.rb:49:in `results'
+
+Rendered rescues/_trace (40.0ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-15 23:57:38) [GET]
+  [4;36;1mMovie Load (0.8ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 52ms (View: 45, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-15 23:57:40) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-15 23:57:42) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"harry potter", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+  [4;35;1mChoice Create (0.5ms)[0m   [0mINSERT INTO "choices" ("created_at", "updated_at", "topFive") VALUES('2010-10-16 06:57:43', '2010-10-16 06:57:43', NULL)[0m
+Rendering template within layouts/movies
+Rendering movies/results
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #12 of app/views/movies/results.html.erb:
+9:   		</tr>
+10: 	
+11: 	<% form_tag(:url => {:action => 'add'}, :method=>'post') do %>
+12: 		<% @topFive.each do |movie| %>
+13:   			<tr>
+14:     			<td><%= radio_button_tag :movieChoice, movie %></td>
+15:     			<td><%=h movie.title %></td>
+
+    app/views/movies/results.html.erb:12
+    app/views/movies/results.html.erb:11
+    app/views/movies/results.html.erb:3
+    app/controllers/movies_controller.rb:49:in `results'
+
+Rendered rescues/_trace (138.4ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-15 23:58:37) [GET]
+  [4;36;1mMovie Load (0.8ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 34ms (View: 27, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-15 23:58:38) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-15 23:58:41) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"harrypotter", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+Redirected to http://localhost:3000/search
+Completed in 291ms (DB: 0) | 302 Found [http://localhost/results]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-15 23:58:41) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/search]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-15 23:59:22) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-15 23:59:27) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"Harry Potter", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+  [4;35;1mChoice Create (0.4ms)[0m   [0mINSERT INTO "choices" ("created_at", "updated_at", "topFive") VALUES('2010-10-16 06:59:28', '2010-10-16 06:59:28', NULL)[0m
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 705ms (View: 5, DB: 0) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-16 00:07:19) [GET]
+  [4;36;1mMovie Load (0.8ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 34ms (View: 27, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-16 00:07:20) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-16 00:07:23) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"Harry Potter", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+  [4;35;1mChoice Create (0.4ms)[0m   [0mINSERT INTO "choices" ("created_at", "updated_at", "topFive") VALUES('2010-10-16 07:07:24', '2010-10-16 07:07:24', NULL)[0m
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 712ms (View: 5, DB: 0) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#add (for 127.0.0.1 at 2010-10-16 00:07:26) [POST]
+  Parameters: {"commit"=>"Results", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo=", "movieChoice"=>"#<Movie:0x10332fdf8>"}
+Redirected to http://localhost:3000/movies
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/add]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-16 00:07:27) [GET]
+  [4;36;1mMovie Load (0.8ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 106ms (View: 100, DB: 1) | 200 OK [http://localhost/movies]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-16 00:08:40) [GET]
+  [4;35;1mMovie Load (0.8ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 34ms (View: 27, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-16 00:08:41) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-16 00:08:44) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"Harry Potter", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+  [4;36;1mChoice Create (0.4ms)[0m   [0;1mINSERT INTO "choices" ("created_at", "updated_at", "topFive") VALUES('2010-10-16 07:08:45', '2010-10-16 07:08:45', NULL)[0m
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 635ms (View: 10, DB: 0) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#add (for 127.0.0.1 at 2010-10-16 00:08:48) [POST]
+  Parameters: {"commit"=>"Results", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo=", "movieChoice"=>"#<Movie:0x103302b50>"}
+Redirected to http://localhost:3000/movies
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/add]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-16 00:08:48) [GET]
+  [4;35;1mMovie Load (0.8ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 111ms (View: 104, DB: 1) | 200 OK [http://localhost/movies]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-16 00:10:21) [GET]
+  [4;36;1mMovie Load (0.8ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 34ms (View: 27, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-16 00:10:31) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-16 00:10:34) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"Harry Potter", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+  [4;35;1mChoice Create (0.4ms)[0m   [0mINSERT INTO "choices" ("created_at", "updated_at", "topFive") VALUES('2010-10-16 07:10:34', '2010-10-16 07:10:34', NULL)[0m
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 700ms (View: 8, DB: 0) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#add (for 127.0.0.1 at 2010-10-16 00:10:36) [POST]
+  Parameters: {"commit"=>"Results", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo=", "movieChoice"=>"#<Movie:0x1032c8ce8>"}
+Redirected to http://localhost:3000/movies
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/add]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-16 00:10:36) [GET]
+  [4;36;1mMovie Load (0.8ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 107ms (View: 100, DB: 1) | 200 OK [http://localhost/movies]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-16 00:10:59) [GET]
+  [4;35;1mMovie Load (0.8ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 33ms (View: 27, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-16 00:11:00) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-16 00:11:03) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"Harry Potter", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+  [4;36;1mChoice Create (0.4ms)[0m   [0;1mINSERT INTO "choices" ("created_at", "updated_at", "topFive") VALUES('2010-10-16 07:11:03', '2010-10-16 07:11:03', NULL)[0m
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 659ms (View: 10, DB: 0) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#add (for 127.0.0.1 at 2010-10-16 00:11:05) [POST]
+  Parameters: {"commit"=>"Results", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo=", "movieChoice"=>"#<Movie:0x1032b6b88>"}
+Redirected to http://localhost:3000/movies
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/add]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-16 00:11:05) [GET]
+  [4;35;1mMovie Load (0.8ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 105ms (View: 29, DB: 1) | 200 OK [http://localhost/movies]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-16 00:11:27) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-16 00:11:29) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"Harry Potter", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+  [4;36;1mChoice Create (0.4ms)[0m   [0;1mINSERT INTO "choices" ("created_at", "updated_at", "topFive") VALUES('2010-10-16 07:11:30', '2010-10-16 07:11:30', NULL)[0m
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 608ms (View: 9, DB: 0) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#add (for 127.0.0.1 at 2010-10-16 00:11:34) [POST]
+  Parameters: {"commit"=>"Results", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo=", "movieChoice"=>"#<Movie:0x103461690>"}
+Redirected to http://localhost:3000/movies
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/add]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-16 00:11:34) [GET]
+  [4;35;1mMovie Load (0.8ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 33ms (View: 27, DB: 1) | 200 OK [http://localhost/movies]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-16 00:26:10) [GET]
+  [4;36;1mMovie Load (1.3ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 105ms (View: 27, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-16 00:26:11) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-16 00:26:14) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"Harry Potter", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+  [4;35;1mChoice Create (0.4ms)[0m   [0mINSERT INTO "choices" ("created_at", "updated_at", "topFive") VALUES('2010-10-16 07:26:14', '2010-10-16 07:26:14', NULL)[0m
+Rendering template within layouts/movies
+Rendering movies/results
+
+ActionView::TemplateError (undefined local variable or method `end_form_tag' for #<ActionView::Base:0x1034da798>) on line #22 of app/views/movies/results.html.erb:
+19: 	  	</p>
+20: 	</table>
+21: 
+22: <%= end_form_tag %>
+
+    app/views/movies/results.html.erb:22
+    app/controllers/movies_controller.rb:49:in `results'
+
+Rendered rescues/_trace (126.9ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-16 00:28:19) [GET]
+  [4;36;1mMovie Load (0.8ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 34ms (View: 27, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-16 00:28:20) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-16 00:28:23) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"Harry Potter", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+  [4;35;1mChoice Create (0.4ms)[0m   [0mINSERT INTO "choices" ("created_at", "updated_at", "topFive") VALUES('2010-10-16 07:28:24', '2010-10-16 07:28:24', NULL)[0m
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 631ms (View: 8, DB: 0) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#add (for 127.0.0.1 at 2010-10-16 00:28:27) [POST]
+  Parameters: {"commit"=>"Results", "choice"=>"1", "method"=>"post", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo=", "movieChoice"=>"#<Movie:0x1032e9ba0>"}
+
+NoMethodError (undefined method `save' for "#<Movie:0x1032e9ba0>":String):
+  app/controllers/movies_controller.rb:38:in `add'
+  app/controllers/movies_controller.rb:35:in `add'
+
+Rendered rescues/_trace (114.9ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-16 00:28:50) [GET]
+  [4;36;1mMovie Load (0.8ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 33ms (View: 27, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-16 00:28:51) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-16 00:28:54) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"Harry Potter", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+  [4;35;1mChoice Create (0.4ms)[0m   [0mINSERT INTO "choices" ("created_at", "updated_at", "topFive") VALUES('2010-10-16 07:28:55', '2010-10-16 07:28:55', NULL)[0m
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 637ms (View: 8, DB: 0) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#add (for 127.0.0.1 at 2010-10-16 00:28:58) [POST]
+  Parameters: {"commit"=>"Results", "choice"=>"10", "method"=>"post", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo=", "movieChoice"=>"#<Movie:0x1032146f8>"}
+
+NoMethodError (undefined method `save' for "#<Movie:0x1032146f8>":String):
+  app/controllers/movies_controller.rb:38:in `add'
+  app/controllers/movies_controller.rb:35:in `add'
+
+Rendered rescues/_trace (38.1ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-16 00:31:08) [GET]
+  [4;36;1mMovie Load (0.8ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 34ms (View: 27, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-16 00:31:10) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-16 00:31:12) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"Harry Potter", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+  [4;35;1mChoice Create (0.4ms)[0m   [0mINSERT INTO "choices" ("created_at", "updated_at", "topFive") VALUES('2010-10-16 07:31:13', '2010-10-16 07:31:13', NULL)[0m
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 732ms (View: 10, DB: 0) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#add (for 127.0.0.1 at 2010-10-16 00:31:15) [POST]
+  Parameters: {"commit"=>"Results", "choice"=>"11", "method"=>"post", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo=", "movieChoice"=>"#<Movie:0x10313ec10>"}
+  [4;36;1mChoice Load (0.2ms)[0m   [0;1mSELECT * FROM "choices" WHERE ("choices"."id" = 11) [0m
+
+RuntimeError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id):
+  app/controllers/movies_controller.rb:39:in `add'
+  app/controllers/movies_controller.rb:35:in `add'
+
+Rendered rescues/_trace (41.1ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-16 00:33:08) [GET]
+  [4;35;1mMovie Load (0.7ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 33ms (View: 27, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-16 00:33:09) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-16 00:33:13) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"Harry Potter", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+  [4;36;1mChoice Create (0.4ms)[0m   [0;1mINSERT INTO "choices" ("created_at", "updated_at", "topFive") VALUES('2010-10-16 07:33:14', '2010-10-16 07:33:14', NULL)[0m
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 918ms (View: 4, DB: 0) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#add (for 127.0.0.1 at 2010-10-16 00:33:15) [POST]
+  Parameters: {"commit"=>"Results", "choice"=>"12", "method"=>"post", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo=", "movieChoice"=>"#<Movie:0x1036a4150>"}
+  [4;35;1mChoice Load (0.2ms)[0m   [0mSELECT * FROM "choices" WHERE ("choices"."id" = 12) [0m
+
+RuntimeError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id):
+  app/controllers/movies_controller.rb:42:in `add'
+  app/controllers/movies_controller.rb:35:in `add'
+
+Rendered rescues/_trace (40.3ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-16 00:41:37) [GET]
+
+SyntaxError (/Users/vidya/Documents/currentWorkspace/assignments/hw3/rottenpotatoes/app/controllers/movies_controller.rb:47: syntax error, unexpected kELSE, expecting kEND
+/Users/vidya/Documents/currentWorkspace/assignments/hw3/rottenpotatoes/app/controllers/movies_controller.rb:144: syntax error, unexpected $end, expecting kEND):
+  
+
+Rendered rescues/_trace (34.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-16 00:41:49) [GET]
+  [4;36;1mMovie Load (0.7ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 113ms (View: 27, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-16 00:41:51) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-16 00:41:54) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"Harry Potter", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+  [4;35;1mChoice Create (0.4ms)[0m   [0mINSERT INTO "choices" ("created_at", "updated_at", "topFive") VALUES('2010-10-16 07:41:55', '2010-10-16 07:41:55', NULL)[0m
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 641ms (View: 11, DB: 0) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#add (for 127.0.0.1 at 2010-10-16 00:41:57) [POST]
+  Parameters: {"commit"=>"Results", "choice"=>"13", "method"=>"post", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo=", "movieChoice"=>"Harry Potter and the Sorcerer's Stone"}
+  [4;36;1mChoice Load (0.2ms)[0m   [0;1mSELECT * FROM "choices" WHERE ("choices"."id" = 13) [0m
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+  app/controllers/movies_controller.rb:39:in `add'
+  app/controllers/movies_controller.rb:35:in `add'
+
+Rendered rescues/_trace (112.7ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-16 00:43:30) [GET]
+  [4;35;1mMovie Load (0.7ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 33ms (View: 27, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-16 00:43:31) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-16 00:43:35) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"Harry Potter", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+  [4;36;1mChoice Create (0.4ms)[0m   [0;1mINSERT INTO "choices" ("created_at", "updated_at", "topFive") VALUES('2010-10-16 07:43:36', '2010-10-16 07:43:36', NULL)[0m
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 665ms (View: 5, DB: 0) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#add (for 127.0.0.1 at 2010-10-16 00:43:38) [POST]
+  Parameters: {"commit"=>"Results", "choice"=>"14", "method"=>"post", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo=", "movieChoice"=>"Harry Potter and the Sorcerer's Stone"}
+  [4;35;1mChoice Load (0.2ms)[0m   [0mSELECT * FROM "choices" WHERE ("choices"."id" = 14) [0m
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+  app/controllers/movies_controller.rb:39:in `add'
+  app/controllers/movies_controller.rb:35:in `add'
+
+Rendered rescues/_trace (113.9ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-16 00:46:00) [GET]
+  [4;36;1mMovie Load (0.8ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 34ms (View: 27, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-16 00:46:01) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-16 00:46:04) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"Harry Potter", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+  [4;35;1mChoice Create (0.4ms)[0m   [0mINSERT INTO "choices" ("created_at", "updated_at", "topFive") VALUES('2010-10-16 07:46:05', '2010-10-16 07:46:05', NULL)[0m
+  [4;36;1mChoice Load (0.3ms)[0m   [0;1mSELECT * FROM "choices" WHERE ("choices"."id" = 15) [0m
+Redirected to http://localhost:3000/search
+Completed in 613ms (DB: 1) | 302 Found [http://localhost/results]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-16 00:46:05) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/search]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-16 00:47:25) [GET]
+  [4;35;1mMovie Load (0.8ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 105ms (View: 27, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-16 00:47:27) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-16 00:47:30) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"harry potter", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+  [4;36;1mChoice Create (0.4ms)[0m   [0;1mINSERT INTO "choices" ("created_at", "updated_at", "topFive") VALUES('2010-10-16 07:47:31', '2010-10-16 07:47:31', NULL)[0m
+  [4;35;1mChoice Load (0.3ms)[0m   [0mSELECT * FROM "choices" WHERE ("choices"."id" = 16) [0m
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 723ms (View: 5, DB: 1) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-16 00:48:12) [GET]
+  [4;36;1mMovie Load (0.8ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 33ms (View: 27, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-16 00:48:13) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-16 00:48:16) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"Harry Potter", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+  [4;35;1mChoice Create (0.4ms)[0m   [0mINSERT INTO "choices" ("created_at", "updated_at", "topFive") VALUES('2010-10-16 07:48:16', '2010-10-16 07:48:16', NULL)[0m
+  [4;36;1mChoice Load (0.3ms)[0m   [0;1mSELECT * FROM "choices" WHERE ("choices"."id" = 17) LIMIT 1[0m
+Redirected to http://localhost:3000/search
+Completed in 668ms (DB: 1) | 302 Found [http://localhost/results]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-16 00:48:16) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/search]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-16 00:51:20) [GET]
+  [4;35;1mMovie Load (0.8ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 34ms (View: 27, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-16 00:51:23) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-16 00:51:25) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"Harry Potter", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+  [4;36;1mChoice Create (0.4ms)[0m   [0;1mINSERT INTO "choices" ("created_at", "updated_at", "topFive") VALUES('2010-10-16 07:51:26', '2010-10-16 07:51:26', NULL)[0m
+  [4;35;1mChoice Load (0.4ms)[0m   [0mSELECT * FROM "choices" WHERE ("choices"."id" = 18) LIMIT 1[0m
+Redirected to http://localhost:3000/search
+Completed in 688ms (DB: 1) | 302 Found [http://localhost/results]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-16 00:51:26) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/search]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-16 00:52:41) [GET]
+  [4;36;1mMovie Load (0.8ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 33ms (View: 27, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-16 00:52:42) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-16 00:52:46) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"harry potter", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+  [4;35;1mChoice Create (0.4ms)[0m   [0mINSERT INTO "choices" ("created_at", "updated_at", "topFive") VALUES('2010-10-16 07:52:46', '2010-10-16 07:52:46', NULL)[0m
+  [4;36;1mChoice Load (0.2ms)[0m   [0;1mSELECT * FROM "choices" WHERE ("choices"."id" = 19) LIMIT 1[0m
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 602ms (View: 5, DB: 1) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-16 00:53:03) [GET]
+  [4;35;1mMovie Load (0.7ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 103ms (View: 97, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-16 00:53:04) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-16 00:53:07) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"harry potter", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+  [4;36;1mChoice Create (0.4ms)[0m   [0;1mINSERT INTO "choices" ("created_at", "updated_at", "topFive") VALUES('2010-10-16 07:53:07', '2010-10-16 07:53:07', NULL)[0m
+  [4;35;1mChoice Load (0.4ms)[0m   [0mSELECT * FROM "choices" WHERE ("choices"."id" = 20) LIMIT 1[0m
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 624ms (View: 4, DB: 1) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-16 00:54:10) [GET]
+  [4;36;1mMovie Load (0.8ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 33ms (View: 27, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-16 00:54:12) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-16 00:54:14) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"harry potter", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+  [4;35;1mChoice Create (0.4ms)[0m   [0mINSERT INTO "choices" ("created_at", "updated_at", "topFive") VALUES('2010-10-16 07:54:15', '2010-10-16 07:54:15', NULL)[0m
+  [4;36;1mChoice Load (0.3ms)[0m   [0;1mSELECT * FROM "choices" WHERE ("choices"."id" = 21) LIMIT 1[0m
+Redirected to http://localhost:3000/search
+Completed in 621ms (DB: 1) | 302 Found [http://localhost/results]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-16 00:54:15) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/search]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-16 00:55:22) [GET]
+  [4;35;1mMovie Load (0.8ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 34ms (View: 27, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-16 00:55:24) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-16 00:55:29) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"Harry Potter", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+Redirected to http://localhost:3000/search
+Completed in 600ms (DB: 0) | 302 Found [http://localhost/results]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-16 00:55:30) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/search]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-16 00:55:45) [GET]
+  [4;36;1mMovie Load (0.8ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 33ms (View: 26, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-16 00:55:46) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-16 00:55:50) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"Harry Potter", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+Redirected to http://localhost:3000/search
+Completed in 592ms (DB: 0) | 302 Found [http://localhost/results]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-16 00:55:50) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/search]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-16 00:56:36) [GET]
+  [4;35;1mMovie Load (1.2ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 36ms (View: 27, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-16 00:56:37) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 74ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-16 00:56:40) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"Harry Potter", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+Redirected to http://localhost:3000/search
+Completed in 603ms (DB: 0) | 302 Found [http://localhost/results]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-16 00:56:41) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/search]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-16 00:57:15) [GET]
+  [4;36;1mMovie Load (0.8ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 33ms (View: 27, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-16 00:57:17) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-16 00:57:20) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"harry potter", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+Redirected to http://localhost:3000/search
+Completed in 659ms (DB: 0) | 302 Found [http://localhost/results]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-16 00:57:20) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/search]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-16 00:57:41) [GET]
+  [4;35;1mMovie Load (0.8ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 33ms (View: 26, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-16 00:57:42) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-16 00:57:46) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"Harry Potter", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+Redirected to http://localhost:3000/search
+Completed in 606ms (DB: 0) | 302 Found [http://localhost/results]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-16 00:57:47) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/search]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-16 00:58:06) [GET]
+  [4;36;1mMovie Load (0.8ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 107ms (View: 29, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-16 00:58:07) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-16 00:58:09) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"harry potter", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+Rendering template within layouts/movies
+Rendering movies/results
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #3 of app/views/movies/results.html.erb:
+1: <h1>Listing movies</h1>
+2: 
+3: <% form_tag(:action=>'add', :choice=>@something.id, :method=>'post') do %>
+4: 	<table>
+5:   		<tr>
+6: 			<th></th>
+
+    app/views/movies/results.html.erb:3
+    app/controllers/movies_controller.rb:56:in `results'
+
+Rendered rescues/_trace (49.9ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-16 00:58:26) [GET]
+  [4;35;1mMovie Load (0.8ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 112ms (View: 106, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-16 00:58:28) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-16 00:58:30) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"harry potter", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+Rendering template within layouts/movies
+Rendering movies/results
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #11 of app/views/movies/results.html.erb:
+8:     		<th>Description</th>
+9:   		</tr>
+10: 	
+11: 		<% @topFive.each do |movie| %>
+12:   			<tr>
+13:     			<td><%= radio_button_tag :movieChoice, movie.title %></td>
+14:     			<td><%=h movie.title %></td>
+
+    app/views/movies/results.html.erb:11
+    app/views/movies/results.html.erb:3
+    app/controllers/movies_controller.rb:56:in `results'
+
+Rendered rescues/_trace (53.6ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-16 00:59:18) [GET]
+  [4;36;1mMovie Load (0.8ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 33ms (View: 26, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-16 00:59:20) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-16 00:59:22) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"Harry Potter", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+Rendering template within layouts/movies
+Rendering movies/results
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #11 of app/views/movies/results.html.erb:
+8:     		<th>Description</th>
+9:   		</tr>
+10: 	
+11: 		<% @topFive.each do |movie| %>
+12:   			<tr>
+13:     			<td><%= radio_button_tag :movieChoice, movie.title %></td>
+14:     			<td><%=h movie.title %></td>
+
+    app/views/movies/results.html.erb:11
+    app/views/movies/results.html.erb:3
+    app/controllers/movies_controller.rb:56:in `results'
+
+Rendered rescues/_trace (55.3ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-16 00:59:47) [GET]
+
+SyntaxError (/Users/vidya/Documents/currentWorkspace/assignments/hw3/rottenpotatoes/app/controllers/movies_controller.rb:145: syntax error, unexpected $end, expecting kEND):
+  
+
+Rendered rescues/_trace (35.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-16 01:00:08) [GET]
+  [4;35;1mMovie Load (0.7ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 34ms (View: 27, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-16 01:00:10) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-16 01:00:14) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"harry potter", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 603ms (View: 4, DB: 0) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-16 01:00:37) [GET]
+  [4;36;1mMovie Load (0.7ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 35ms (View: 27, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-16 01:00:39) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-16 01:00:41) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"harry potter", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+  [4;35;1mChoice Create (0.4ms)[0m   [0mINSERT INTO "choices" ("created_at", "updated_at", "topFive") VALUES('2010-10-16 08:00:41', '2010-10-16 08:00:41', NULL)[0m
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 627ms (View: 5, DB: 0) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-16 01:01:13) [GET]
+  [4;36;1mMovie Load (0.8ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 34ms (View: 27, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-16 01:01:20) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-16 01:01:22) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"Harry Potter", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+  [4;35;1mChoice Create (0.6ms)[0m   [0mINSERT INTO "choices" ("created_at", "updated_at", "topFive") VALUES('2010-10-16 08:01:23', '2010-10-16 08:01:23', NULL)[0m
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 632ms (View: 5, DB: 1) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#add (for 127.0.0.1 at 2010-10-16 01:01:25) [POST]
+  Parameters: {"commit"=>"Results", "choice"=>"23", "method"=>"post", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo=", "movieChoice"=>"Harry Potter and the Sorcerer's Stone"}
+  [4;36;1mChoice Load (0.2ms)[0m   [0;1mSELECT * FROM "choices" WHERE ("choices"."id" = 23) [0m
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+  app/controllers/movies_controller.rb:39:in `add'
+  app/controllers/movies_controller.rb:35:in `add'
+
+Rendered rescues/_trace (37.8ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-16 01:06:11) [GET]
+  [4;35;1mMovie Load (0.8ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 33ms (View: 27, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-16 01:06:12) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-16 01:06:15) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"harry potter", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+  [4;36;1mChoice Create (0.4ms)[0m   [0;1mINSERT INTO "choices" ("created_at", "updated_at", "topFive") VALUES('2010-10-16 08:06:15', '2010-10-16 08:06:15', NULL)[0m
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 619ms (View: 9, DB: 0) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#add (for 127.0.0.1 at 2010-10-16 01:06:18) [POST]
+  Parameters: {"commit"=>"Results", "choice"=>"24", "method"=>"post", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo=", "movieChoice"=>"Harry Potter and the Sorcerer's Stone"}
+  [4;35;1mChoice Load (0.2ms)[0m   [0mSELECT * FROM "choices" WHERE ("choices"."id" = 24) [0m
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+  app/controllers/movies_controller.rb:39:in `add'
+  app/controllers/movies_controller.rb:35:in `add'
+
+Rendered rescues/_trace (38.0ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#add (for 127.0.0.1 at 2010-10-16 01:07:07) [GET]
+  Parameters: {"choice"=>"24", "method"=>"post"}
+  [4;36;1mChoice Load (0.2ms)[0m   [0;1mSELECT * FROM "choices" WHERE ("choices"."id" = 24) [0m
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+  app/controllers/movies_controller.rb:42:in `add'
+  app/controllers/movies_controller.rb:35:in `add'
+
+Rendered rescues/_trace (113.0ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-16 01:07:10) [GET]
+  [4;35;1mMovie Load (0.8ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 34ms (View: 27, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-16 01:07:12) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-16 01:07:15) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"harry potter", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+  [4;36;1mChoice Create (0.4ms)[0m   [0;1mINSERT INTO "choices" ("created_at", "updated_at", "topFive") VALUES('2010-10-16 08:07:15', '2010-10-16 08:07:15', NULL)[0m
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 632ms (View: 5, DB: 0) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#add (for 127.0.0.1 at 2010-10-16 01:07:17) [POST]
+  Parameters: {"commit"=>"Results", "choice"=>"25", "method"=>"post", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo=", "movieChoice"=>"Harry Potter and the Sorcerer's Stone"}
+  [4;35;1mChoice Load (0.2ms)[0m   [0mSELECT * FROM "choices" WHERE ("choices"."id" = 25) [0m
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+  app/controllers/movies_controller.rb:42:in `add'
+  app/controllers/movies_controller.rb:35:in `add'
+
+Rendered rescues/_trace (38.3ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#add (for 127.0.0.1 at 2010-10-16 01:07:39) [GET]
+  Parameters: {"choice"=>"25", "method"=>"post"}
+  [4;36;1mChoice Load (0.2ms)[0m   [0;1mSELECT * FROM "choices" WHERE ("choices"."id" = 25) [0m
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+  app/controllers/movies_controller.rb:45:in `add'
+  app/controllers/movies_controller.rb:35:in `add'
+
+Rendered rescues/_trace (38.0ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-16 01:07:46) [GET]
+  [4;35;1mMovie Load (0.8ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 33ms (View: 27, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-16 01:07:47) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-16 01:07:50) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"harry potter", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+  [4;36;1mChoice Create (0.4ms)[0m   [0;1mINSERT INTO "choices" ("created_at", "updated_at", "topFive") VALUES('2010-10-16 08:07:50', '2010-10-16 08:07:50', NULL)[0m
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 591ms (View: 5, DB: 0) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#add (for 127.0.0.1 at 2010-10-16 01:07:52) [POST]
+  Parameters: {"commit"=>"Results", "choice"=>"26", "method"=>"post", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo=", "movieChoice"=>"Harry Potter and the Sorcerer's Stone"}
+  [4;35;1mChoice Load (0.2ms)[0m   [0mSELECT * FROM "choices" WHERE ("choices"."id" = 26) [0m
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+  app/controllers/movies_controller.rb:45:in `add'
+  app/controllers/movies_controller.rb:35:in `add'
+
+Rendered rescues/_trace (38.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-16 01:08:25) [GET]
+  [4;36;1mMovie Load (0.7ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 106ms (View: 100, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-16 01:08:27) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-16 01:08:30) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"harry potter", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+  [4;35;1mChoice Create (0.4ms)[0m   [0mINSERT INTO "choices" ("created_at", "updated_at", "topFive") VALUES('2010-10-16 08:08:31', '2010-10-16 08:08:31', NULL)[0m
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 593ms (View: 5, DB: 0) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#add (for 127.0.0.1 at 2010-10-16 01:08:33) [POST]
+  Parameters: {"commit"=>"Results", "choice"=>"27", "method"=>"post", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo=", "movieChoice"=>"Harry Potter and the Sorcerer's Stone"}
+  [4;36;1mChoice Load (0.2ms)[0m   [0;1mSELECT * FROM "choices" WHERE ("choices"."id" = 27) [0m
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+  app/controllers/movies_controller.rb:45:in `add'
+  app/controllers/movies_controller.rb:35:in `add'
+
+Rendered rescues/_trace (38.7ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-16 01:09:05) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-16 01:09:08) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"harry potter", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo="}
+  [4;35;1mChoice Create (0.4ms)[0m   [0mINSERT INTO "choices" ("created_at", "updated_at", "topFive") VALUES('2010-10-16 08:09:09', '2010-10-16 08:09:09', NULL)[0m
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 598ms (View: 5, DB: 0) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#add (for 127.0.0.1 at 2010-10-16 01:09:11) [POST]
+  Parameters: {"commit"=>"Results", "choice"=>"28", "method"=>"post", "authenticity_token"=>"rFm6yzFTYRvzf6+7lLSPDs647H2vOSVGaDplYUymXDo=", "movieChoice"=>"Harry Potter and the Sorcerer's Stone"}
+  [4;36;1mChoice Load (0.2ms)[0m   [0;1mSELECT * FROM "choices" WHERE ("choices"."id" = 28) [0m
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+  app/controllers/movies_controller.rb:45:in `add'
+  app/controllers/movies_controller.rb:35:in `add'
+
+Rendered rescues/_trace (38.0ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)

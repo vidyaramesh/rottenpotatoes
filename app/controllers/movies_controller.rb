@@ -33,8 +33,21 @@ class MoviesController < ApplicationController
   
   def add
     respond_to do |format|
-      if params[:movieChoice]
-        @movie = params[:movieChoice]
+      if params[:choice]
+        @movieChoice = Choice.find(params[:choice])
+        if @movieChoice == nil
+          format.html { redirect_to(movies_url) }
+        end
+        @topFive = @movieChoice.topFive
+        if @topFive == nil
+          format.html { redirect_to(movies_url) }
+        end
+        @topFive.each do |movie|
+          if movie.title = params[:movieChoice]
+            @movie = movie
+            break
+          end
+        end
         @movie.save
         format.html { redirect_to(create_movie_path(), :choice=> @movie.id) }
         format.xml
@@ -47,7 +60,8 @@ class MoviesController < ApplicationController
 
   def results
     respond_to do |format|
-      if self.getData(params[:title])
+      someId = self.getData(params[:title])
+      if someId
         format.html #search.html.erb
         format.xml
       else
@@ -120,34 +134,20 @@ class MoviesController < ApplicationController
   end
   
   def getData(title)
-    if title == nil
+    @something = Choice.new()
+    if @something == nil
       return false
     end
-    title = title.sub(/[\s]/, '+')
-    url = "http://api.themoviedb.org/2.1/Movie.search/en/xml/427e9c369e1ace82a41bcc7e68bfc5cc/" + title
-    doc = Hpricot(open(url))
-    if doc == nil
+    @something.findTopFive(title)
+    if @something.topFive == nil
       return false
     end
-    eles = doc.search("movie")
-    if eles == nil or eles.empty?
+    @topFive = @something.topFive
+    if @something.save!
+      return @something.id
+    else 
       return false
     end
-    @topFive = Array.new()
-    (0..4).each do |i|
-      if eles[i] == nil: 
-        break 
-      end
-      movie = Movie.new
-      movie.title = eles[i].search("name").inner_html
-      movie.description = eles[i].search("overview").inner_html
-      movie.score = eles[i].search("score").inner_html
-      movie.rating = eles[i].search("rating").inner_html
-      movie.released_on = Time.parse(eles[i].search("released").inner_html)
-      @topFive << movie
-    end
-    @topFive.sort! { |a,b| b.score <=> a.score }
-    return true
   end
     
 end

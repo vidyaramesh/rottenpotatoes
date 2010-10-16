@@ -1,6 +1,6 @@
 <h1>Listing movies</h1>
 
-<% form_tag(add_url, :method=>'post') do %>
+<% form_tag(:action=>'add', :choice=>@something.id, :method=>'post') do %>
 	<table>
   		<tr>
 			<th></th>
@@ -8,18 +8,15 @@
     		<th>Description</th>
   		</tr>
 	
-	<% form_tag(:url => {:action => 'add'}, :method=>'post') do %>
 		<% @topFive.each do |movie| %>
   			<tr>
-    			<td><%= radio_button_tag :movieChoice, movie %></td>
+    			<td><%= radio_button_tag :movieChoice, movie.title %></td>
     			<td><%=h movie.title %></td>
-    			<td><%=h movie.description %></td>
   			</tr>
 		<% end %>
 	 	<p>
 	    	<%= submit_tag 'Results', :action=>'add'%>
 	  	</p>
-	<% end %>
 	</table>
 
 <% end %>
