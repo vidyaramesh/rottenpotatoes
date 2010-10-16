@@ -34,7 +34,7 @@ class MoviesController < ApplicationController
   def add
     respond_to do |format|
       if params[:movie]
-        format.html { redirect_to(create_movie_path()) }
+        format.html { redirect_to(create_movie_path(), :movie=> params[:movie]) }
         format.xml
       else
         format.html { redirect_to(movies_url) }
@@ -44,10 +44,14 @@ class MoviesController < ApplicationController
   end
 
   def results
-    self.getData(params[:title])
     respond_to do |format|
-      format.html #search.html.erb
-      format.xml
+      if self.getData(params[:title])
+        format.html #search.html.erb
+        format.xml
+      else
+        format.html {redirect_to(search_path(), :notice=>'No movies found')}
+        format.xml
+      end
     end
   end
   
@@ -55,7 +59,9 @@ class MoviesController < ApplicationController
   # GET /movies/new.xml
   def new
     @movie = Movie.new
-
+    if(params[:movie])
+      @movie = params[:movie]
+    end
     respond_to do |format|
       format.html # new.html.erb
       format.xml  { render :xml => @movie }
@@ -112,12 +118,24 @@ class MoviesController < ApplicationController
   end
   
   def getData(title)
+    if title == nil
+      return false
+    end
     title = title.sub(/[\s]/, '+')
     url = "http://api.themoviedb.org/2.1/Movie.search/en/xml/427e9c369e1ace82a41bcc7e68bfc5cc/" + title
     doc = Hpricot(open(url))
+    if doc == nil
+      return false
+    end
     eles = doc.search("movie")
+    if eles == nil or eles.empty?
+      return false
+    end
     @topFive = Array.new()
     (0..4).each do |i|
+      if eles[i] == nil: 
+        break 
+      end
       movie = Movie.new
       movie.title = eles[i].search("name").inner_html
       movie.description = eles[i].search("overview").inner_html
@@ -127,6 +145,7 @@ class MoviesController < ApplicationController
       @topFive << movie
     end
     @topFive.sort! { |a,b| b.score <=> a.score }
+    return true
   end
     
 end
