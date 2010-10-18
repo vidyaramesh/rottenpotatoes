@@ -1,5 +1,5 @@
 class Movie < ActiveRecord::Base
-	validates_presence_of :title, :description, :rating, :released_on
+	validates_presence_of :title, :description, :rating, :released_on, :score
 	validates_uniqueness_of :title
 	validates_length_of :description, :minimum => 10
 	validates_inclusion_of :rating, :in => %w( G PG PG-13 R NC-17 )

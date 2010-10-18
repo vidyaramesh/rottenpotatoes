@@ -1,4 +1,5 @@
 require 'hpricot'
+require 'open-uri'
 
 class MoviesController < ApplicationController
   # GET /movies
@@ -32,8 +33,23 @@ class MoviesController < ApplicationController
   
   def add
     respond_to do |format|
-      if params[:movie]
-        format.html { redirect_to(create_movie_path()) }
+      if params[:choice]
+        @movieChoice = Choice.find(params[:choice])
+        if @movieChoice == nil
+          format.html { redirect_to(movies_url) }
+        end
+        @topFive = @movieChoice.topFive
+        if @topFive == nil
+          format.html { redirect_to(movies_url) }
+        end
+        @topFive.each do |movie|
+          if movie.title = params[:movieChoice]
+            @movie = movie
+            break
+          end
+        end
+        @movie.save
+        format.html { redirect_to(create_movie_path(), :choice=> @movie.id) }
         format.xml
       else
         format.html { redirect_to(movies_url) }
@@ -43,12 +59,15 @@ class MoviesController < ApplicationController
   end
 
   def results
-    @movies = Movie.find(:all)
-    @movies = @movies[0..4]
-    @movie_choice
     respond_to do |format|
-      format.html #search.html.erb
-      format.xml
+      someId = self.getData(params[:title])
+      if someId
+        format.html #search.html.erb
+        format.xml
+      else
+        format.html {redirect_to(search_path(), :notice=>'No movies found')}
+        format.xml
+      end
     end
   end
   
@@ -56,7 +75,9 @@ class MoviesController < ApplicationController
   # GET /movies/new.xml
   def new
     @movie = Movie.new
-
+    if(params[:choice])
+      @movie = Move.find(params[:choice])
+    end
     respond_to do |format|
       format.html # new.html.erb
       format.xml  { render :xml => @movie }
@@ -112,7 +133,21 @@ class MoviesController < ApplicationController
     end
   end
   
-  def getData(title) 
-    @url = "http://api.themoviedb.org/2.1/Movie.search/en/xml/" + "427e9c369e1ace82a41bcc7e68bfc5cc" + "/" + @title
+  def getData(title)
+    @something = Choice.new()
+    if @something == nil
+      return false
+    end
+    @something.findTopFive(title)
+    if @something.topFive == nil
+      return false
+    end
+    @topFive = @something.topFive
+    if @something.save!
+      return @something.id
+    else 
+      return false
+    end
+  end
     
 end

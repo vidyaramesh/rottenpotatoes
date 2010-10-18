@@ -1,23 +1,23 @@
 <h1>Listing movies</h1>
 
-<% form_tag(add_url, :method=>'post') do %>
+<% form_tag(:action=>'add', :choice=>@something.id, :method=>'post') do %>
 	<table>
   		<tr>
 			<th></th>
     		<th>Title</th>
     		<th>Description</th>
   		</tr>
-
+	
 		<% @topFive.each do |movie| %>
   			<tr>
-    			<td><%= radio_button_tag :movie, movie, @movie == movie %></td>
+    			<td><%= radio_button_tag :movieChoice, movie.title %></td>
     			<td><%=h movie.title %></td>
-    			<td><%=h movie.description %></td>
   			</tr>
 		<% end %>
+	 	<p>
+	    	<%= submit_tag 'Results', :action=>'add'%>
+	  	</p>
 	</table>
- 	<p>
-    	<%= submit_tag 'Choose', :controller=>'movies', :action=>'edit', :movie=>@movie, :id=>'1'%>
-  	</p>
+
 <% end %>
 
