@@ -10,13 +10,13 @@ Then /^the user should see a place to enter the title of the movie they want to 
   response.should contain textfield # express the regexp above with the code you wish you had
 end
 
-Given /^the user is on the search page with a title of the movie entered$/ do
+Given /^the user is on the search page with "[^\"]*" as the title of the movie entered$/ do |title|
   visit search_path()
-  fill_in "Title", :with=>"The Matrix" # express the regexp above with the code you wish you had
+  fill_in "Title", :with=>title # express the regexp above with the code you wish you had
 end
 
-When /^the user clicks search$/ do
-  click_button "Search" # express the regexp above with the code you wish you had
+When /^the user clicks results$/ do
+  click_button "Results" # express the regexp above with the code you wish you had
 end
 
 Then /^the user should see a listing of at most (\d+) possible results$/ do |arg1|
@@ -26,7 +26,7 @@ end
 Given /^the user is looking at the not empty search results for a query$/ do
   visit search_path()
   fill_in "Title", :with=>"The Matrix"
-  click_button "Search"
+  click_button "Results"
   response.should contain "The Matrix" # express the regexp above with the code you wish you had
 end
 

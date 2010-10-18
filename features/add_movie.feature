@@ -7,8 +7,8 @@ Feature: User wants to add a movie
 	Then the user should see a place to enter the title of the movie they want to search
 	
 	Scenario: see search results
-	Given the user is on the search page with a title of the movie entered
-	When the user clicks search
+	Given the user is on the search page with "The Matrix" as the title of the movie entered
+	When the user clicks results
 	Then the user should see a listing of at most 5 possible results 
 	
 	Scenario: add from search results

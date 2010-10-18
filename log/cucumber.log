@@ -19,3 +19,123 @@ Processing MoviesController#search (for 127.0.0.1 at 2010-10-14 22:38:44) [GET]
 
 
 Processing ApplicationController#search (for 127.0.0.1 at 2010-10-14 22:38:44) [GET]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-14 22:53:33) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 13054ms (View: 13050, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-14 22:53:46) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-14 22:53:47) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-14 22:53:47) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-14 22:56:07) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 10472ms (View: 10468, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-14 22:56:18) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"The Matrix"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-14 22:56:18) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"The Matrix"}
+  [4;36;1mMovie Load (1.0ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/results
+
+
+Processing ApplicationController#results (for 127.0.0.1 at 2010-10-14 22:56:18) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"The Matrix"}
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-14 22:56:18) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-14 22:56:18) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-14 23:02:01) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 10243ms (View: 10239, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-14 23:02:11) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"The Matrix"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-14 23:02:11) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"The Matrix"}
+  [4;36;1mMovie Load (1.0ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/results
+
+
+Processing ApplicationController#results (for 127.0.0.1 at 2010-10-14 23:02:11) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"The Matrix"}
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-14 23:02:11) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"The Matrix"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-14 23:02:11) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"The Matrix"}
+  [4;35;1mMovie Load (0.0ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/results
+
+
+Processing ApplicationController#results (for 127.0.0.1 at 2010-10-14 23:02:11) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"The Matrix"}
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-14 23:02:11) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.example.com/search]
