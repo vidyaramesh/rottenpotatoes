@@ -1,0 +1,6 @@
+Homework #3 
+
+Partner 1: Akhil Naini 
+Partner 2: Vidya Ramesh 
+
+Working in pairs worked better this time than it did for the last homework. We planned who was going to do what earlier on and entered most of it into Pivotal Tracker in order to keep track of our progress. Vidya set up the Pivotal Tracker project and started writing out the scenarios for the feature that was being added to the project. Akhil finished writing up the scenarios and Vidya added them into Pivotal Track. Akhil started writing the RSpec tests, while concurrently Vidya started writing the actual code for the project. After all the tests were written and the code was thoroughly tested both through unit tests and by deploying on localhost, the app was deployed to Heroku. 
