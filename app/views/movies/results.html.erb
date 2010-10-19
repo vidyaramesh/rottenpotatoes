@@ -1,23 +1,29 @@
 <h1>Listing movies</h1>
-
-<% form_tag(:action=>'add', :choice=>@something.id, :method=>'post') do %>
+<% form_tag(:action=>'add', :method=>'post') do %>
 	<table>
   		<tr>
 			<th></th>
     		<th>Title</th>
-    		<th>Description</th>
+			<th>Description</th>
   		</tr>
 	
 		<% @topFive.each do |movie| %>
-  			<tr>
-    			<td><%= radio_button_tag :movieChoice, movie.title %></td>
-    			<td><%=h movie.title %></td>
+			<tr>
+				<% form_tag(:action=>'add', :method=>'post') do %>
+    				<td><%= radio_button_tag :movieChoice, movie, @movie == movie, :onclick=>'add' %></td>
+    				<td><%=h movie.title %></td>
+					<td><%=h movie.description%></td>
+					<td><%=h hidden_field_tag "title", movie.title %></td>
+					<td><%=h hidden_field_tag "description", movie.description %></td>
+					<td><%=h hidden_field_tag "score", movie.score %></td>
+					<td><%=h hidden_field_tag "rating", movie.rating %></td>
+					<td><%=h hidden_field_tag "released_on", movie.released_on %></td>
+				<% end %>
   			</tr>
 		<% end %>
 	 	<p>
-	    	<%= submit_tag 'Results', :action=>'add'%>
+	    	<%= submit_tag 'Results', :action=>'add', :confirm=>'Are you sure?'%>
 	  	</p>
 	</table>
-
 <% end %>
 

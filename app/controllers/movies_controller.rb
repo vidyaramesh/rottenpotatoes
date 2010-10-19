@@ -33,26 +33,22 @@ class MoviesController < ApplicationController
   
   def add
     respond_to do |format|
-      if params[:choice]
-        @movieChoice = Choice.find(params[:choice])
-        if @movieChoice == nil
-          format.html { redirect_to(movies_url) }
+      if params[:movieChoice] or true
+        @movie = Movie.new
+        @movie.title = params[:title]
+        @movie.description = params[:description]
+        @movie.score = params[:score]
+        @movie.rating = params[:rating]
+        @movie.released_on = params[:released_on]
+        if @movie.save
+          format.html { redirect_to(movies_url()) }
+          format.xml
+        else
+          format.html { render :action => "new" }
+          format.xml  { render :xml => @movie.errors, :status => :unprocessable_entity }
         end
-        @topFive = @movieChoice.topFive
-        if @topFive == nil
-          format.html { redirect_to(movies_url) }
-        end
-        @topFive.each do |movie|
-          if movie.title = params[:movieChoice]
-            @movie = movie
-            break
-          end
-        end
-        @movie.save
-        format.html { redirect_to(create_movie_path(), :choice=> @movie.id) }
-        format.xml
       else
-        format.html { redirect_to(movies_url) }
+        format.html { redirect_to(movies_url, :notice=>'No movie selected') }
         format.xml
       end
     end
@@ -61,6 +57,7 @@ class MoviesController < ApplicationController
   def results
     respond_to do |format|
       someId = self.getData(params[:title])
+      @movie = Movie.new
       if someId
         format.html #search.html.erb
         format.xml
@@ -143,11 +140,7 @@ class MoviesController < ApplicationController
       return false
     end
     @topFive = @something.topFive
-    if @something.save!
-      return @something.id
-    else 
-      return false
-    end
+    return true
   end
     
 end
