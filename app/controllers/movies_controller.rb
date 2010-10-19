@@ -33,13 +33,18 @@ class MoviesController < ApplicationController
   
   def add
     respond_to do |format|
-      if params[:movieChoice] or true
+      if params[:movieChoice]
         @movie = Movie.new
-        @movie.title = params[:title]
-        @movie.description = params[:description]
-        @movie.score = params[:score]
-        @movie.rating = params[:rating]
-        @movie.released_on = params[:released_on]
+        modifiedTitle = "title" + params[:movieChoice]
+        modifiedDescription = "description" + params[:movieChoice]
+        modifiedScore = "score" + params[:movieChoice]
+        modifiedRating = "rating" + params[:movieChoice]
+        modifiedReleased = "released_on" + params[:movieChoice]
+        @movie.title = params[modifiedTitle]
+        @movie.description = params[modifiedDescription]
+        @movie.score = params[modifiedScore]
+        @movie.rating = params[modifiedRating]
+        @movie.released_on = params[modifiedReleased]
         if @movie.save
           format.html { redirect_to(movies_url()) }
           format.xml

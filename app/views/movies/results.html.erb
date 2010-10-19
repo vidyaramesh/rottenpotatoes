@@ -9,20 +9,19 @@
 	
 		<% @topFive.each do |movie| %>
 			<tr>
-				<% form_tag(:action=>'add', :method=>'post') do %>
-    				<td><%= radio_button_tag :movieChoice, movie, @movie == movie, :onclick=>'add' %></td>
-    				<td><%=h movie.title %></td>
-					<td><%=h movie.description%></td>
-					<td><%=h hidden_field_tag "title", movie.title %></td>
-					<td><%=h hidden_field_tag "description", movie.description %></td>
-					<td><%=h hidden_field_tag "score", movie.score %></td>
-					<td><%=h hidden_field_tag "rating", movie.rating %></td>
-					<td><%=h hidden_field_tag "released_on", movie.released_on %></td>
-				<% end %>
+    			<td><%= radio_button_tag :movieChoice, movie.title %></td>
+    			<td><%=h movie.title %></td>
+				<td><%=h movie.description%></td>
+				<td><%=h hidden_field_tag "title"+movie.title, movie.title %></td>
+				<td><%=h hidden_field_tag "description"+movie.title, movie.description %></td>
+				<td><%=h hidden_field_tag "score"+movie.title, movie.score %></td>
+				<td><%=h hidden_field_tag "rating"+movie.title, movie.rating %></td>
+				<td><%=h hidden_field_tag "released_on"+movie.title, movie.released_on %></td>
   			</tr>
 		<% end %>
 	 	<p>
-	    	<%= submit_tag 'Results', :action=>'add', :confirm=>'Are you sure?'%>
+	    	<%= submit_tag 'Choose', :action=>'add', :confirm=>'Are you sure?'%>
+	    	<%= submit_tag 'None of these', :action=>'add', :confirm=>'Are you sure?', :movieChoice=>false%>
 	  	</p>
 	</table>
 <% end %>

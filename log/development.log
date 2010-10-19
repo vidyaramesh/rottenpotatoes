@@ -5244,3 +5244,433 @@ Processing MoviesController#add (for 127.0.0.1 at 2010-10-18 23:34:37) [POST]
 Rendering template within layouts/movies
 Rendering movies/new
 Completed in 99ms (View: 89, DB: 0) | 200 OK [http://localhost/add?method=post]
+
+
+Processing MoviesController#add (for 127.0.0.1 at 2010-10-18 23:52:34) [POST]
+  Parameters: {"rating"=>"", "commit"=>"Results", "title"=>"Balls", "method"=>"post", "released_on"=>"2010-10-19 06:34:32 UTC", "authenticity_token"=>"FwNZz9R3C5/bAGAzFMIuL8kh1GpE6zSwieyercBejb8=", "description"=>"Everyone gives his best part.", "score"=>"7"}
+  [4;35;1mMovie Load (0.3ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Balls') LIMIT 1[0m
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 31ms (View: 20, DB: 0) | 200 OK [http://localhost/add?method=post]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-18 23:52:39) [GET]
+  [4;36;1mMovie Load (0.6ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 25ms (View: 19, DB: 1) | 200 OK [http://localhost/movies]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-18 23:54:39) [GET]
+  [4;35;1mMovie Load (0.7ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 26ms (View: 20, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-18 23:54:41) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-18 23:54:43) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"Harry Potter", "authenticity_token"=>"FwNZz9R3C5/bAGAzFMIuL8kh1GpE6zSwieyercBejb8="}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 912ms (View: 95, DB: 0) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#add (for 127.0.0.1 at 2010-10-18 23:54:49) [POST]
+  Parameters: {"rating"=>"PG", "commit"=>"None of these", "title"=>"Harry Potter and the Sorcerer's Stone", "method"=>"post", "released_on"=>"2001-11-04 08:00:00 UTC", "authenticity_token"=>"FwNZz9R3C5/bAGAzFMIuL8kh1GpE6zSwieyercBejb8=", "description"=>"Rescued from the outrageous neglect of his aunt and uncle, a young boy with a great destiny proves his worth while attending Hogwarts School of Witchcraft and Wizardry.", "score"=>"4"}
+Redirected to http://localhost:3000/movies
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/add?method=post]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-18 23:54:49) [GET]
+  [4;36;1mMovie Load (0.6ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 25ms (View: 19, DB: 1) | 200 OK [http://localhost/movies]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-18 23:54:52) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-18 23:54:58) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"Harry Potter", "authenticity_token"=>"FwNZz9R3C5/bAGAzFMIuL8kh1GpE6zSwieyercBejb8="}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 615ms (View: 18, DB: 0) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#add (for 127.0.0.1 at 2010-10-18 23:55:06) [POST]
+  Parameters: {"rating"=>"", "commit"=>"Choose", "title"=>"Discovering the Real World of Harry Potter", "method"=>"post", "released_on"=>"2001-01-01 08:00:00 UTC", "authenticity_token"=>"FwNZz9R3C5/bAGAzFMIuL8kh1GpE6zSwieyercBejb8=", "movieChoice"=>"#<Movie:0x10323ccc0>", "description"=>"Discovering the Real World of Harry Potter picks up where the blockbuster film and bestselling books leave off. This critically-acclaimed documentary explores the myths and legends that inhabit the real world of Harry Potter. Follow award-winning documentary filmmakers as they offer insights to witches, wizards, Greek Gods, Ancient Celts, ghosts, magical creatures, alchemy, and ancient spells.", "score"=>"4"}
+  [4;35;1mMovie Load (0.3ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Discovering the Real World of Harry Potter') LIMIT 1[0m
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 108ms (View: 97, DB: 0) | 200 OK [http://localhost/add?method=post]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-18 23:55:12) [GET]
+  [4;36;1mMovie Load (0.7ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 26ms (View: 20, DB: 1) | 200 OK [http://localhost/movies]
+
+
+Processing MoviesController#destroy (for 127.0.0.1 at 2010-10-18 23:55:17) [DELETE]
+  Parameters: {"authenticity_token"=>"FwNZz9R3C5/bAGAzFMIuL8kh1GpE6zSwieyercBejb8=", "id"=>"14"}
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT * FROM "movies" WHERE ("movies"."id" = 14) [0m
+  [4;36;1mMovie Destroy (0.3ms)[0m   [0;1mDELETE FROM "movies" WHERE "id" = 14[0m
+Redirected to http://localhost:3000/movies
+Completed in 9ms (DB: 1) | 302 Found [http://localhost/movies/14]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-18 23:55:17) [GET]
+  [4;35;1mMovie Load (0.6ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 24ms (View: 17, DB: 1) | 200 OK [http://localhost/movies]
+
+
+Processing MoviesController#destroy (for 127.0.0.1 at 2010-10-18 23:55:20) [DELETE]
+  Parameters: {"authenticity_token"=>"FwNZz9R3C5/bAGAzFMIuL8kh1GpE6zSwieyercBejb8=", "id"=>"16"}
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT * FROM "movies" WHERE ("movies"."id" = 16) [0m
+  [4;35;1mMovie Destroy (0.4ms)[0m   [0mDELETE FROM "movies" WHERE "id" = 16[0m
+Redirected to http://localhost:3000/movies
+Completed in 10ms (DB: 1) | 302 Found [http://localhost/movies/16]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-18 23:55:20) [GET]
+  [4;36;1mMovie Load (0.6ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 22ms (View: 16, DB: 1) | 200 OK [http://localhost/movies]
+
+
+Processing MoviesController#destroy (for 127.0.0.1 at 2010-10-18 23:55:22) [DELETE]
+  Parameters: {"authenticity_token"=>"FwNZz9R3C5/bAGAzFMIuL8kh1GpE6zSwieyercBejb8=", "id"=>"11"}
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT * FROM "movies" WHERE ("movies"."id" = 11) [0m
+  [4;36;1mMovie Destroy (0.4ms)[0m   [0;1mDELETE FROM "movies" WHERE "id" = 11[0m
+Redirected to http://localhost:3000/movies
+Completed in 9ms (DB: 1) | 302 Found [http://localhost/movies/11]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-18 23:55:22) [GET]
+  [4;35;1mMovie Load (0.5ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 95ms (View: 12, DB: 1) | 200 OK [http://localhost/movies]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-18 23:55:24) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-18 23:55:27) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"Harry Potter", "authenticity_token"=>"FwNZz9R3C5/bAGAzFMIuL8kh1GpE6zSwieyercBejb8="}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 668ms (View: 18, DB: 0) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#add (for 127.0.0.1 at 2010-10-18 23:55:31) [POST]
+  Parameters: {"rating"=>"", "commit"=>"Choose", "title"=>"Discovering the Real World of Harry Potter", "method"=>"post", "released_on"=>"2001-01-01 08:00:00 UTC", "authenticity_token"=>"FwNZz9R3C5/bAGAzFMIuL8kh1GpE6zSwieyercBejb8=", "description"=>"Discovering the Real World of Harry Potter picks up where the blockbuster film and bestselling books leave off. This critically-acclaimed documentary explores the myths and legends that inhabit the real world of Harry Potter. Follow award-winning documentary filmmakers as they offer insights to witches, wizards, Greek Gods, Ancient Celts, ghosts, magical creatures, alchemy, and ancient spells.", "score"=>"4"}
+Redirected to http://localhost:3000/movies
+Completed in 4ms (DB: 0) | 302 Found [http://localhost/add?method=post]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-18 23:55:31) [GET]
+  [4;36;1mMovie Load (0.5ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 17ms (View: 11, DB: 1) | 200 OK [http://localhost/movies]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-18 23:55:40) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-18 23:55:44) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"Harry Potter", "authenticity_token"=>"FwNZz9R3C5/bAGAzFMIuL8kh1GpE6zSwieyercBejb8="}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 650ms (View: 19, DB: 0) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#add (for 127.0.0.1 at 2010-10-18 23:55:48) [POST]
+  Parameters: {"rating"=>"", "commit"=>"Choose", "title"=>"Discovering the Real World of Harry Potter", "method"=>"post", "released_on"=>"2001-01-01 08:00:00 UTC", "authenticity_token"=>"FwNZz9R3C5/bAGAzFMIuL8kh1GpE6zSwieyercBejb8=", "movieChoice"=>"#<Movie:0x103673de8>", "description"=>"Discovering the Real World of Harry Potter picks up where the blockbuster film and bestselling books leave off. This critically-acclaimed documentary explores the myths and legends that inhabit the real world of Harry Potter. Follow award-winning documentary filmmakers as they offer insights to witches, wizards, Greek Gods, Ancient Celts, ghosts, magical creatures, alchemy, and ancient spells.", "score"=>"4"}
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Discovering the Real World of Harry Potter') LIMIT 1[0m
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 31ms (View: 19, DB: 0) | 200 OK [http://localhost/add?method=post]
+
+
+Processing MoviesController#create (for 127.0.0.1 at 2010-10-18 23:55:53) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"FwNZz9R3C5/bAGAzFMIuL8kh1GpE6zSwieyercBejb8=", "movie"=>{"rating"=>"PG", "title"=>"Discovering the Real World of Harry Potter", "released_on(1i)"=>"2001", "released_on(2i)"=>"1", "released_on(3i)"=>"1", "description"=>"Discovering the Real World of Harry Potter picks up where the blockbuster film and bestselling books leave off. This critically-acclaimed documentary explores the myths and legends that inhabit the real world of Harry Potter. Follow award-winning documentary filmmakers as they offer insights to witches, wizards, Greek Gods, Ancient Celts, ghosts, magical creatures, alchemy, and ancient spells."}}
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Discovering the Real World of Harry Potter') LIMIT 1[0m
+  [4;35;1mMovie Create (0.4ms)[0m   [0mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description", "score") VALUES('PG', '2010-10-19 06:55:53', 'Discovering the Real World of Harry Potter', '2001-01-01 00:00:00', '2010-10-19 06:55:53', 'Discovering the Real World of Harry Potter picks up where the blockbuster film and bestselling books leave off. This critically-acclaimed documentary explores the myths and legends that inhabit the real world of Harry Potter. Follow award-winning documentary filmmakers as they offer insights to witches, wizards, Greek Gods, Ancient Celts, ghosts, magical creatures, alchemy, and ancient spells.', 0)[0m
+Redirected to http://localhost:3000/movies/17
+Completed in 14ms (DB: 1) | 302 Found [http://localhost/movies]
+
+
+Processing MoviesController#show (for 127.0.0.1 at 2010-10-18 23:55:53) [GET]
+  Parameters: {"id"=>"17"}
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT * FROM "movies" WHERE ("movies"."id" = 17) [0m
+Rendering template within layouts/movies
+Rendering movies/show
+Completed in 10ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/17]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-18 23:55:54) [GET]
+  [4;35;1mMovie Load (0.5ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 20ms (View: 14, DB: 1) | 200 OK [http://localhost/movies]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-18 23:57:05) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 73ms (View: 71, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-19 00:14:57) [GET]
+  [4;36;1mMovie Load (0.6ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 21ms (View: 15, DB: 1) | 200 OK [http://localhost/movies/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 00:14:58) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 00:15:00) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"harry potter", "authenticity_token"=>"FwNZz9R3C5/bAGAzFMIuL8kh1GpE6zSwieyercBejb8="}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 625ms (View: 24, DB: 0) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#add (for 127.0.0.1 at 2010-10-19 00:15:07) [POST]
+  Parameters: {"rating"=>"PG", "commit"=>"Choose", "method"=>"post", "titleHarry Potter and the Sorcerer's Stone"=>"Harry Potter and the Sorcerer's Stone", "released_on"=>"2001-11-04 08:00:00 UTC", "authenticity_token"=>"FwNZz9R3C5/bAGAzFMIuL8kh1GpE6zSwieyercBejb8=", "movieChoice"=>"Harry Potter and the Sorcerer's Stone", "description"=>"Rescued from the outrageous neglect of his aunt and uncle, a young boy with a great destiny proves his worth while attending Hogwarts School of Witchcraft and Wizardry.", "score"=>"4"}
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Harry Potter and the Sorcerer''s Stone') LIMIT 1[0m
+  [4;36;1mMovie Create (0.5ms)[0m   [0;1mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description", "score") VALUES('PG', '2010-10-19 07:15:07', 'Harry Potter and the Sorcerer''s Stone', '2001-11-04 08:00:00', '2010-10-19 07:15:07', 'Rescued from the outrageous neglect of his aunt and uncle, a young boy with a great destiny proves his worth while attending Hogwarts School of Witchcraft and Wizardry.', 4)[0m
+Redirected to http://localhost:3000/movies
+Completed in 15ms (DB: 1) | 302 Found [http://localhost/add?method=post]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-19 00:15:07) [GET]
+  [4;35;1mMovie Load (0.6ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 24ms (View: 18, DB: 1) | 200 OK [http://localhost/movies]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 00:15:22) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 00:15:25) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"harry potter", "authenticity_token"=>"FwNZz9R3C5/bAGAzFMIuL8kh1GpE6zSwieyercBejb8="}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 628ms (View: 20, DB: 0) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#add (for 127.0.0.1 at 2010-10-19 00:15:34) [POST]
+  Parameters: {"rating"=>"PG", "commit"=>"Choose", "titleHarry Potter and the Prisoner Of Azkaban"=>"Harry Potter and the Prisoner Of Azkaban", "method"=>"post", "released_on"=>"2004-05-31 07:00:00 UTC", "authenticity_token"=>"FwNZz9R3C5/bAGAzFMIuL8kh1GpE6zSwieyercBejb8=", "movieChoice"=>"Harry Potter and the Prisoner Of Azkaban", "description"=>"It's Harry's third year at Hogwarts; not only does he have a new \"Defense Against the Dark Arts\" teacher, but there is also trouble brewing. Convicted murderer Sirius Black has escaped the Wizards' Prison and is coming after Harry.", "score"=>"4"}
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Harry Potter and the Prisoner Of Azkaban') LIMIT 1[0m
+  [4;35;1mMovie Create (0.4ms)[0m   [0mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description", "score") VALUES('PG', '2010-10-19 07:15:34', 'Harry Potter and the Prisoner Of Azkaban', '2004-05-31 07:00:00', '2010-10-19 07:15:34', 'It''s Harry''s third year at Hogwarts; not only does he have a new "Defense Against the Dark Arts" teacher, but there is also trouble brewing. Convicted murderer Sirius Black has escaped the Wizards'' Prison and is coming after Harry.', 4)[0m
+Redirected to http://localhost:3000/movies
+Completed in 14ms (DB: 1) | 302 Found [http://localhost/add?method=post]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-19 00:15:34) [GET]
+  [4;36;1mMovie Load (0.6ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 26ms (View: 20, DB: 1) | 200 OK [http://localhost/movies]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-19 00:16:39) [GET]
+  [4;35;1mMovie Load (0.7ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 26ms (View: 20, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 00:16:41) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 00:16:43) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"harry potter", "authenticity_token"=>"FwNZz9R3C5/bAGAzFMIuL8kh1GpE6zSwieyercBejb8="}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 628ms (View: 19, DB: 0) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#add (for 127.0.0.1 at 2010-10-19 00:16:49) [POST]
+  Parameters: {"rating"=>"PG-13", "titleHarry Potter and the Goblet Of Fire"=>"Harry Potter and the Goblet Of Fire", "commit"=>"None of these", "titleDiscovering the Real World of Harry Potter"=>"Discovering the Real World of Harry Potter", "titleHarry Potter and the Prisoner Of Azkaban"=>"Harry Potter and the Prisoner Of Azkaban", "method"=>"post", "titleHarry Potter and the Sorcerer's Stone"=>"Harry Potter and the Sorcerer's Stone", "released_on"=>"2005-11-06 08:00:00 UTC", "authenticity_token"=>"FwNZz9R3C5/bAGAzFMIuL8kh1GpE6zSwieyercBejb8=", "movieChoice"=>"Harry Potter and the Chamber Of Secrets", "titleHarry Potter and the Chamber Of Secrets"=>"Harry Potter and the Chamber Of Secrets", "description"=>"Harry finds himself unwittingly selected as an underaged competitor in the Tri-Wizard Tournament; a dangerous multi-school competition. Harry must deal with those who think he cheated to enter and those who plot against him to ensure he doesn't succeed.", "score"=>"4"}
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Harry Potter and the Chamber Of Secrets') LIMIT 1[0m
+  [4;35;1mMovie Create (0.4ms)[0m   [0mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description", "score") VALUES('PG-13', '2010-10-19 07:16:49', 'Harry Potter and the Chamber Of Secrets', '2005-11-06 08:00:00', '2010-10-19 07:16:49', 'Harry finds himself unwittingly selected as an underaged competitor in the Tri-Wizard Tournament; a dangerous multi-school competition. Harry must deal with those who think he cheated to enter and those who plot against him to ensure he doesn''t succeed.', 4)[0m
+Redirected to http://localhost:3000/movies
+Completed in 13ms (DB: 1) | 302 Found [http://localhost/add?method=post]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-19 00:16:49) [GET]
+  [4;36;1mMovie Load (0.7ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 28ms (View: 22, DB: 1) | 200 OK [http://localhost/movies]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 00:17:07) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 00:17:20) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"remember", "authenticity_token"=>"FwNZz9R3C5/bAGAzFMIuL8kh1GpE6zSwieyercBejb8="}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 934ms (View: 12, DB: 0) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#add (for 127.0.0.1 at 2010-10-19 00:17:29) [POST]
+  Parameters: {"rating"=>"", "commit"=>"None of these", "titleRemembering Whiskey"=>"Remembering Whiskey", "titleRemember Me"=>"Remember Me", "method"=>"post", "released_on"=>"2004-11-05 08:00:00 UTC", "authenticity_token"=>"FwNZz9R3C5/bAGAzFMIuL8kh1GpE6zSwieyercBejb8=", "titleRemember the Night"=>"Remember the Night", "movieChoice"=>"Remembering Whiskey", "description"=>"A Moment to Remember is a 2004 South Korean movie based on a 2001 Japanese television drama Pure Soul broadcasted by Yomiuri Telecasting Corporation. The movie was officially released on November 5, 2004 in South Korea.", "titleRemember the Titans"=>"Remember the Titans", "score"=>"5", "titleA Moment to Remember"=>"A Moment to Remember"}
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Remembering Whiskey') LIMIT 1[0m
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 31ms (View: 17, DB: 0) | 200 OK [http://localhost/add?method=post]
+
+
+Processing MoviesController#add (for 127.0.0.1 at 2010-10-19 00:17:35) [POST]
+  Parameters: {"rating"=>"", "commit"=>"None of these", "titleRemembering Whiskey"=>"Remembering Whiskey", "titleRemember Me"=>"Remember Me", "method"=>"post", "released_on"=>"2004-11-05 08:00:00 UTC", "authenticity_token"=>"FwNZz9R3C5/bAGAzFMIuL8kh1GpE6zSwieyercBejb8=", "titleRemember the Night"=>"Remember the Night", "movieChoice"=>"Remembering Whiskey", "description"=>"A Moment to Remember is a 2004 South Korean movie based on a 2001 Japanese television drama Pure Soul broadcasted by Yomiuri Telecasting Corporation. The movie was officially released on November 5, 2004 in South Korea.", "titleRemember the Titans"=>"Remember the Titans", "score"=>"5", "titleA Moment to Remember"=>"A Moment to Remember"}
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Remembering Whiskey') LIMIT 1[0m
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 29ms (View: 18, DB: 0) | 200 OK [http://localhost/add?method=post]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-19 00:19:50) [GET]
+  [4;35;1mMovie Load (0.8ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 28ms (View: 22, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 00:19:54) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 00:20:01) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"james", "authenticity_token"=>"FwNZz9R3C5/bAGAzFMIuL8kh1GpE6zSwieyercBejb8="}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 972ms (View: 17, DB: 0) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#add (for 127.0.0.1 at 2010-10-19 00:20:14) [POST]
+  Parameters: {"ratingJames"=>"", "titleJesse James"=>"Jesse James", "scoreThe James Dean Story"=>"4", "commit"=>"None of these", "descriptionThe James Dean Story"=>"No overview found.", "scoreAlias Jesse James"=>"4", "ratingThe James Bond Story"=>"", "method"=>"post", "titleJames"=>"James", "scoreThe James Bond Story"=>"4", "authenticity_token"=>"FwNZz9R3C5/bAGAzFMIuL8kh1GpE6zSwieyercBejb8=", "ratingThe James Dean Story"=>"", "ratingAlias Jesse James"=>"", "titleThe James Bond Story"=>"The James Bond Story", "scoreJesse James"=>"6", "ratingJesse James"=>"", "released_onJesse James"=>"1939-01-01 08:00:00 UTC", "released_onThe James Dean Story"=>"1957-08-13 07:00:00 UTC", "movieChoice"=>"Alias Jesse James", "titleAlias Jesse James"=>"Alias Jesse James", "descriptionAlias Jesse James"=>"Inept insurance salesman Milford Farnsworth sells a man a $100,000 policy. When his boss learns the man was Jesse James he sends Milford after him with money to buy back the policy. After a masked Jesse robs Milford of the money, Milford's boss heads out with more money. Jesse learns about it and plans to rob him, have Milford dressed as him get killed in the robbery, and then collect the $100,000.", "released_onThe James Bond Story"=>"2010-10-19 07:20:02 UTC", "released_onJames"=>"2008-01-01 08:00:00 UTC", "titleThe James Dean Story"=>"The James Dean Story", "scoreJames"=>"8", "descriptionJesse James"=>" ", "released_onAlias Jesse James"=>"1959-03-20 08:00:00 UTC", "descriptionThe James Bond Story"=>"Bond james bond. Perhaps the greatest fictional cinema icon ever. He first appeared on the big screen in 1962 in dr. No and has remained the most powerful action hero ever since. The secret to his success is his adaptability. No matter what tight spots he finds himself in he always appears to be suave & cool. ", "descriptionJames"=>"A teenager deals with impulses and thoughts about being gay."}
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Alias Jesse James') LIMIT 1[0m
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 30ms (View: 19, DB: 0) | 200 OK [http://localhost/add?method=post]
+
+
+Processing MoviesController#create (for 127.0.0.1 at 2010-10-19 00:21:14) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"FwNZz9R3C5/bAGAzFMIuL8kh1GpE6zSwieyercBejb8=", "movie"=>{"rating"=>"PG", "title"=>"Alias Jesse James", "released_on(1i)"=>"1959", "released_on(2i)"=>"3", "released_on(3i)"=>"20", "description"=>"Inept insurance salesman Milford Farnsworth sells a man a $100,000 policy. When his boss learns the man was Jesse James he sends Milford after him with money to buy back the policy. After a masked Jesse robs Milford of the money, Milford's boss heads out with more money. Jesse learns about it and plans to rob him, have Milford dressed as him get killed in the robbery, and then collect the $100,000."}}
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Alias Jesse James') LIMIT 1[0m
+  [4;36;1mMovie Create (0.4ms)[0m   [0;1mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description", "score") VALUES('PG', '2010-10-19 07:21:14', 'Alias Jesse James', '1959-03-20 00:00:00', '2010-10-19 07:21:14', 'Inept insurance salesman Milford Farnsworth sells a man a $100,000 policy. When his boss learns the man was Jesse James he sends Milford after him with money to buy back the policy. After a masked Jesse robs Milford of the money, Milford''s boss heads out with more money. Jesse learns about it and plans to rob him, have Milford dressed as him get killed in the robbery, and then collect the $100,000.', 0)[0m
+Redirected to http://localhost:3000/movies/21
+Completed in 14ms (DB: 1) | 302 Found [http://localhost/movies]
+
+
+Processing MoviesController#show (for 127.0.0.1 at 2010-10-19 00:21:14) [GET]
+  Parameters: {"id"=>"21"}
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT * FROM "movies" WHERE ("movies"."id" = 21) [0m
+Rendering template within layouts/movies
+Rendering movies/show
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/21]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-19 00:23:03) [GET]
+  [4;36;1mMovie Load (0.8ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 109ms (View: 31, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 00:23:05) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 00:23:08) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"bond", "authenticity_token"=>"FwNZz9R3C5/bAGAzFMIuL8kh1GpE6zSwieyercBejb8="}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 1053ms (View: 19, DB: 0) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#add (for 127.0.0.1 at 2010-10-19 00:23:12) [POST]
+  Parameters: {"scoreNems Bond"=>"7", "ratingNems Bond"=>"", "released_onNems Bond"=>"1900-01-01 08:00:00 UTC", "commit"=>"None of these", "descriptionNems Bond"=>"No overview found.", "scoreBond 23"=>"7", "titleBonded by Blood"=>"Bonded by Blood", "descriptionBonded by Blood"=>"In 1995, drug suppliers and career criminals Tony Tucker, Patrick Tate and Craig Rolfe were blasted to death by a shot gun whilst waiting in a Range Rover in Rettendon, Essex. The film charts their rise to become the most prolific dealers and feared criminals in the south of England, maintaining the hold on their empire with fear and violence until their untimely death.", "titleDiary Of Julia Bond"=>"Diary Of Julia Bond", "released_onDiary Of Julia Bond"=>"2007-05-01 07:00:00 UTC", "ratingThe James Bond Story"=>"", "method"=>"post", "scoreThe James Bond Story"=>"5", "authenticity_token"=>"FwNZz9R3C5/bAGAzFMIuL8kh1GpE6zSwieyercBejb8=", "descriptionBond 23"=>"soon", "titleNems Bond"=>"Nems Bond", "ratingBond 23"=>"", "titleThe James Bond Story"=>"The James Bond Story", "released_onBonded by Blood"=>"2010-09-03 07:00:00 UTC", "ratingDiary Of Julia Bond"=>"R", "titleBond 23"=>"Bond 23", "released_onThe James Bond Story"=>"2010-10-19 07:23:09 UTC", "descriptionDiary Of Julia Bond"=>"Julia Bond wants to give you a rare peek into her real life as an \"it girl\" by spending the day and night with her! Bungee jumping, fucking, race car driving lessons, fucking, hanging with friends, fucking and more! This girl lives in a world of excitement and wants you to watch her every move! You may think you know Julia... but now you will really know her inside out... over and over again!", "scoreDiary Of Julia Bond"=>"4", "released_onBond 23"=>"2011-11-18 08:00:00 UTC", "descriptionThe James Bond Story"=>"Bond james bond. Perhaps the greatest fictional cinema icon ever. He first appeared on the big screen in 1962 in dr. No and has remained the most powerful action hero ever since. The secret to his success is his adaptability. No matter what tight spots he finds himself in he always appears to be suave & cool. ", "scoreBonded by Blood"=>"5", "ratingBonded by Blood"=>""}
+Redirected to http://localhost:3000/movies
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/add?method=post]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-19 00:23:12) [GET]
+  [4;35;1mMovie Load (0.7ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 102ms (View: 96, DB: 1) | 200 OK [http://localhost/movies]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 00:23:14) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 00:23:18) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"james bond", "authenticity_token"=>"FwNZz9R3C5/bAGAzFMIuL8kh1GpE6zSwieyercBejb8="}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 708ms (View: 14, DB: 0) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#add (for 127.0.0.1 at 2010-10-19 00:23:28) [POST]
+  Parameters: {"descriptionDr. No"=>"The mysterious scientist Dr. No sabotages the American space program from his secret base in Jamaica. The Secret Service sends it’s best agent after this him. Dr. No is the first film of legendary James Bond series starring Sean Connery in the role of a British super agent. ", "scoreFrom Russia with Love"=>"2", "ratingFrom Russia with Love"=>"PG", "commit"=>"Choose", "scoreDr. No"=>"2", "scoreCasino Royale"=>"2", "ratingCasino Royale"=>"PG-13", "released_onCasino Royale"=>"2006-11-16 08:00:00 UTC", "ratingThe James Bond Story"=>"", "released_onDr. No"=>"1962-10-05 07:00:00 UTC", "titlePearl Jam: Touring Band 2000"=>"Pearl Jam: Touring Band 2000", "method"=>"post", "scoreThe James Bond Story"=>"7", "scorePearl Jam: Touring Band 2000"=>"2", "descriptionFrom Russia with Love"=>"James Bond must obtain a Russian deciphering machine in Istanbul from another agent. The tempting offer turns out to be a deadly trap. The second film of the legendary James Bond series starring Sean Connery as the British super agent.", "authenticity_token"=>"FwNZz9R3C5/bAGAzFMIuL8kh1GpE6zSwieyercBejb8=", "descriptionCasino Royale"=>"In his first mission, James Bond must stop Le Chiffre, a banker to the world's terrorist organizations, from winning a \r\nhigh-stakes poker tournament at Casino Royale in Montenegro.", "descriptionPearl Jam: Touring Band 2000"=>"No overview found.", "titleThe James Bond Story"=>"The James Bond Story", "titleDr. No"=>"Dr. No", "ratingPearl Jam: Touring Band 2000"=>"", "titleFrom Russia with Love"=>"From Russia with Love", "released_onThe James Bond Story"=>"2010-10-19 07:23:18 UTC", "movieChoice"=>"Casino Royale", "titleCasino Royale"=>"Casino Royale", "released_onFrom Russia with Love"=>"1963-10-10 07:00:00 UTC", "descriptionThe James Bond Story"=>"Bond james bond. Perhaps the greatest fictional cinema icon ever. He first appeared on the big screen in 1962 in dr. No and has remained the most powerful action hero ever since. The secret to his success is his adaptability. No matter what tight spots he finds himself in he always appears to be suave & cool. ", "released_onPearl Jam: Touring Band 2000"=>"2001-05-01 07:00:00 UTC", "ratingDr. No"=>"PG"}
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Casino Royale') LIMIT 1[0m
+  [4;35;1mMovie Create (0.4ms)[0m   [0mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description", "score") VALUES('PG-13', '2010-10-19 07:23:28', 'Casino Royale', '2006-11-16 08:00:00', '2010-10-19 07:23:28', 'In his first mission, James Bond must stop Le Chiffre, a banker to the world''s terrorist organizations, from winning a 
+high-stakes poker tournament at Casino Royale in Montenegro.', 2)[0m
+Redirected to http://localhost:3000/movies
+Completed in 14ms (DB: 1) | 302 Found [http://localhost/add?method=post]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-19 00:23:28) [GET]
+  [4;36;1mMovie Load (0.7ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 35ms (View: 29, DB: 1) | 200 OK [http://localhost/movies]
