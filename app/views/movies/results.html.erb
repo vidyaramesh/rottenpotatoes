@@ -1,4 +1,9 @@
 <h1>Listing movies</h1>
+<% form_tag(:action=>'noneOfthese', :method=>'post') do %>
+	<p>
+		<%= submit_tag 'None of these', :action=>'noneOfthese', :confirm=>'Are you sure?'%>
+	</p>
+<% end %>
 <% form_tag(:action=>'add', :method=>'post') do %>
 	<table>
   		<tr>
@@ -21,7 +26,6 @@
 		<% end %>
 	 	<p>
 	    	<%= submit_tag 'Choose', :action=>'add', :confirm=>'Are you sure?'%>
-	    	<%= submit_tag 'None of these', :action=>'add', :confirm=>'Are you sure?', :movieChoice=>false%>
 	  	</p>
 	</table>
 <% end %>

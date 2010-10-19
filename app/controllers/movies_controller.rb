@@ -31,6 +31,13 @@ class MoviesController < ApplicationController
     end
   end
   
+  def noneOfthese
+    respond_to do |format|
+      format.html { redirect_to(movies_url, :notice=>'No movie selected') }
+      format.xml
+    end
+  end
+  
   def add
     respond_to do |format|
       if params[:movieChoice]
@@ -145,6 +152,9 @@ class MoviesController < ApplicationController
       return false
     end
     @topFive = @something.topFive
+    if @topFive.length == 0
+      return false
+    end
     return true
   end
     

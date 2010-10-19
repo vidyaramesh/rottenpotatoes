@@ -5674,3 +5674,299 @@ Processing MoviesController#index (for 127.0.0.1 at 2010-10-19 00:23:28) [GET]
 Rendering template within layouts/movies
 Rendering movies/index
 Completed in 35ms (View: 29, DB: 1) | 200 OK [http://localhost/movies]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 08:58:53) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 08:58:58) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"District 9", "authenticity_token"=>"FwNZz9R3C5/bAGAzFMIuL8kh1GpE6zSwieyercBejb8="}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 493ms (View: 12, DB: 0) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#add (for 127.0.0.1 at 2010-10-19 08:59:02) [POST]
+  Parameters: {"commit"=>"Choose", "method"=>"post", "authenticity_token"=>"FwNZz9R3C5/bAGAzFMIuL8kh1GpE6zSwieyercBejb8=", "descriptionDistrict 9"=>"Aliens land in South Africa and have no way home.  Years later after living in a slum and wearing out their welcome the \"Non-Humans\" are being moved to a new tent city overseen by Multi-National United (MNU).  The movie follows an MNU employee tasked with leading the relocation and his relationship with one of the alien leaders.", "movieChoice"=>"District 9", "ratingDistrict 9"=>"R", "titleDistrict 9"=>"District 9", "scoreDistrict 9"=>"9", "released_onDistrict 9"=>"2009-08-13 07:00:00 UTC"}
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'District 9') LIMIT 1[0m
+  [4;36;1mMovie Create (0.4ms)[0m   [0;1mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description", "score") VALUES('R', '2010-10-19 15:59:02', 'District 9', '2009-08-13 07:00:00', '2010-10-19 15:59:02', 'Aliens land in South Africa and have no way home. Years later after living in a slum and wearing out their welcome the "Non-Humans" are being moved to a new tent city overseen by Multi-National United (MNU). The movie follows an MNU employee tasked with leading the relocation and his relationship with one of the alien leaders.', 9)[0m
+Redirected to http://localhost:3000/movies
+Completed in 16ms (DB: 1) | 302 Found [http://localhost/add?method=post]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-19 08:59:02) [GET]
+  [4;35;1mMovie Load (0.8ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 35ms (View: 29, DB: 1) | 200 OK [http://localhost/movies]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 08:59:04) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 08:59:08) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"Wall-E", "authenticity_token"=>"FwNZz9R3C5/bAGAzFMIuL8kh1GpE6zSwieyercBejb8="}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 405ms (View: 10, DB: 0) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#add (for 127.0.0.1 at 2010-10-19 08:59:14) [POST]
+  Parameters: {"commit"=>"Choose", "descriptionWALL·E"=>"WALL-E is the last robot left on an Earth that has been overrun with garbage and all humans have fled to outer space. For 700 years he has continued to try and clean up the mess, but has developed some rather interesting human-like qualities. When a ship arrives with a sleek new type of robot, Wall-E thinks he's finally found a friend and stows away on the ship when it leaves.", "titleBURN•E"=>"BURN•E", "ratingWALL·E"=>"G", "method"=>"post", "titleWALL·E"=>"WALL·E", "released_onPresto"=>"2008-06-27 07:00:00 UTC", "descriptionBURN•E"=>"What lengths will a robot undergo to do his job?  BURN-E is a dedicated hard working robot who finds himself locked out of his ship.  BURN-E quickly learns that completing a simple task can often be a very difficult endeavor.", "authenticity_token"=>"FwNZz9R3C5/bAGAzFMIuL8kh1GpE6zSwieyercBejb8=", "movieChoice"=>"WALL·E", "scoreBURN•E"=>"7", "ratingBURN•E"=>"", "released_onBURN•E"=>"2008-01-01 08:00:00 UTC", "released_onWALL·E"=>"2008-06-25 07:00:00 UTC", "titlePresto"=>"Presto", "descriptionPresto"=>"Dignity.  Poise.  Mystery.  We expect nothing less from the great turn-of-the-century magician, Presto.  But when Presto neglects to feed his rabbit one too many times, the magician finds he isn't the only one with a few tricks up his sleeves!", "scorePresto"=>"13", "scoreWALL·E"=>"22", "ratingPresto"=>""}
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'WALL·E') LIMIT 1[0m
+  [4;35;1mMovie Create (0.4ms)[0m   [0mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description", "score") VALUES('G', '2010-10-19 15:59:14', 'WALL·E', '2008-06-25 07:00:00', '2010-10-19 15:59:14', 'WALL-E is the last robot left on an Earth that has been overrun with garbage and all humans have fled to outer space. For 700 years he has continued to try and clean up the mess, but has developed some rather interesting human-like qualities. When a ship arrives with a sleek new type of robot, Wall-E thinks he''s finally found a friend and stows away on the ship when it leaves.', 22)[0m
+Redirected to http://localhost:3000/movies
+Completed in 17ms (DB: 1) | 302 Found [http://localhost/add?method=post]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-19 08:59:14) [GET]
+  [4;36;1mMovie Load (0.9ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 38ms (View: 32, DB: 1) | 200 OK [http://localhost/movies]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 09:02:20) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 09:02:22) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"laksjfhed", "authenticity_token"=>"FwNZz9R3C5/bAGAzFMIuL8kh1GpE6zSwieyercBejb8="}
+Redirected to http://localhost:3000/search
+Completed in 273ms (DB: 0) | 302 Found [http://localhost/results]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 09:02:22) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 09:02:27) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"harry", "authenticity_token"=>"FwNZz9R3C5/bAGAzFMIuL8kh1GpE6zSwieyercBejb8="}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 995ms (View: 83, DB: 0) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#add (for 127.0.0.1 at 2010-10-19 09:02:37) [POST]
+  Parameters: {"descriptionDirty Harry"=>"Dirty Harry is an American police thriller from director Don Siegel and starring Clint Eastwood as a rebellious police officer who is hunting down a serial murderer. The film was one of the most successful films of the 1970’s and spawned numerous films with the Dirty Harry figure.", "commit"=>"None of these", "titleHarry Brown"=>"Harry Brown", "released_onHarry Brown"=>"2010-04-30 07:00:00 UTC", "titleDirty Harry"=>"Dirty Harry", "scoreDirty Harry"=>"5", "scoreHarry and the Hendersons"=>"4", "method"=>"post", "titleHarry And Max"=>"Harry And Max", "authenticity_token"=>"FwNZz9R3C5/bAGAzFMIuL8kh1GpE6zSwieyercBejb8=", "released_onDeconstructing Harry"=>"1997-08-26 07:00:00 UTC", "ratingHarry and the Hendersons"=>"", "scoreHarry And Max"=>"4", "ratingDirty Harry"=>"R", "titleDeconstructing Harry"=>"Deconstructing Harry", "released_onDirty Harry"=>"1971-11-12 08:00:00 UTC", "descriptionHarry Brown"=>"An elderly ex-serviceman and widower looks to avenge his best friend's murder by doling out his own form of justice.", "movieChoice"=>"Harry And Max", "ratingHarry And Max"=>"", "released_onHarry And Max"=>"2004-01-01 08:00:00 UTC", "ratingHarry Brown"=>"R", "scoreHarry Brown"=>"5", "titleHarry and the Hendersons"=>"Harry and the Hendersons", "released_onHarry and the Hendersons"=>"1987-12-17 08:00:00 UTC", "ratingDeconstructing Harry"=>"R", "descriptionHarry And Max"=>"Two brothers, 23 and 16, who are both teen idols, come to terms with their dysfunctional family past and deep affection for each other.", "descriptionDeconstructing Harry"=>"This film tells the story of a successful writer called Harry Block, played by Allen himself, who draws inspiration from people he knows in real-life, and from events that happened to him, sometimes causing these people to become alienated from him as a result.", "scoreDeconstructing Harry"=>"5", "descriptionHarry and the Hendersons"=>"Returning from a hunting trip in the forest, the Henderson family's car hits an animal in the road. At first they fear it was a man, but when they examine the \"body\" they find it's a \"bigfoot\". They think it's dead so they decide to take it home (there could be some money in this). As you guessed, it isn't dead. Far from being the ferocious monster they fear \"Harry\" to be, he's a friendly giant."}
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Harry And Max') LIMIT 1[0m
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 30ms (View: 20, DB: 0) | 200 OK [http://localhost/add?method=post]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-19 09:04:34) [GET]
+  [4;36;1mMovie Load (0.9ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 38ms (View: 32, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 09:04:36) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 09:04:39) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"The Matri", "authenticity_token"=>"FwNZz9R3C5/bAGAzFMIuL8kh1GpE6zSwieyercBejb8="}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 938ms (View: 20, DB: 0) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#add (for 127.0.0.1 at 2010-10-19 09:04:47) [POST]
+  Parameters: {"ratingMeteor"=>"", "scoreAnnas Mutter"=>"2", "commit"=>"Choose", "method"=>"post", "titleMoodori"=>"Moodori", "released_onMaître Pygmalion"=>"1975-07-27 07:00:00 UTC", "authenticity_token"=>"FwNZz9R3C5/bAGAzFMIuL8kh1GpE6zSwieyercBejb8=", "released_onMetro"=>"1997-01-17 08:00:00 UTC", "released_onMeteor"=>"1979-10-19 07:00:00 UTC", "titleAnnas Mutter"=>"Annas Mutter", "released_onMoodori"=>"2010-10-19 16:04:40 UTC", "titleMetro"=>"Metro", "ratingMaître Pygmalion"=>"", "released_onAnnas Mutter"=>"1984-01-06 08:00:00 UTC", "movieChoice"=>"Metro", "descriptionMaître Pygmalion"=>"No overview found.", "descriptionMetro"=>"Roper, a hostage negotiator catches a murderous bank robber after a blown heist. The bank robber escapes and immediately goes after the man who put him behind bars. The ending is played out with Roper and his partner McCall attempting to rescue Roper's kidnapped girlfriend. A major element in the plot is the relationship between Roper and his girlfriend.", "scoreMetro"=>"3", "ratingMetro"=>"R", "titleMeteor"=>"Meteor", "descriptionMeteor"=>"After a collision with a comet, a nearly 8km wide piece of the asteroid \"Orpheus\" is heading towards Earth. If it will hit it will cause a incredible catastrophe which will probably extinguish mankind. To stop the meteor NASA wants to use the illegal nuclear weapon satellite \"Hercules\" but discovers soon that it doesn't have enough fire power. Their only chance to save the world is to join forces with the USSR who have also launched such an illegal satellite. But will both governments agree? ", "scoreMeteor"=>"3", "scoreMaître Pygmalion"=>"2", "scoreMoodori"=>"3", "ratingMoodori"=>"", "ratingAnnas Mutter"=>"", "descriptionMoodori"=>"Moodori is a small village in the mountainous province of Gangwando South Korea. The village revolves around three elderly men named Bong-Gi, Hae-Gu and Bang-Yun. The fortunes of the village gets turned upside when a young man that was passing through town commits suicide there. The young man turns out to be the webmaster for a website centered group assisted suicides. The town of Moodori becomes a destination of sorts for other people looking to commit suicide. Now the three elderly men decides to take advantage of their village’s sudden popularity by opening an inn set up to accommodate the influx of travelers coming to Moodori to end their lives. ", "titleMaître Pygmalion"=>"Maître Pygmalion", "descriptionAnnas Mutter"=>"No overview found."}
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Metro') LIMIT 1[0m
+  [4;36;1mMovie Create (0.4ms)[0m   [0;1mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description", "score") VALUES('R', '2010-10-19 16:04:47', 'Metro', '1997-01-17 08:00:00', '2010-10-19 16:04:47', 'Roper, a hostage negotiator catches a murderous bank robber after a blown heist. The bank robber escapes and immediately goes after the man who put him behind bars. The ending is played out with Roper and his partner McCall attempting to rescue Roper''s kidnapped girlfriend. A major element in the plot is the relationship between Roper and his girlfriend.', 3)[0m
+Redirected to http://localhost:3000/movies
+Completed in 14ms (DB: 1) | 302 Found [http://localhost/add?method=post]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-19 09:04:47) [GET]
+  [4;35;1mMovie Load (0.9ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 41ms (View: 35, DB: 1) | 200 OK [http://localhost/movies]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 09:04:50) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 09:04:53) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"The matrix", "authenticity_token"=>"FwNZz9R3C5/bAGAzFMIuL8kh1GpE6zSwieyercBejb8="}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 680ms (View: 16, DB: 0) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#add (for 127.0.0.1 at 2010-10-19 09:04:59) [POST]
+  Parameters: {"released_onThe Matrix Reloaded"=>"2003-05-07 07:00:00 UTC", "descriptionThe Matrix Revolutions"=>"In the third installment, the epic war between man and machine reaches a thundering crescendo: the Zion military, aided by courageous civilian volunteers like Zee and the Kid, desperately battles to hold back the Sentinel invasion as the Machine army bores into their stronghold. Facing total annihilation, the citizens of the last bastion of humanity fight not only for their own lives but future...", "commit"=>"None of these", "released_onThe Matrix Revisited"=>"2001-11-20 08:00:00 UTC", "ratingThe Matrix Revolutions"=>"R", "ratingThe Matrix"=>"R", "titleMatrix Dezionised"=>"Matrix Dezionised", "titleThe Matrix Revisited"=>"The Matrix Revisited", "ratingThe Matrix Reloaded"=>"R", "method"=>"post", "descriptionThe Matrix"=>"Neo is a young software engineer and part-time hacker who is singled out by some mysterious figures who want to introduce him into the secret of 'the matrix'. The cops also seem to be after him, and he takes a chance on discovering what he has always suspected: that the world is not quite what it seems to be and a sinister conspiracy is at work. ", "descriptionThe Matrix Reloaded"=>"In this second chapter of the \"Matrix\" trilogy, Neo assumes greater command of his extraordinary powers as Zion falls under siege to the Machine Army. Only a matter of hours separates the last human enclave on Earth from 250,000 Sentinels programmed to destroy mankind. But the citizens of Zion stand firm, emboldened by Morpheus conviction that the One will fulfill the Oracle's Prophecy and end the war...", "scoreThe Matrix Revolutions"=>"7", "authenticity_token"=>"FwNZz9R3C5/bAGAzFMIuL8kh1GpE6zSwieyercBejb8=", "scoreThe Matrix"=>"9", "released_onMatrix Dezionised"=>"2006-07-02 07:00:00 UTC", "scoreThe Matrix Reloaded"=>"7", "descriptionThe Matrix Revisited"=>"The film goes behind the scenes of the 1999 sci-fi movie The Matrix. ", "scoreThe Matrix Revisited"=>"7", "movieChoice"=>"The Matrix", "ratingMatrix Dezionised"=>"", "ratingThe Matrix Revisited"=>"", "descriptionMatrix Dezionised"=>"This fanedit combines Matrix Reloaded and Matrix Revolutions to one improved movie, leaving out all scenes on and about Zion. A worthy sequel to a masterpiece.", "released_onThe Matrix Revolutions"=>"2003-10-27 08:00:00 UTC", "titleThe Matrix"=>"The Matrix", "released_onThe Matrix"=>"1999-03-31 08:00:00 UTC", "scoreMatrix Dezionised"=>"7", "titleThe Matrix Reloaded"=>"The Matrix Reloaded", "titleThe Matrix Revolutions"=>"The Matrix Revolutions"}
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'The Matrix') LIMIT 1[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description", "score") VALUES('R', '2010-10-19 16:04:59', 'The Matrix', '1999-03-31 08:00:00', '2010-10-19 16:04:59', 'Neo is a young software engineer and part-time hacker who is singled out by some mysterious figures who want to introduce him into the secret of ''the matrix''. The cops also seem to be after him, and he takes a chance on discovering what he has always suspected: that the world is not quite what it seems to be and a sinister conspiracy is at work. ', 9)[0m
+Redirected to http://localhost:3000/movies
+Completed in 14ms (DB: 1) | 302 Found [http://localhost/add?method=post]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-19 09:04:59) [GET]
+  [4;36;1mMovie Load (0.9ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 43ms (View: 37, DB: 1) | 200 OK [http://localhost/movies]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 09:05:42) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 09:05:45) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"none", "authenticity_token"=>"FwNZz9R3C5/bAGAzFMIuL8kh1GpE6zSwieyercBejb8="}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 1128ms (View: 87, DB: 0) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#add (for 127.0.0.1 at 2010-10-19 09:05:50) [POST]
+  Parameters: {"descriptionNone"=>"No overview found.", "commit"=>"None of these", "titleTwo Heads Are Better Than None"=>"Two Heads Are Better Than None", "titleNone But the Brave"=>"None But the Brave", "released_onNone But the Brave"=>"1965-02-24 08:00:00 UTC", "method"=>"post", "scoreNone"=>"8", "ratingNone"=>"", "titleAnd Then There Were None"=>"And Then There Were None", "released_onTwo Heads Are Better Than None"=>"2010-10-19 16:05:46 UTC", "authenticity_token"=>"FwNZz9R3C5/bAGAzFMIuL8kh1GpE6zSwieyercBejb8=", "released_onAnd Then There Were None"=>"1974-09-24 07:00:00 UTC", "titleNone"=>"None", "descriptionTwo Heads Are Better Than None"=>"Two Heads Are Better Than None also known as Kenan & Kel: The Movie is a 2000  American made-for-television film that stars the cast of the Nickelodeon sitcom Kenan & Kel. It is the last feature film of comic legend Milton Berle.", "movieChoice"=>"None But the Brave", "descriptionNone But the Brave"=>"American and Japanese soldiers, stranded on a tiny Pacific island during World War II, must make a temporary truce and cooperate to survive various tribulations. Told through the eyes of the American and Japanese unit commanders, who must deal with an atmosphere of growing distrust and tension between their men.", "scoreTwo Heads Are Better Than None"=>"3", "released_onNone"=>"2010-10-19 16:05:46 UTC", "scoreNone But the Brave"=>"5", "scoreAnd Then There Were None"=>"4", "ratingTwo Heads Are Better Than None"=>"", "ratingNone But the Brave"=>"", "descriptionAnd Then There Were None"=>"Ten people are invited for a weekend by a Mr U. N. Own, but he isn't on the island. At dinner a record is played, by that all the people are accused of murder, suddenly the first of them is dead, then the next... It seems to be that one of them is the murderer Mr. U. N. Own, but the person in suspect is always the person who is murdered next. At last only two people seem to be left.", "ratingAnd Then There Were None"=>""}
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'None But the Brave') LIMIT 1[0m
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 28ms (View: 17, DB: 0) | 200 OK [http://localhost/add?method=post]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-19 09:07:17) [GET]
+  [4;36;1mMovie Load (0.9ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 46ms (View: 39, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 09:07:19) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 09:07:22) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"something", "authenticity_token"=>"FwNZz9R3C5/bAGAzFMIuL8kh1GpE6zSwieyercBejb8="}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 997ms (View: 22, DB: 0) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#add (for 127.0.0.1 at 2010-10-19 09:07:27) [POST]
+  Parameters: {"ratingSomething New"=>"", "titleSomething's Got to Give"=>"Something's Got to Give", "commit"=>"None of these", "titleSomething's Gotta Give"=>"Something's Gotta Give", "scoreSomething's Got to Give"=>"5", "ratingSomething's Got to Give"=>"", "scoreFamily Guy: Something, Something, Something Dark Side"=>"5", "ratingFamily Guy: Something, Something, Something Dark Side"=>"", "method"=>"post", "descriptionSomething Wild"=>"A free-spirited woman \"kidnaps\" a yuppie for a weekend of adventure. But the fun quickly takes a dangerous turn when her ex-con husband shows up.", "titleFamily Guy: Something, Something, Something Dark Side"=>"Family Guy: Something, Something, Something Dark Side", "descriptionFamily Guy: Something, Something, Something Dark Side"=>"With the fate of the galaxy resting in their hands, Luke (Chris), Leia (Lois), Han Solo (Peter) and Chewbacca (Brian) seek refuge from the evil Lord Vader (Stewie) and the Imperial Starfleet on the ice planet Hoth. There, young Skywalker follows the advice of his late, lusty master Obi-Wan Kenobi (Herbert), and begins harnessing the power of the \"farce\" under the tutelage of the wise and powerful.", "authenticity_token"=>"FwNZz9R3C5/bAGAzFMIuL8kh1GpE6zSwieyercBejb8=", "titleSomething New"=>"Something New", "ratingSomething Wild"=>"", "descriptionSomething's Got to Give"=>"Unfinished remake of \"My Favorite Wife\", due to the firing of Marilyn Monroe from the film. She was eventually re-hired, but died in August, 1962. Film was never completed.", "descriptionSomething's Gotta Give"=>"Harry Sanborn is an aged music industry exec with a fondness for younger women like Marin, his latest trophy girlfriend. Things get a little awkward when Harry suffers a heart attack at the home of Marin's mother Erica. Left in the care of Erica and his doctor, a love triangle starts to take shape.  ", "scoreSomething Wild"=>"6", "released_onSomething Wild"=>"1986-11-07 08:00:00 UTC", "scoreSomething's Gotta Give"=>"5", "ratingSomething's Gotta Give"=>"PG-13", "released_onSomething New"=>"2006-01-29 08:00:00 UTC", "released_onSomething's Got to Give"=>"1962-01-01 08:00:00 UTC", "released_onFamily Guy: Something, Something, Something Dark Side"=>"2009-12-22 08:00:00 UTC", "scoreSomething New"=>"6", "titleSomething Wild"=>"Something Wild", "descriptionSomething New"=>"Kenya McQueen, a corporate lawyer finds love in the most unexpected place when she agrees to go on a blind date with Brian Kelly, a sexy and free-spirited landscaper.", "released_onSomething's Gotta Give"=>"2003-12-12 08:00:00 UTC"}
+Redirected to http://localhost:3000/movies
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/add?method=post]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-19 09:07:27) [GET]
+  [4;35;1mMovie Load (0.9ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 42ms (View: 36, DB: 1) | 200 OK [http://localhost/movies]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 09:07:34) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 09:07:40) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"something's gotta", "authenticity_token"=>"FwNZz9R3C5/bAGAzFMIuL8kh1GpE6zSwieyercBejb8="}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 430ms (View: 18, DB: 0) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#add (for 127.0.0.1 at 2010-10-19 09:07:44) [POST]
+  Parameters: {"titleSomething's Got to Give"=>"Something's Got to Give", "commit"=>"None of these", "titleSomething's Gotta Give"=>"Something's Gotta Give", "released_onMove Over, Darling"=>"1963-12-19 08:00:00 UTC", "titleSomething the Lord Made"=>"Something the Lord Made", "released_onSomething the Lord Made"=>"2004-05-30 07:00:00 UTC", "scoreSomething's Got to Give"=>"7", "ratingSomething's Got to Give"=>"", "method"=>"post", "titleMove Over, Darling"=>"Move Over, Darling", "authenticity_token"=>"FwNZz9R3C5/bAGAzFMIuL8kh1GpE6zSwieyercBejb8=", "descriptionSomething's Gotta Give"=>"Harry Sanborn is an aged music industry exec with a fondness for younger women like Marin, his latest trophy girlfriend. Things get a little awkward when Harry suffers a heart attack at the home of Marin's mother Erica. Left in the care of Erica and his doctor, a love triangle starts to take shape.  ", "descriptionSomething's Got to Give"=>"Unfinished remake of \"My Favorite Wife\", due to the firing of Marilyn Monroe from the film. She was eventually re-hired, but died in August, 1962. Film was never completed.", "movieChoice"=>"Something's Gotta Give", "scoreSomething's Gotta Give"=>"8", "ratingSomething's Gotta Give"=>"PG-13", "descriptionSomething the Lord Made"=>"SOMETHING THE LORD MADE is a moving story of men who defy the rules and start a medical revolution. Their patients are known as the \"blue babies\" - infants suffering from a congenital heart defect that turns them blue as they slowly suffocate.", "released_onSomething's Got to Give"=>"1962-01-01 08:00:00 UTC", "descriptionMove Over, Darling"=>"Exactly five years after his wife Ellen disappeared at sea, Nicholas marries Bianca and upon arriving at the same honeymoon spot he spent with Ellen, his \"missing\" wife shows up to try and stop the honeymoon from proceeding, to comedic results. \"Move Over, Darling\" starring Doris Day and James Garner is a remake of the 1940 comedy, \"My Favorite Wife,\" which starred Cary Grant and Irene Dunne.", "scoreSomething the Lord Made"=>"4", "ratingSomething the Lord Made"=>"", "scoreMove Over, Darling"=>"5", "ratingMove Over, Darling"=>"", "released_onSomething's Gotta Give"=>"2003-12-12 08:00:00 UTC"}
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Something''s Gotta Give') LIMIT 1[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description", "score") VALUES('PG-13', '2010-10-19 16:07:44', 'Something''s Gotta Give', '2003-12-12 08:00:00', '2010-10-19 16:07:44', 'Harry Sanborn is an aged music industry exec with a fondness for younger women like Marin, his latest trophy girlfriend. Things get a little awkward when Harry suffers a heart attack at the home of Marin''s mother Erica. Left in the care of Erica and his doctor, a love triangle starts to take shape. ', 8)[0m
+Redirected to http://localhost:3000/movies
+Completed in 15ms (DB: 1) | 302 Found [http://localhost/add?method=post]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-19 09:07:44) [GET]
+  [4;36;1mMovie Load (1.0ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 46ms (View: 40, DB: 1) | 200 OK [http://localhost/movies]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 09:08:54) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/movies/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 09:08:57) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"harry potter", "authenticity_token"=>"FwNZz9R3C5/bAGAzFMIuL8kh1GpE6zSwieyercBejb8="}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 622ms (View: 25, DB: 0) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 09:09:19) [GET]
+Redirected to http://localhost:3000/search
+Completed in 78ms (DB: 0) | 302 Found [http://localhost/results]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 09:09:19) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 09:09:22) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"harry potter", "authenticity_token"=>"FwNZz9R3C5/bAGAzFMIuL8kh1GpE6zSwieyercBejb8="}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 611ms (View: 25, DB: 0) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 09:09:52) [GET]
+Redirected to http://localhost:3000/search
+Completed in 8ms (DB: 0) | 302 Found [http://localhost/results]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 09:09:52) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/search]
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 09:09:54) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"harry potter", "authenticity_token"=>"FwNZz9R3C5/bAGAzFMIuL8kh1GpE6zSwieyercBejb8="}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 694ms (View: 26, DB: 0) | 200 OK [http://localhost/results]
+
+
+Processing MoviesController#noneOfthese (for 127.0.0.1 at 2010-10-19 09:10:01) [POST]
+  Parameters: {"commit"=>"None of these", "method"=>"post", "authenticity_token"=>"FwNZz9R3C5/bAGAzFMIuL8kh1GpE6zSwieyercBejb8="}
+Redirected to http://localhost:3000/movies
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/movies/noneOfthese?method=post]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-19 09:10:01) [GET]
+  [4;35;1mMovie Load (0.9ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 46ms (View: 39, DB: 1) | 200 OK [http://localhost/movies]
