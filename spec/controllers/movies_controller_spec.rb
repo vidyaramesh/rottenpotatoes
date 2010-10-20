@@ -6,6 +6,48 @@ describe MoviesController do
     @mock_movie ||= mock_model(Movie, stubs)
   end
   
+  def mock_choice()
+    @mock_choice ||= mock_model(Choice)
+    @topFive = Array.new()
+    (0..4).each do |i|
+      movie = Movie.new
+      movie.title = i.to_s() + "Title"
+      movie.description = i.to_s() + "Desc"
+      movie.score = i
+      movie.rating = i
+      movie.released_on = "Never"
+      @topFive << movie
+    end
+	@mock_choice.stub(:findTopFive).with("not nil title").and_return(@topFive)
+	return @mock_choice
+  end
+  
+  describe "test TMBd API call" do
+	it "returns a list of 5 movies" do
+		@movies = mock_choice().findTopFive("not nil title")
+		@movies.length.should == 5
+	end
+    
+	it "adds one of the 5 returned movies to the DB" do
+		@movies = mock_choice().findTopFive("not nil title")
+		@db = Array.new
+		@mov = @movies[0]
+		Movie.stub(:save) do
+		  @db << @mov
+		end
+		Movie.stub(:title=).with(@mov.title).and_return(0)
+		Movie.stub(:find).and_return{@db[0]}
+		@params = {:movieChoice => @mov.title, "title"+@mov.title => @mov.title, "description"+@mov.title => @mov.description, "score"+@mov.title => @mov.score, "rating"+@mov.title => @mov.rating, "released_on"+@mov.title => @mov.released_on}
+		post :add, @params
+		Movie.find.should == @mov
+	end
+	it "returns no values for an API result with no movies" do
+		Hpricot.stub(:search).with("movie").and_return("")
+		@choice = Choice.new()
+		@choice.findTopFive("Anything").should_be nil
+	end
+  end
+  
   describe "GET index" do
     it "assigns all movies as @movies" do
       Movie.stub(:find).with(:all).and_return([mock_movie])
