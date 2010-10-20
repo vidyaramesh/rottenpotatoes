@@ -139,3 +139,1491 @@ Processing MoviesController#search (for 127.0.0.1 at 2010-10-14 23:02:11) [GET]
 Rendering template within layouts/movies
 Rendering movies/search
 Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 17:40:48) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 58ms (View: 56, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 17:40:48) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"The Matrix"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 17:40:48) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"The Matrix"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 605ms (View: 20, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 17:40:49) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 17:44:13) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 17:44:13) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"The Matrix"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 17:44:13) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"The Matrix"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 587ms (View: 19, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 17:44:14) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 17:47:33) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 17:47:33) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"The Matrix"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 17:47:33) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"The Matrix"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 770ms (View: 18, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 17:47:34) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 17:50:45) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 17:50:45) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 17:50:45) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 17:51:44) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 17:51:44) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"The Matrix"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 17:51:44) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"The Matrix"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 742ms (View: 19, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 17:51:44) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 17:56:19) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 17:56:19) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"The Matrix"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 17:56:19) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"The Matrix"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 581ms (View: 17, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 17:56:20) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 17:59:01) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 17:59:01) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"The Matrix"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 17:59:01) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"The Matrix"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 591ms (View: 18, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 17:59:02) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 18:01:14) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 18:01:14) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"The Matrix"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 18:01:14) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"The Matrix"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 578ms (View: 18, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 18:01:15) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 18:01:33) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 18:01:33) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"The Matrix"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 18:01:33) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"The Matrix"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 582ms (View: 18, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 18:01:34) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 18:02:18) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 18:02:18) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"The Matrix"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 18:02:18) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"The Matrix"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 612ms (View: 17, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 18:02:19) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 18:02:51) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 18:02:51) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"The Matrix"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 18:02:51) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"The Matrix"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 634ms (View: 17, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 18:02:52) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 18:04:05) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 18:04:05) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"The Matrix"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 18:04:05) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"The Matrix"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 601ms (View: 17, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 18:04:06) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:19:15) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 86ms (View: 84, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:19:15) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"The Matrix"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 19:19:15) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"The Matrix"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 656ms (View: 17, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:19:16) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:22:27) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:22:27) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"The Matrix"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 19:22:27) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"The Matrix"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 597ms (View: 17, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:22:28) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"Glaskdjf"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 19:22:28) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"Glaskdjf"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 1037ms (View: 18, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:22:59) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:22:59) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"The Matrix"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 19:22:59) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"The Matrix"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 634ms (View: 17, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:23:00) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"Glaskdjf"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 19:23:00) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"Glaskdjf"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 798ms (View: 17, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:25:21) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:25:21) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"The Matrix"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 19:25:21) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"The Matrix"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 648ms (View: 19, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:25:22) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"Glaskdjf"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 19:25:22) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"Glaskdjf"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 836ms (View: 17, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:26:00) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:26:00) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"The Matrix"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 19:26:00) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"The Matrix"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 658ms (View: 18, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: POST /add?method=post with {"descriptionThe Matrix Revolutions"=>"In the third installment, the epic war between man and machine reaches a thundering crescendo: the Zion military, aided by courageous civilian volunteers like Zee and the Kid, desperately battles to hold back the Sentinel invasion as the Machine army bores into their stronghold. Facing total annihilation, the citizens of the last bastion of humanity fight not only for their own lives but future...", "released_onThe Matrix Reloaded"=>"2003-05-07 07:00:00 UTC", "commit"=>"Choose", "ratingThe Matrix Revolutions"=>"R", "released_onThe Matrix Revisited"=>"2001-11-20 08:00:00 UTC", "ratingThe Matrix Reloaded"=>"R", "titleThe Matrix Revisited"=>"The Matrix Revisited", "titleMatrix Dezionised"=>"Matrix Dezionised", "ratingThe Matrix"=>"R", "scoreThe Matrix Revolutions"=>"7", "descriptionThe Matrix Reloaded"=>"In this second chapter of the \"Matrix\" trilogy, Neo assumes greater command of his extraordinary powers as Zion falls under siege to the Machine Army. Only a matter of hours separates the last human enclave on Earth from 250,000 Sentinels programmed to destroy mankind. But the citizens of Zion stand firm, emboldened by Morpheus conviction that the One will fulfill the Oracle's Prophecy and end the war...", "descriptionThe Matrix"=>"Neo is a young software engineer and part-time hacker who is singled out by some mysterious figures who want to introduce him into the secret of 'the matrix'. The cops also seem to be after him, and he takes a chance on discovering what he has always suspected: that the world is not quite what it seems to be and a sinister conspiracy is at work. ", "scoreThe Matrix Reloaded"=>"7", "released_onMatrix Dezionised"=>"2006-07-02 07:00:00 UTC", "scoreThe Matrix"=>"9", "scoreThe Matrix Revisited"=>"7", "descriptionThe Matrix Revisited"=>"The film goes behind the scenes of the 1999 sci-fi movie The Matrix. ", "ratingThe Matrix Revisited"=>"", "ratingMatrix Dezionised"=>"", "movieChoice"=>"The Matrix", "released_onThe Matrix Revolutions"=>"2003-10-27 08:00:00 UTC", "descriptionMatrix Dezionised"=>"This fanedit combines Matrix Reloaded and Matrix Revolutions to one improved movie, leaving out all scenes on and about Zion. A worthy sequel to a masterpiece.", "released_onThe Matrix"=>"1999-03-31 08:00:00 UTC", "titleThe Matrix"=>"The Matrix", "titleThe Matrix Revolutions"=>"The Matrix Revolutions", "titleThe Matrix Reloaded"=>"The Matrix Reloaded", "scoreMatrix Dezionised"=>"7"} and HTTP headers {"HTTP_REFERER"=>"/results"}
+
+
+Processing MoviesController#add (for 127.0.0.1 at 2010-10-19 19:26:01) [POST]
+  Parameters: {"descriptionThe Matrix Revolutions"=>"In the third installment, the epic war between man and machine reaches a thundering crescendo: the Zion military, aided by courageous civilian volunteers like Zee and the Kid, desperately battles to hold back the Sentinel invasion as the Machine army bores into their stronghold. Facing total annihilation, the citizens of the last bastion of humanity fight not only for their own lives but future...", "released_onThe Matrix Reloaded"=>"2003-05-07 07:00:00 UTC", "commit"=>"Choose", "ratingThe Matrix Revolutions"=>"R", "released_onThe Matrix Revisited"=>"2001-11-20 08:00:00 UTC", "ratingThe Matrix Reloaded"=>"R", "titleThe Matrix Revisited"=>"The Matrix Revisited", "titleMatrix Dezionised"=>"Matrix Dezionised", "ratingThe Matrix"=>"R", "method"=>"post", "scoreThe Matrix Revolutions"=>"7", "descriptionThe Matrix Reloaded"=>"In this second chapter of the \"Matrix\" trilogy, Neo assumes greater command of his extraordinary powers as Zion falls under siege to the Machine Army. Only a matter of hours separates the last human enclave on Earth from 250,000 Sentinels programmed to destroy mankind. But the citizens of Zion stand firm, emboldened by Morpheus conviction that the One will fulfill the Oracle's Prophecy and end the war...", "descriptionThe Matrix"=>"Neo is a young software engineer and part-time hacker who is singled out by some mysterious figures who want to introduce him into the secret of 'the matrix'. The cops also seem to be after him, and he takes a chance on discovering what he has always suspected: that the world is not quite what it seems to be and a sinister conspiracy is at work. ", "scoreThe Matrix Reloaded"=>"7", "released_onMatrix Dezionised"=>"2006-07-02 07:00:00 UTC", "scoreThe Matrix"=>"9", "scoreThe Matrix Revisited"=>"7", "descriptionThe Matrix Revisited"=>"The film goes behind the scenes of the 1999 sci-fi movie The Matrix. ", "ratingThe Matrix Revisited"=>"", "ratingMatrix Dezionised"=>"", "movieChoice"=>"The Matrix", "released_onThe Matrix Revolutions"=>"2003-10-27 08:00:00 UTC", "descriptionMatrix Dezionised"=>"This fanedit combines Matrix Reloaded and Matrix Revolutions to one improved movie, leaving out all scenes on and about Zion. A worthy sequel to a masterpiece.", "released_onThe Matrix"=>"1999-03-31 08:00:00 UTC", "titleThe Matrix"=>"The Matrix", "titleThe Matrix Revolutions"=>"The Matrix Revolutions", "titleThe Matrix Reloaded"=>"The Matrix Reloaded", "scoreMatrix Dezionised"=>"7"}
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'The Matrix') LIMIT 1[0m
+  [4;35;1mMovie Create (0.5ms)[0m   [0mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description", "score") VALUES('R', '2010-10-20 02:26:01', 'The Matrix', '1999-03-31 08:00:00', '2010-10-20 02:26:01', 'Neo is a young software engineer and part-time hacker who is singled out by some mysterious figures who want to introduce him into the secret of ''the matrix''. The cops also seem to be after him, and he takes a chance on discovering what he has always suspected: that the world is not quite what it seems to be and a sinister conspiracy is at work. ', 9)[0m
+Redirected to http://www.example.com/movies
+Completed in 6ms (DB: 1) | 302 Found [http://www.example.com/add?method=post]
+REQUESTING PAGE: GET http://www.example.com/movies with {} and HTTP headers {"HTTP_REFERER"=>"/add?method=post"}
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-19 19:26:01) [GET]
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://www.example.com/movies]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:26:01) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"Glaskdjf"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 19:26:01) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"Glaskdjf"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 1063ms (View: 17, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:27:04) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:27:04) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"The Matrix"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 19:27:04) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"The Matrix"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 678ms (View: 19, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: POST /add?method=post with {"descriptionThe Matrix Revolutions"=>"In the third installment, the epic war between man and machine reaches a thundering crescendo: the Zion military, aided by courageous civilian volunteers like Zee and the Kid, desperately battles to hold back the Sentinel invasion as the Machine army bores into their stronghold. Facing total annihilation, the citizens of the last bastion of humanity fight not only for their own lives but future...", "released_onThe Matrix Reloaded"=>"2003-05-07 07:00:00 UTC", "commit"=>"Choose", "ratingThe Matrix Revolutions"=>"R", "released_onThe Matrix Revisited"=>"2001-11-20 08:00:00 UTC", "ratingThe Matrix Reloaded"=>"R", "titleThe Matrix Revisited"=>"The Matrix Revisited", "titleMatrix Dezionised"=>"Matrix Dezionised", "ratingThe Matrix"=>"R", "scoreThe Matrix Revolutions"=>"7", "descriptionThe Matrix Reloaded"=>"In this second chapter of the \"Matrix\" trilogy, Neo assumes greater command of his extraordinary powers as Zion falls under siege to the Machine Army. Only a matter of hours separates the last human enclave on Earth from 250,000 Sentinels programmed to destroy mankind. But the citizens of Zion stand firm, emboldened by Morpheus conviction that the One will fulfill the Oracle's Prophecy and end the war...", "descriptionThe Matrix"=>"Neo is a young software engineer and part-time hacker who is singled out by some mysterious figures who want to introduce him into the secret of 'the matrix'. The cops also seem to be after him, and he takes a chance on discovering what he has always suspected: that the world is not quite what it seems to be and a sinister conspiracy is at work. ", "scoreThe Matrix Reloaded"=>"7", "released_onMatrix Dezionised"=>"2006-07-02 07:00:00 UTC", "scoreThe Matrix"=>"9", "scoreThe Matrix Revisited"=>"7", "descriptionThe Matrix Revisited"=>"The film goes behind the scenes of the 1999 sci-fi movie The Matrix. ", "ratingThe Matrix Revisited"=>"", "ratingMatrix Dezionised"=>"", "movieChoice"=>"The Matrix", "released_onThe Matrix Revolutions"=>"2003-10-27 08:00:00 UTC", "descriptionMatrix Dezionised"=>"This fanedit combines Matrix Reloaded and Matrix Revolutions to one improved movie, leaving out all scenes on and about Zion. A worthy sequel to a masterpiece.", "released_onThe Matrix"=>"1999-03-31 08:00:00 UTC", "titleThe Matrix"=>"The Matrix", "titleThe Matrix Revolutions"=>"The Matrix Revolutions", "titleThe Matrix Reloaded"=>"The Matrix Reloaded", "scoreMatrix Dezionised"=>"7"} and HTTP headers {"HTTP_REFERER"=>"/results"}
+
+
+Processing MoviesController#add (for 127.0.0.1 at 2010-10-19 19:27:05) [POST]
+  Parameters: {"descriptionThe Matrix Revolutions"=>"In the third installment, the epic war between man and machine reaches a thundering crescendo: the Zion military, aided by courageous civilian volunteers like Zee and the Kid, desperately battles to hold back the Sentinel invasion as the Machine army bores into their stronghold. Facing total annihilation, the citizens of the last bastion of humanity fight not only for their own lives but future...", "released_onThe Matrix Reloaded"=>"2003-05-07 07:00:00 UTC", "commit"=>"Choose", "ratingThe Matrix Revolutions"=>"R", "released_onThe Matrix Revisited"=>"2001-11-20 08:00:00 UTC", "ratingThe Matrix Reloaded"=>"R", "titleThe Matrix Revisited"=>"The Matrix Revisited", "titleMatrix Dezionised"=>"Matrix Dezionised", "ratingThe Matrix"=>"R", "method"=>"post", "scoreThe Matrix Revolutions"=>"7", "descriptionThe Matrix Reloaded"=>"In this second chapter of the \"Matrix\" trilogy, Neo assumes greater command of his extraordinary powers as Zion falls under siege to the Machine Army. Only a matter of hours separates the last human enclave on Earth from 250,000 Sentinels programmed to destroy mankind. But the citizens of Zion stand firm, emboldened by Morpheus conviction that the One will fulfill the Oracle's Prophecy and end the war...", "descriptionThe Matrix"=>"Neo is a young software engineer and part-time hacker who is singled out by some mysterious figures who want to introduce him into the secret of 'the matrix'. The cops also seem to be after him, and he takes a chance on discovering what he has always suspected: that the world is not quite what it seems to be and a sinister conspiracy is at work. ", "scoreThe Matrix Reloaded"=>"7", "released_onMatrix Dezionised"=>"2006-07-02 07:00:00 UTC", "scoreThe Matrix"=>"9", "scoreThe Matrix Revisited"=>"7", "descriptionThe Matrix Revisited"=>"The film goes behind the scenes of the 1999 sci-fi movie The Matrix. ", "ratingThe Matrix Revisited"=>"", "ratingMatrix Dezionised"=>"", "movieChoice"=>"The Matrix", "released_onThe Matrix Revolutions"=>"2003-10-27 08:00:00 UTC", "descriptionMatrix Dezionised"=>"This fanedit combines Matrix Reloaded and Matrix Revolutions to one improved movie, leaving out all scenes on and about Zion. A worthy sequel to a masterpiece.", "released_onThe Matrix"=>"1999-03-31 08:00:00 UTC", "titleThe Matrix"=>"The Matrix", "titleThe Matrix Revolutions"=>"The Matrix Revolutions", "titleThe Matrix Reloaded"=>"The Matrix Reloaded", "scoreMatrix Dezionised"=>"7"}
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'The Matrix') LIMIT 1[0m
+  [4;35;1mMovie Create (0.5ms)[0m   [0mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description", "score") VALUES('R', '2010-10-20 02:27:05', 'The Matrix', '1999-03-31 08:00:00', '2010-10-20 02:27:05', 'Neo is a young software engineer and part-time hacker who is singled out by some mysterious figures who want to introduce him into the secret of ''the matrix''. The cops also seem to be after him, and he takes a chance on discovering what he has always suspected: that the world is not quite what it seems to be and a sinister conspiracy is at work. ', 9)[0m
+Redirected to http://www.example.com/movies
+Completed in 7ms (DB: 1) | 302 Found [http://www.example.com/add?method=post]
+REQUESTING PAGE: GET http://www.example.com/movies with {} and HTTP headers {"HTTP_REFERER"=>"/add?method=post"}
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-19 19:27:05) [GET]
+  [4;36;1mMovie Load (0.3ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://www.example.com/movies]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:27:05) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"Glaskdjf"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 19:27:05) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"Glaskdjf"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 913ms (View: 17, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:27:47) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:27:47) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"The Matrix"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 19:27:47) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"The Matrix"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 651ms (View: 17, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: POST /add?method=post with {"descriptionThe Matrix Revolutions"=>"In the third installment, the epic war between man and machine reaches a thundering crescendo: the Zion military, aided by courageous civilian volunteers like Zee and the Kid, desperately battles to hold back the Sentinel invasion as the Machine army bores into their stronghold. Facing total annihilation, the citizens of the last bastion of humanity fight not only for their own lives but future...", "released_onThe Matrix Reloaded"=>"2003-05-07 07:00:00 UTC", "commit"=>"Choose", "ratingThe Matrix Revolutions"=>"R", "released_onThe Matrix Revisited"=>"2001-11-20 08:00:00 UTC", "ratingThe Matrix Reloaded"=>"R", "titleThe Matrix Revisited"=>"The Matrix Revisited", "titleMatrix Dezionised"=>"Matrix Dezionised", "ratingThe Matrix"=>"R", "scoreThe Matrix Revolutions"=>"7", "descriptionThe Matrix Reloaded"=>"In this second chapter of the \"Matrix\" trilogy, Neo assumes greater command of his extraordinary powers as Zion falls under siege to the Machine Army. Only a matter of hours separates the last human enclave on Earth from 250,000 Sentinels programmed to destroy mankind. But the citizens of Zion stand firm, emboldened by Morpheus conviction that the One will fulfill the Oracle's Prophecy and end the war...", "descriptionThe Matrix"=>"Neo is a young software engineer and part-time hacker who is singled out by some mysterious figures who want to introduce him into the secret of 'the matrix'. The cops also seem to be after him, and he takes a chance on discovering what he has always suspected: that the world is not quite what it seems to be and a sinister conspiracy is at work. ", "scoreThe Matrix Reloaded"=>"7", "released_onMatrix Dezionised"=>"2006-07-02 07:00:00 UTC", "scoreThe Matrix"=>"9", "scoreThe Matrix Revisited"=>"7", "descriptionThe Matrix Revisited"=>"The film goes behind the scenes of the 1999 sci-fi movie The Matrix. ", "ratingThe Matrix Revisited"=>"", "ratingMatrix Dezionised"=>"", "movieChoice"=>"The Matrix", "released_onThe Matrix Revolutions"=>"2003-10-27 08:00:00 UTC", "descriptionMatrix Dezionised"=>"This fanedit combines Matrix Reloaded and Matrix Revolutions to one improved movie, leaving out all scenes on and about Zion. A worthy sequel to a masterpiece.", "released_onThe Matrix"=>"1999-03-31 08:00:00 UTC", "titleThe Matrix"=>"The Matrix", "titleThe Matrix Revolutions"=>"The Matrix Revolutions", "titleThe Matrix Reloaded"=>"The Matrix Reloaded", "scoreMatrix Dezionised"=>"7"} and HTTP headers {"HTTP_REFERER"=>"/results"}
+
+
+Processing MoviesController#add (for 127.0.0.1 at 2010-10-19 19:27:47) [POST]
+  Parameters: {"descriptionThe Matrix Revolutions"=>"In the third installment, the epic war between man and machine reaches a thundering crescendo: the Zion military, aided by courageous civilian volunteers like Zee and the Kid, desperately battles to hold back the Sentinel invasion as the Machine army bores into their stronghold. Facing total annihilation, the citizens of the last bastion of humanity fight not only for their own lives but future...", "released_onThe Matrix Reloaded"=>"2003-05-07 07:00:00 UTC", "commit"=>"Choose", "ratingThe Matrix Revolutions"=>"R", "released_onThe Matrix Revisited"=>"2001-11-20 08:00:00 UTC", "ratingThe Matrix Reloaded"=>"R", "titleThe Matrix Revisited"=>"The Matrix Revisited", "titleMatrix Dezionised"=>"Matrix Dezionised", "ratingThe Matrix"=>"R", "method"=>"post", "scoreThe Matrix Revolutions"=>"7", "descriptionThe Matrix Reloaded"=>"In this second chapter of the \"Matrix\" trilogy, Neo assumes greater command of his extraordinary powers as Zion falls under siege to the Machine Army. Only a matter of hours separates the last human enclave on Earth from 250,000 Sentinels programmed to destroy mankind. But the citizens of Zion stand firm, emboldened by Morpheus conviction that the One will fulfill the Oracle's Prophecy and end the war...", "descriptionThe Matrix"=>"Neo is a young software engineer and part-time hacker who is singled out by some mysterious figures who want to introduce him into the secret of 'the matrix'. The cops also seem to be after him, and he takes a chance on discovering what he has always suspected: that the world is not quite what it seems to be and a sinister conspiracy is at work. ", "scoreThe Matrix Reloaded"=>"7", "released_onMatrix Dezionised"=>"2006-07-02 07:00:00 UTC", "scoreThe Matrix"=>"9", "scoreThe Matrix Revisited"=>"7", "descriptionThe Matrix Revisited"=>"The film goes behind the scenes of the 1999 sci-fi movie The Matrix. ", "ratingThe Matrix Revisited"=>"", "ratingMatrix Dezionised"=>"", "movieChoice"=>"The Matrix", "released_onThe Matrix Revolutions"=>"2003-10-27 08:00:00 UTC", "descriptionMatrix Dezionised"=>"This fanedit combines Matrix Reloaded and Matrix Revolutions to one improved movie, leaving out all scenes on and about Zion. A worthy sequel to a masterpiece.", "released_onThe Matrix"=>"1999-03-31 08:00:00 UTC", "titleThe Matrix"=>"The Matrix", "titleThe Matrix Revolutions"=>"The Matrix Revolutions", "titleThe Matrix Reloaded"=>"The Matrix Reloaded", "scoreMatrix Dezionised"=>"7"}
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'The Matrix') LIMIT 1[0m
+  [4;35;1mMovie Create (0.5ms)[0m   [0mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description", "score") VALUES('R', '2010-10-20 02:27:47', 'The Matrix', '1999-03-31 08:00:00', '2010-10-20 02:27:47', 'Neo is a young software engineer and part-time hacker who is singled out by some mysterious figures who want to introduce him into the secret of ''the matrix''. The cops also seem to be after him, and he takes a chance on discovering what he has always suspected: that the world is not quite what it seems to be and a sinister conspiracy is at work. ', 9)[0m
+Redirected to http://www.example.com/movies
+Completed in 6ms (DB: 1) | 302 Found [http://www.example.com/add?method=post]
+REQUESTING PAGE: GET http://www.example.com/movies with {} and HTTP headers {"HTTP_REFERER"=>"/add?method=post"}
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-19 19:27:47) [GET]
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://www.example.com/movies]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:27:47) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"Glaskdjf"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 19:27:48) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"Glaskdjf"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 984ms (View: 17, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:29:22) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:29:22) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"The Matrix"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 19:29:22) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"The Matrix"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 659ms (View: 17, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: POST /add?method=post with {"descriptionThe Matrix Revolutions"=>"In the third installment, the epic war between man and machine reaches a thundering crescendo: the Zion military, aided by courageous civilian volunteers like Zee and the Kid, desperately battles to hold back the Sentinel invasion as the Machine army bores into their stronghold. Facing total annihilation, the citizens of the last bastion of humanity fight not only for their own lives but future...", "released_onThe Matrix Reloaded"=>"2003-05-07 07:00:00 UTC", "commit"=>"Choose", "ratingThe Matrix Revolutions"=>"R", "released_onThe Matrix Revisited"=>"2001-11-20 08:00:00 UTC", "ratingThe Matrix Reloaded"=>"R", "titleThe Matrix Revisited"=>"The Matrix Revisited", "titleMatrix Dezionised"=>"Matrix Dezionised", "ratingThe Matrix"=>"R", "scoreThe Matrix Revolutions"=>"7", "descriptionThe Matrix Reloaded"=>"In this second chapter of the \"Matrix\" trilogy, Neo assumes greater command of his extraordinary powers as Zion falls under siege to the Machine Army. Only a matter of hours separates the last human enclave on Earth from 250,000 Sentinels programmed to destroy mankind. But the citizens of Zion stand firm, emboldened by Morpheus conviction that the One will fulfill the Oracle's Prophecy and end the war...", "descriptionThe Matrix"=>"Neo is a young software engineer and part-time hacker who is singled out by some mysterious figures who want to introduce him into the secret of 'the matrix'. The cops also seem to be after him, and he takes a chance on discovering what he has always suspected: that the world is not quite what it seems to be and a sinister conspiracy is at work. ", "scoreThe Matrix Reloaded"=>"7", "released_onMatrix Dezionised"=>"2006-07-02 07:00:00 UTC", "scoreThe Matrix"=>"9", "scoreThe Matrix Revisited"=>"7", "descriptionThe Matrix Revisited"=>"The film goes behind the scenes of the 1999 sci-fi movie The Matrix. ", "ratingThe Matrix Revisited"=>"", "ratingMatrix Dezionised"=>"", "movieChoice"=>"The Matrix", "released_onThe Matrix Revolutions"=>"2003-10-27 08:00:00 UTC", "descriptionMatrix Dezionised"=>"This fanedit combines Matrix Reloaded and Matrix Revolutions to one improved movie, leaving out all scenes on and about Zion. A worthy sequel to a masterpiece.", "released_onThe Matrix"=>"1999-03-31 08:00:00 UTC", "titleThe Matrix"=>"The Matrix", "titleThe Matrix Revolutions"=>"The Matrix Revolutions", "titleThe Matrix Reloaded"=>"The Matrix Reloaded", "scoreMatrix Dezionised"=>"7"} and HTTP headers {"HTTP_REFERER"=>"/results"}
+
+
+Processing MoviesController#add (for 127.0.0.1 at 2010-10-19 19:29:23) [POST]
+  Parameters: {"descriptionThe Matrix Revolutions"=>"In the third installment, the epic war between man and machine reaches a thundering crescendo: the Zion military, aided by courageous civilian volunteers like Zee and the Kid, desperately battles to hold back the Sentinel invasion as the Machine army bores into their stronghold. Facing total annihilation, the citizens of the last bastion of humanity fight not only for their own lives but future...", "released_onThe Matrix Reloaded"=>"2003-05-07 07:00:00 UTC", "commit"=>"Choose", "ratingThe Matrix Revolutions"=>"R", "released_onThe Matrix Revisited"=>"2001-11-20 08:00:00 UTC", "ratingThe Matrix Reloaded"=>"R", "titleThe Matrix Revisited"=>"The Matrix Revisited", "titleMatrix Dezionised"=>"Matrix Dezionised", "ratingThe Matrix"=>"R", "method"=>"post", "scoreThe Matrix Revolutions"=>"7", "descriptionThe Matrix Reloaded"=>"In this second chapter of the \"Matrix\" trilogy, Neo assumes greater command of his extraordinary powers as Zion falls under siege to the Machine Army. Only a matter of hours separates the last human enclave on Earth from 250,000 Sentinels programmed to destroy mankind. But the citizens of Zion stand firm, emboldened by Morpheus conviction that the One will fulfill the Oracle's Prophecy and end the war...", "descriptionThe Matrix"=>"Neo is a young software engineer and part-time hacker who is singled out by some mysterious figures who want to introduce him into the secret of 'the matrix'. The cops also seem to be after him, and he takes a chance on discovering what he has always suspected: that the world is not quite what it seems to be and a sinister conspiracy is at work. ", "scoreThe Matrix Reloaded"=>"7", "released_onMatrix Dezionised"=>"2006-07-02 07:00:00 UTC", "scoreThe Matrix"=>"9", "scoreThe Matrix Revisited"=>"7", "descriptionThe Matrix Revisited"=>"The film goes behind the scenes of the 1999 sci-fi movie The Matrix. ", "ratingThe Matrix Revisited"=>"", "ratingMatrix Dezionised"=>"", "movieChoice"=>"The Matrix", "released_onThe Matrix Revolutions"=>"2003-10-27 08:00:00 UTC", "descriptionMatrix Dezionised"=>"This fanedit combines Matrix Reloaded and Matrix Revolutions to one improved movie, leaving out all scenes on and about Zion. A worthy sequel to a masterpiece.", "released_onThe Matrix"=>"1999-03-31 08:00:00 UTC", "titleThe Matrix"=>"The Matrix", "titleThe Matrix Revolutions"=>"The Matrix Revolutions", "titleThe Matrix Reloaded"=>"The Matrix Reloaded", "scoreMatrix Dezionised"=>"7"}
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'The Matrix') LIMIT 1[0m
+  [4;35;1mMovie Create (0.5ms)[0m   [0mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description", "score") VALUES('R', '2010-10-20 02:29:23', 'The Matrix', '1999-03-31 08:00:00', '2010-10-20 02:29:23', 'Neo is a young software engineer and part-time hacker who is singled out by some mysterious figures who want to introduce him into the secret of ''the matrix''. The cops also seem to be after him, and he takes a chance on discovering what he has always suspected: that the world is not quite what it seems to be and a sinister conspiracy is at work. ', 9)[0m
+Redirected to http://www.example.com/movies
+Completed in 6ms (DB: 1) | 302 Found [http://www.example.com/add?method=post]
+REQUESTING PAGE: GET http://www.example.com/movies with {} and HTTP headers {"HTTP_REFERER"=>"/add?method=post"}
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-19 19:29:23) [GET]
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://www.example.com/movies]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:29:23) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"Glaskdjf"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 19:29:23) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"Glaskdjf"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 962ms (View: 18, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:30:55) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:30:55) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"The Matrix"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 19:30:55) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"The Matrix"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 743ms (View: 17, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: POST /add?method=post with {"descriptionThe Matrix Revolutions"=>"In the third installment, the epic war between man and machine reaches a thundering crescendo: the Zion military, aided by courageous civilian volunteers like Zee and the Kid, desperately battles to hold back the Sentinel invasion as the Machine army bores into their stronghold. Facing total annihilation, the citizens of the last bastion of humanity fight not only for their own lives but future...", "released_onThe Matrix Reloaded"=>"2003-05-07 07:00:00 UTC", "commit"=>"Choose", "ratingThe Matrix Revolutions"=>"R", "released_onThe Matrix Revisited"=>"2001-11-20 08:00:00 UTC", "ratingThe Matrix Reloaded"=>"R", "titleThe Matrix Revisited"=>"The Matrix Revisited", "titleMatrix Dezionised"=>"Matrix Dezionised", "ratingThe Matrix"=>"R", "scoreThe Matrix Revolutions"=>"7", "descriptionThe Matrix Reloaded"=>"In this second chapter of the \"Matrix\" trilogy, Neo assumes greater command of his extraordinary powers as Zion falls under siege to the Machine Army. Only a matter of hours separates the last human enclave on Earth from 250,000 Sentinels programmed to destroy mankind. But the citizens of Zion stand firm, emboldened by Morpheus conviction that the One will fulfill the Oracle's Prophecy and end the war...", "descriptionThe Matrix"=>"Neo is a young software engineer and part-time hacker who is singled out by some mysterious figures who want to introduce him into the secret of 'the matrix'. The cops also seem to be after him, and he takes a chance on discovering what he has always suspected: that the world is not quite what it seems to be and a sinister conspiracy is at work. ", "scoreThe Matrix Reloaded"=>"7", "released_onMatrix Dezionised"=>"2006-07-02 07:00:00 UTC", "scoreThe Matrix"=>"9", "scoreThe Matrix Revisited"=>"7", "descriptionThe Matrix Revisited"=>"The film goes behind the scenes of the 1999 sci-fi movie The Matrix. ", "ratingThe Matrix Revisited"=>"", "ratingMatrix Dezionised"=>"", "movieChoice"=>"The Matrix", "released_onThe Matrix Revolutions"=>"2003-10-27 08:00:00 UTC", "descriptionMatrix Dezionised"=>"This fanedit combines Matrix Reloaded and Matrix Revolutions to one improved movie, leaving out all scenes on and about Zion. A worthy sequel to a masterpiece.", "released_onThe Matrix"=>"1999-03-31 08:00:00 UTC", "titleThe Matrix"=>"The Matrix", "titleThe Matrix Revolutions"=>"The Matrix Revolutions", "titleThe Matrix Reloaded"=>"The Matrix Reloaded", "scoreMatrix Dezionised"=>"7"} and HTTP headers {"HTTP_REFERER"=>"/results"}
+
+
+Processing MoviesController#add (for 127.0.0.1 at 2010-10-19 19:30:56) [POST]
+  Parameters: {"descriptionThe Matrix Revolutions"=>"In the third installment, the epic war between man and machine reaches a thundering crescendo: the Zion military, aided by courageous civilian volunteers like Zee and the Kid, desperately battles to hold back the Sentinel invasion as the Machine army bores into their stronghold. Facing total annihilation, the citizens of the last bastion of humanity fight not only for their own lives but future...", "released_onThe Matrix Reloaded"=>"2003-05-07 07:00:00 UTC", "commit"=>"Choose", "ratingThe Matrix Revolutions"=>"R", "released_onThe Matrix Revisited"=>"2001-11-20 08:00:00 UTC", "ratingThe Matrix Reloaded"=>"R", "titleThe Matrix Revisited"=>"The Matrix Revisited", "titleMatrix Dezionised"=>"Matrix Dezionised", "ratingThe Matrix"=>"R", "method"=>"post", "scoreThe Matrix Revolutions"=>"7", "descriptionThe Matrix Reloaded"=>"In this second chapter of the \"Matrix\" trilogy, Neo assumes greater command of his extraordinary powers as Zion falls under siege to the Machine Army. Only a matter of hours separates the last human enclave on Earth from 250,000 Sentinels programmed to destroy mankind. But the citizens of Zion stand firm, emboldened by Morpheus conviction that the One will fulfill the Oracle's Prophecy and end the war...", "descriptionThe Matrix"=>"Neo is a young software engineer and part-time hacker who is singled out by some mysterious figures who want to introduce him into the secret of 'the matrix'. The cops also seem to be after him, and he takes a chance on discovering what he has always suspected: that the world is not quite what it seems to be and a sinister conspiracy is at work. ", "scoreThe Matrix Reloaded"=>"7", "released_onMatrix Dezionised"=>"2006-07-02 07:00:00 UTC", "scoreThe Matrix"=>"9", "scoreThe Matrix Revisited"=>"7", "descriptionThe Matrix Revisited"=>"The film goes behind the scenes of the 1999 sci-fi movie The Matrix. ", "ratingThe Matrix Revisited"=>"", "ratingMatrix Dezionised"=>"", "movieChoice"=>"The Matrix", "released_onThe Matrix Revolutions"=>"2003-10-27 08:00:00 UTC", "descriptionMatrix Dezionised"=>"This fanedit combines Matrix Reloaded and Matrix Revolutions to one improved movie, leaving out all scenes on and about Zion. A worthy sequel to a masterpiece.", "released_onThe Matrix"=>"1999-03-31 08:00:00 UTC", "titleThe Matrix"=>"The Matrix", "titleThe Matrix Revolutions"=>"The Matrix Revolutions", "titleThe Matrix Reloaded"=>"The Matrix Reloaded", "scoreMatrix Dezionised"=>"7"}
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'The Matrix') LIMIT 1[0m
+  [4;35;1mMovie Create (0.4ms)[0m   [0mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description", "score") VALUES('R', '2010-10-20 02:30:56', 'The Matrix', '1999-03-31 08:00:00', '2010-10-20 02:30:56', 'Neo is a young software engineer and part-time hacker who is singled out by some mysterious figures who want to introduce him into the secret of ''the matrix''. The cops also seem to be after him, and he takes a chance on discovering what he has always suspected: that the world is not quite what it seems to be and a sinister conspiracy is at work. ', 9)[0m
+Redirected to http://www.example.com/movies
+Completed in 6ms (DB: 1) | 302 Found [http://www.example.com/add?method=post]
+REQUESTING PAGE: GET http://www.example.com/movies with {} and HTTP headers {"HTTP_REFERER"=>"/add?method=post"}
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-19 19:30:56) [GET]
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://www.example.com/movies]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:30:56) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"Glaskdjf"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 19:30:56) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"Glaskdjf"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 895ms (View: 17, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:32:03) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:32:03) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"The Matrix"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 19:32:03) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"The Matrix"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 738ms (View: 17, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: POST /add?method=post with {"descriptionThe Matrix Revolutions"=>"In the third installment, the epic war between man and machine reaches a thundering crescendo: the Zion military, aided by courageous civilian volunteers like Zee and the Kid, desperately battles to hold back the Sentinel invasion as the Machine army bores into their stronghold. Facing total annihilation, the citizens of the last bastion of humanity fight not only for their own lives but future...", "released_onThe Matrix Reloaded"=>"2003-05-07 07:00:00 UTC", "commit"=>"Choose", "ratingThe Matrix Revolutions"=>"R", "released_onThe Matrix Revisited"=>"2001-11-20 08:00:00 UTC", "ratingThe Matrix Reloaded"=>"R", "titleThe Matrix Revisited"=>"The Matrix Revisited", "titleMatrix Dezionised"=>"Matrix Dezionised", "ratingThe Matrix"=>"R", "scoreThe Matrix Revolutions"=>"7", "descriptionThe Matrix Reloaded"=>"In this second chapter of the \"Matrix\" trilogy, Neo assumes greater command of his extraordinary powers as Zion falls under siege to the Machine Army. Only a matter of hours separates the last human enclave on Earth from 250,000 Sentinels programmed to destroy mankind. But the citizens of Zion stand firm, emboldened by Morpheus conviction that the One will fulfill the Oracle's Prophecy and end the war...", "descriptionThe Matrix"=>"Neo is a young software engineer and part-time hacker who is singled out by some mysterious figures who want to introduce him into the secret of 'the matrix'. The cops also seem to be after him, and he takes a chance on discovering what he has always suspected: that the world is not quite what it seems to be and a sinister conspiracy is at work. ", "scoreThe Matrix Reloaded"=>"7", "released_onMatrix Dezionised"=>"2006-07-02 07:00:00 UTC", "scoreThe Matrix"=>"9", "scoreThe Matrix Revisited"=>"7", "descriptionThe Matrix Revisited"=>"The film goes behind the scenes of the 1999 sci-fi movie The Matrix. ", "ratingThe Matrix Revisited"=>"", "ratingMatrix Dezionised"=>"", "movieChoice"=>"The Matrix", "released_onThe Matrix Revolutions"=>"2003-10-27 08:00:00 UTC", "descriptionMatrix Dezionised"=>"This fanedit combines Matrix Reloaded and Matrix Revolutions to one improved movie, leaving out all scenes on and about Zion. A worthy sequel to a masterpiece.", "released_onThe Matrix"=>"1999-03-31 08:00:00 UTC", "titleThe Matrix"=>"The Matrix", "titleThe Matrix Revolutions"=>"The Matrix Revolutions", "titleThe Matrix Reloaded"=>"The Matrix Reloaded", "scoreMatrix Dezionised"=>"7"} and HTTP headers {"HTTP_REFERER"=>"/results"}
+
+
+Processing MoviesController#add (for 127.0.0.1 at 2010-10-19 19:32:04) [POST]
+  Parameters: {"descriptionThe Matrix Revolutions"=>"In the third installment, the epic war between man and machine reaches a thundering crescendo: the Zion military, aided by courageous civilian volunteers like Zee and the Kid, desperately battles to hold back the Sentinel invasion as the Machine army bores into their stronghold. Facing total annihilation, the citizens of the last bastion of humanity fight not only for their own lives but future...", "released_onThe Matrix Reloaded"=>"2003-05-07 07:00:00 UTC", "commit"=>"Choose", "ratingThe Matrix Revolutions"=>"R", "released_onThe Matrix Revisited"=>"2001-11-20 08:00:00 UTC", "ratingThe Matrix Reloaded"=>"R", "titleThe Matrix Revisited"=>"The Matrix Revisited", "titleMatrix Dezionised"=>"Matrix Dezionised", "ratingThe Matrix"=>"R", "method"=>"post", "scoreThe Matrix Revolutions"=>"7", "descriptionThe Matrix Reloaded"=>"In this second chapter of the \"Matrix\" trilogy, Neo assumes greater command of his extraordinary powers as Zion falls under siege to the Machine Army. Only a matter of hours separates the last human enclave on Earth from 250,000 Sentinels programmed to destroy mankind. But the citizens of Zion stand firm, emboldened by Morpheus conviction that the One will fulfill the Oracle's Prophecy and end the war...", "descriptionThe Matrix"=>"Neo is a young software engineer and part-time hacker who is singled out by some mysterious figures who want to introduce him into the secret of 'the matrix'. The cops also seem to be after him, and he takes a chance on discovering what he has always suspected: that the world is not quite what it seems to be and a sinister conspiracy is at work. ", "scoreThe Matrix Reloaded"=>"7", "released_onMatrix Dezionised"=>"2006-07-02 07:00:00 UTC", "scoreThe Matrix"=>"9", "scoreThe Matrix Revisited"=>"7", "descriptionThe Matrix Revisited"=>"The film goes behind the scenes of the 1999 sci-fi movie The Matrix. ", "ratingThe Matrix Revisited"=>"", "ratingMatrix Dezionised"=>"", "movieChoice"=>"The Matrix", "released_onThe Matrix Revolutions"=>"2003-10-27 08:00:00 UTC", "descriptionMatrix Dezionised"=>"This fanedit combines Matrix Reloaded and Matrix Revolutions to one improved movie, leaving out all scenes on and about Zion. A worthy sequel to a masterpiece.", "released_onThe Matrix"=>"1999-03-31 08:00:00 UTC", "titleThe Matrix"=>"The Matrix", "titleThe Matrix Revolutions"=>"The Matrix Revolutions", "titleThe Matrix Reloaded"=>"The Matrix Reloaded", "scoreMatrix Dezionised"=>"7"}
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'The Matrix') LIMIT 1[0m
+  [4;35;1mMovie Create (0.5ms)[0m   [0mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description", "score") VALUES('R', '2010-10-20 02:32:04', 'The Matrix', '1999-03-31 08:00:00', '2010-10-20 02:32:04', 'Neo is a young software engineer and part-time hacker who is singled out by some mysterious figures who want to introduce him into the secret of ''the matrix''. The cops also seem to be after him, and he takes a chance on discovering what he has always suspected: that the world is not quite what it seems to be and a sinister conspiracy is at work. ', 9)[0m
+Redirected to http://www.example.com/movies
+Completed in 6ms (DB: 1) | 302 Found [http://www.example.com/add?method=post]
+REQUESTING PAGE: GET http://www.example.com/movies with {} and HTTP headers {"HTTP_REFERER"=>"/add?method=post"}
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-19 19:32:04) [GET]
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://www.example.com/movies]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:32:04) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"Glaskdjf"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 19:32:04) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"Glaskdjf"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 855ms (View: 17, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:34:15) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:34:15) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"The Matrix"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 19:34:15) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"The Matrix"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 739ms (View: 17, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:34:16) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"The Matrix"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 19:34:16) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"The Matrix"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 636ms (View: 16, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: POST /add?method=post with {"descriptionThe Matrix Revolutions"=>"In the third installment, the epic war between man and machine reaches a thundering crescendo: the Zion military, aided by courageous civilian volunteers like Zee and the Kid, desperately battles to hold back the Sentinel invasion as the Machine army bores into their stronghold. Facing total annihilation, the citizens of the last bastion of humanity fight not only for their own lives but future...", "released_onThe Matrix Reloaded"=>"2003-05-07 07:00:00 UTC", "commit"=>"Choose", "ratingThe Matrix Revolutions"=>"R", "released_onThe Matrix Revisited"=>"2001-11-20 08:00:00 UTC", "ratingThe Matrix Reloaded"=>"R", "titleThe Matrix Revisited"=>"The Matrix Revisited", "titleMatrix Dezionised"=>"Matrix Dezionised", "ratingThe Matrix"=>"R", "scoreThe Matrix Revolutions"=>"7", "descriptionThe Matrix Reloaded"=>"In this second chapter of the \"Matrix\" trilogy, Neo assumes greater command of his extraordinary powers as Zion falls under siege to the Machine Army. Only a matter of hours separates the last human enclave on Earth from 250,000 Sentinels programmed to destroy mankind. But the citizens of Zion stand firm, emboldened by Morpheus conviction that the One will fulfill the Oracle's Prophecy and end the war...", "descriptionThe Matrix"=>"Neo is a young software engineer and part-time hacker who is singled out by some mysterious figures who want to introduce him into the secret of 'the matrix'. The cops also seem to be after him, and he takes a chance on discovering what he has always suspected: that the world is not quite what it seems to be and a sinister conspiracy is at work. ", "scoreThe Matrix Reloaded"=>"7", "released_onMatrix Dezionised"=>"2006-07-02 07:00:00 UTC", "scoreThe Matrix"=>"9", "scoreThe Matrix Revisited"=>"7", "descriptionThe Matrix Revisited"=>"The film goes behind the scenes of the 1999 sci-fi movie The Matrix. ", "ratingThe Matrix Revisited"=>"", "ratingMatrix Dezionised"=>"", "movieChoice"=>"The Matrix", "released_onThe Matrix Revolutions"=>"2003-10-27 08:00:00 UTC", "descriptionMatrix Dezionised"=>"This fanedit combines Matrix Reloaded and Matrix Revolutions to one improved movie, leaving out all scenes on and about Zion. A worthy sequel to a masterpiece.", "released_onThe Matrix"=>"1999-03-31 08:00:00 UTC", "titleThe Matrix"=>"The Matrix", "titleThe Matrix Revolutions"=>"The Matrix Revolutions", "titleThe Matrix Reloaded"=>"The Matrix Reloaded", "scoreMatrix Dezionised"=>"7"} and HTTP headers {"HTTP_REFERER"=>"/results"}
+
+
+Processing MoviesController#add (for 127.0.0.1 at 2010-10-19 19:34:17) [POST]
+  Parameters: {"descriptionThe Matrix Revolutions"=>"In the third installment, the epic war between man and machine reaches a thundering crescendo: the Zion military, aided by courageous civilian volunteers like Zee and the Kid, desperately battles to hold back the Sentinel invasion as the Machine army bores into their stronghold. Facing total annihilation, the citizens of the last bastion of humanity fight not only for their own lives but future...", "released_onThe Matrix Reloaded"=>"2003-05-07 07:00:00 UTC", "commit"=>"Choose", "ratingThe Matrix Revolutions"=>"R", "released_onThe Matrix Revisited"=>"2001-11-20 08:00:00 UTC", "ratingThe Matrix Reloaded"=>"R", "titleThe Matrix Revisited"=>"The Matrix Revisited", "titleMatrix Dezionised"=>"Matrix Dezionised", "ratingThe Matrix"=>"R", "method"=>"post", "scoreThe Matrix Revolutions"=>"7", "descriptionThe Matrix Reloaded"=>"In this second chapter of the \"Matrix\" trilogy, Neo assumes greater command of his extraordinary powers as Zion falls under siege to the Machine Army. Only a matter of hours separates the last human enclave on Earth from 250,000 Sentinels programmed to destroy mankind. But the citizens of Zion stand firm, emboldened by Morpheus conviction that the One will fulfill the Oracle's Prophecy and end the war...", "descriptionThe Matrix"=>"Neo is a young software engineer and part-time hacker who is singled out by some mysterious figures who want to introduce him into the secret of 'the matrix'. The cops also seem to be after him, and he takes a chance on discovering what he has always suspected: that the world is not quite what it seems to be and a sinister conspiracy is at work. ", "scoreThe Matrix Reloaded"=>"7", "released_onMatrix Dezionised"=>"2006-07-02 07:00:00 UTC", "scoreThe Matrix"=>"9", "scoreThe Matrix Revisited"=>"7", "descriptionThe Matrix Revisited"=>"The film goes behind the scenes of the 1999 sci-fi movie The Matrix. ", "ratingThe Matrix Revisited"=>"", "ratingMatrix Dezionised"=>"", "movieChoice"=>"The Matrix", "released_onThe Matrix Revolutions"=>"2003-10-27 08:00:00 UTC", "descriptionMatrix Dezionised"=>"This fanedit combines Matrix Reloaded and Matrix Revolutions to one improved movie, leaving out all scenes on and about Zion. A worthy sequel to a masterpiece.", "released_onThe Matrix"=>"1999-03-31 08:00:00 UTC", "titleThe Matrix"=>"The Matrix", "titleThe Matrix Revolutions"=>"The Matrix Revolutions", "titleThe Matrix Reloaded"=>"The Matrix Reloaded", "scoreMatrix Dezionised"=>"7"}
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'The Matrix') LIMIT 1[0m
+  [4;35;1mMovie Create (0.4ms)[0m   [0mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description", "score") VALUES('R', '2010-10-20 02:34:17', 'The Matrix', '1999-03-31 08:00:00', '2010-10-20 02:34:17', 'Neo is a young software engineer and part-time hacker who is singled out by some mysterious figures who want to introduce him into the secret of ''the matrix''. The cops also seem to be after him, and he takes a chance on discovering what he has always suspected: that the world is not quite what it seems to be and a sinister conspiracy is at work. ', 9)[0m
+Redirected to http://www.example.com/movies
+Completed in 6ms (DB: 1) | 302 Found [http://www.example.com/add?method=post]
+REQUESTING PAGE: GET http://www.example.com/movies with {} and HTTP headers {"HTTP_REFERER"=>"/add?method=post"}
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-19 19:34:17) [GET]
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://www.example.com/movies]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:34:17) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"Glaskdjf"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 19:34:17) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"Glaskdjf"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 831ms (View: 18, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:35:39) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:35:39) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"The Matrix"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 19:35:39) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"The Matrix"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 618ms (View: 17, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: POST /add?method=post with {"descriptionThe Matrix Revolutions"=>"In the third installment, the epic war between man and machine reaches a thundering crescendo: the Zion military, aided by courageous civilian volunteers like Zee and the Kid, desperately battles to hold back the Sentinel invasion as the Machine army bores into their stronghold. Facing total annihilation, the citizens of the last bastion of humanity fight not only for their own lives but future...", "released_onThe Matrix Reloaded"=>"2003-05-07 07:00:00 UTC", "commit"=>"Choose", "ratingThe Matrix Revolutions"=>"R", "released_onThe Matrix Revisited"=>"2001-11-20 08:00:00 UTC", "ratingThe Matrix Reloaded"=>"R", "titleThe Matrix Revisited"=>"The Matrix Revisited", "titleMatrix Dezionised"=>"Matrix Dezionised", "ratingThe Matrix"=>"R", "scoreThe Matrix Revolutions"=>"7", "descriptionThe Matrix Reloaded"=>"In this second chapter of the \"Matrix\" trilogy, Neo assumes greater command of his extraordinary powers as Zion falls under siege to the Machine Army. Only a matter of hours separates the last human enclave on Earth from 250,000 Sentinels programmed to destroy mankind. But the citizens of Zion stand firm, emboldened by Morpheus conviction that the One will fulfill the Oracle's Prophecy and end the war...", "descriptionThe Matrix"=>"Neo is a young software engineer and part-time hacker who is singled out by some mysterious figures who want to introduce him into the secret of 'the matrix'. The cops also seem to be after him, and he takes a chance on discovering what he has always suspected: that the world is not quite what it seems to be and a sinister conspiracy is at work. ", "scoreThe Matrix Reloaded"=>"7", "released_onMatrix Dezionised"=>"2006-07-02 07:00:00 UTC", "scoreThe Matrix"=>"9", "scoreThe Matrix Revisited"=>"7", "descriptionThe Matrix Revisited"=>"The film goes behind the scenes of the 1999 sci-fi movie The Matrix. ", "ratingThe Matrix Revisited"=>"", "ratingMatrix Dezionised"=>"", "released_onThe Matrix Revolutions"=>"2003-10-27 08:00:00 UTC", "descriptionMatrix Dezionised"=>"This fanedit combines Matrix Reloaded and Matrix Revolutions to one improved movie, leaving out all scenes on and about Zion. A worthy sequel to a masterpiece.", "released_onThe Matrix"=>"1999-03-31 08:00:00 UTC", "titleThe Matrix"=>"The Matrix", "titleThe Matrix Revolutions"=>"The Matrix Revolutions", "titleThe Matrix Reloaded"=>"The Matrix Reloaded", "scoreMatrix Dezionised"=>"7"} and HTTP headers {"HTTP_REFERER"=>"/results"}
+
+
+Processing MoviesController#add (for 127.0.0.1 at 2010-10-19 19:35:40) [POST]
+  Parameters: {"descriptionThe Matrix Revolutions"=>"In the third installment, the epic war between man and machine reaches a thundering crescendo: the Zion military, aided by courageous civilian volunteers like Zee and the Kid, desperately battles to hold back the Sentinel invasion as the Machine army bores into their stronghold. Facing total annihilation, the citizens of the last bastion of humanity fight not only for their own lives but future...", "released_onThe Matrix Reloaded"=>"2003-05-07 07:00:00 UTC", "commit"=>"Choose", "ratingThe Matrix Revolutions"=>"R", "released_onThe Matrix Revisited"=>"2001-11-20 08:00:00 UTC", "ratingThe Matrix Reloaded"=>"R", "titleThe Matrix Revisited"=>"The Matrix Revisited", "titleMatrix Dezionised"=>"Matrix Dezionised", "ratingThe Matrix"=>"R", "method"=>"post", "scoreThe Matrix Revolutions"=>"7", "descriptionThe Matrix Reloaded"=>"In this second chapter of the \"Matrix\" trilogy, Neo assumes greater command of his extraordinary powers as Zion falls under siege to the Machine Army. Only a matter of hours separates the last human enclave on Earth from 250,000 Sentinels programmed to destroy mankind. But the citizens of Zion stand firm, emboldened by Morpheus conviction that the One will fulfill the Oracle's Prophecy and end the war...", "descriptionThe Matrix"=>"Neo is a young software engineer and part-time hacker who is singled out by some mysterious figures who want to introduce him into the secret of 'the matrix'. The cops also seem to be after him, and he takes a chance on discovering what he has always suspected: that the world is not quite what it seems to be and a sinister conspiracy is at work. ", "scoreThe Matrix Reloaded"=>"7", "released_onMatrix Dezionised"=>"2006-07-02 07:00:00 UTC", "scoreThe Matrix"=>"9", "scoreThe Matrix Revisited"=>"7", "descriptionThe Matrix Revisited"=>"The film goes behind the scenes of the 1999 sci-fi movie The Matrix. ", "ratingThe Matrix Revisited"=>"", "ratingMatrix Dezionised"=>"", "released_onThe Matrix Revolutions"=>"2003-10-27 08:00:00 UTC", "descriptionMatrix Dezionised"=>"This fanedit combines Matrix Reloaded and Matrix Revolutions to one improved movie, leaving out all scenes on and about Zion. A worthy sequel to a masterpiece.", "released_onThe Matrix"=>"1999-03-31 08:00:00 UTC", "titleThe Matrix"=>"The Matrix", "titleThe Matrix Revolutions"=>"The Matrix Revolutions", "titleThe Matrix Reloaded"=>"The Matrix Reloaded", "scoreMatrix Dezionised"=>"7"}
+Redirected to http://www.example.com/movies
+Completed in 1ms (DB: 0) | 302 Found [http://www.example.com/add?method=post]
+REQUESTING PAGE: GET http://www.example.com/movies with {} and HTTP headers {"HTTP_REFERER"=>"/add?method=post"}
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-19 19:35:40) [GET]
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.example.com/movies]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:35:40) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"The Matrix"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 19:35:40) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"The Matrix"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 633ms (View: 16, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: POST /add?method=post with {"descriptionThe Matrix Revolutions"=>"In the third installment, the epic war between man and machine reaches a thundering crescendo: the Zion military, aided by courageous civilian volunteers like Zee and the Kid, desperately battles to hold back the Sentinel invasion as the Machine army bores into their stronghold. Facing total annihilation, the citizens of the last bastion of humanity fight not only for their own lives but future...", "released_onThe Matrix Reloaded"=>"2003-05-07 07:00:00 UTC", "commit"=>"Choose", "ratingThe Matrix Revolutions"=>"R", "released_onThe Matrix Revisited"=>"2001-11-20 08:00:00 UTC", "ratingThe Matrix Reloaded"=>"R", "titleThe Matrix Revisited"=>"The Matrix Revisited", "titleMatrix Dezionised"=>"Matrix Dezionised", "ratingThe Matrix"=>"R", "scoreThe Matrix Revolutions"=>"7", "descriptionThe Matrix Reloaded"=>"In this second chapter of the \"Matrix\" trilogy, Neo assumes greater command of his extraordinary powers as Zion falls under siege to the Machine Army. Only a matter of hours separates the last human enclave on Earth from 250,000 Sentinels programmed to destroy mankind. But the citizens of Zion stand firm, emboldened by Morpheus conviction that the One will fulfill the Oracle's Prophecy and end the war...", "descriptionThe Matrix"=>"Neo is a young software engineer and part-time hacker who is singled out by some mysterious figures who want to introduce him into the secret of 'the matrix'. The cops also seem to be after him, and he takes a chance on discovering what he has always suspected: that the world is not quite what it seems to be and a sinister conspiracy is at work. ", "scoreThe Matrix Reloaded"=>"7", "released_onMatrix Dezionised"=>"2006-07-02 07:00:00 UTC", "scoreThe Matrix"=>"9", "scoreThe Matrix Revisited"=>"7", "descriptionThe Matrix Revisited"=>"The film goes behind the scenes of the 1999 sci-fi movie The Matrix. ", "ratingThe Matrix Revisited"=>"", "ratingMatrix Dezionised"=>"", "movieChoice"=>"The Matrix", "released_onThe Matrix Revolutions"=>"2003-10-27 08:00:00 UTC", "descriptionMatrix Dezionised"=>"This fanedit combines Matrix Reloaded and Matrix Revolutions to one improved movie, leaving out all scenes on and about Zion. A worthy sequel to a masterpiece.", "released_onThe Matrix"=>"1999-03-31 08:00:00 UTC", "titleThe Matrix"=>"The Matrix", "titleThe Matrix Revolutions"=>"The Matrix Revolutions", "titleThe Matrix Reloaded"=>"The Matrix Reloaded", "scoreMatrix Dezionised"=>"7"} and HTTP headers {"HTTP_REFERER"=>"/results"}
+
+
+Processing MoviesController#add (for 127.0.0.1 at 2010-10-19 19:35:41) [POST]
+  Parameters: {"descriptionThe Matrix Revolutions"=>"In the third installment, the epic war between man and machine reaches a thundering crescendo: the Zion military, aided by courageous civilian volunteers like Zee and the Kid, desperately battles to hold back the Sentinel invasion as the Machine army bores into their stronghold. Facing total annihilation, the citizens of the last bastion of humanity fight not only for their own lives but future...", "released_onThe Matrix Reloaded"=>"2003-05-07 07:00:00 UTC", "commit"=>"Choose", "ratingThe Matrix Revolutions"=>"R", "released_onThe Matrix Revisited"=>"2001-11-20 08:00:00 UTC", "ratingThe Matrix Reloaded"=>"R", "titleThe Matrix Revisited"=>"The Matrix Revisited", "titleMatrix Dezionised"=>"Matrix Dezionised", "ratingThe Matrix"=>"R", "method"=>"post", "scoreThe Matrix Revolutions"=>"7", "descriptionThe Matrix Reloaded"=>"In this second chapter of the \"Matrix\" trilogy, Neo assumes greater command of his extraordinary powers as Zion falls under siege to the Machine Army. Only a matter of hours separates the last human enclave on Earth from 250,000 Sentinels programmed to destroy mankind. But the citizens of Zion stand firm, emboldened by Morpheus conviction that the One will fulfill the Oracle's Prophecy and end the war...", "descriptionThe Matrix"=>"Neo is a young software engineer and part-time hacker who is singled out by some mysterious figures who want to introduce him into the secret of 'the matrix'. The cops also seem to be after him, and he takes a chance on discovering what he has always suspected: that the world is not quite what it seems to be and a sinister conspiracy is at work. ", "scoreThe Matrix Reloaded"=>"7", "released_onMatrix Dezionised"=>"2006-07-02 07:00:00 UTC", "scoreThe Matrix"=>"9", "scoreThe Matrix Revisited"=>"7", "descriptionThe Matrix Revisited"=>"The film goes behind the scenes of the 1999 sci-fi movie The Matrix. ", "ratingThe Matrix Revisited"=>"", "ratingMatrix Dezionised"=>"", "movieChoice"=>"The Matrix", "released_onThe Matrix Revolutions"=>"2003-10-27 08:00:00 UTC", "descriptionMatrix Dezionised"=>"This fanedit combines Matrix Reloaded and Matrix Revolutions to one improved movie, leaving out all scenes on and about Zion. A worthy sequel to a masterpiece.", "released_onThe Matrix"=>"1999-03-31 08:00:00 UTC", "titleThe Matrix"=>"The Matrix", "titleThe Matrix Revolutions"=>"The Matrix Revolutions", "titleThe Matrix Reloaded"=>"The Matrix Reloaded", "scoreMatrix Dezionised"=>"7"}
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'The Matrix') LIMIT 1[0m
+  [4;36;1mMovie Create (0.4ms)[0m   [0;1mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description", "score") VALUES('R', '2010-10-20 02:35:41', 'The Matrix', '1999-03-31 08:00:00', '2010-10-20 02:35:41', 'Neo is a young software engineer and part-time hacker who is singled out by some mysterious figures who want to introduce him into the secret of ''the matrix''. The cops also seem to be after him, and he takes a chance on discovering what he has always suspected: that the world is not quite what it seems to be and a sinister conspiracy is at work. ', 9)[0m
+Redirected to http://www.example.com/movies
+Completed in 6ms (DB: 1) | 302 Found [http://www.example.com/add?method=post]
+REQUESTING PAGE: GET http://www.example.com/movies with {} and HTTP headers {"HTTP_REFERER"=>"/add?method=post"}
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-19 19:35:41) [GET]
+  [4;35;1mMovie Load (5.1ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 11ms (View: 4, DB: 5) | 200 OK [http://www.example.com/movies]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:35:41) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"Glaskdjf"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 19:35:41) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"Glaskdjf"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 920ms (View: 17, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:36:35) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:36:35) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"The Matrix"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 19:36:35) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"The Matrix"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 773ms (View: 17, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: POST /add?method=post with {"descriptionThe Matrix Revolutions"=>"In the third installment, the epic war between man and machine reaches a thundering crescendo: the Zion military, aided by courageous civilian volunteers like Zee and the Kid, desperately battles to hold back the Sentinel invasion as the Machine army bores into their stronghold. Facing total annihilation, the citizens of the last bastion of humanity fight not only for their own lives but future...", "released_onThe Matrix Reloaded"=>"2003-05-07 07:00:00 UTC", "commit"=>"Choose", "ratingThe Matrix Revolutions"=>"R", "released_onThe Matrix Revisited"=>"2001-11-20 08:00:00 UTC", "ratingThe Matrix Reloaded"=>"R", "titleThe Matrix Revisited"=>"The Matrix Revisited", "titleMatrix Dezionised"=>"Matrix Dezionised", "ratingThe Matrix"=>"R", "scoreThe Matrix Revolutions"=>"7", "descriptionThe Matrix Reloaded"=>"In this second chapter of the \"Matrix\" trilogy, Neo assumes greater command of his extraordinary powers as Zion falls under siege to the Machine Army. Only a matter of hours separates the last human enclave on Earth from 250,000 Sentinels programmed to destroy mankind. But the citizens of Zion stand firm, emboldened by Morpheus conviction that the One will fulfill the Oracle's Prophecy and end the war...", "descriptionThe Matrix"=>"Neo is a young software engineer and part-time hacker who is singled out by some mysterious figures who want to introduce him into the secret of 'the matrix'. The cops also seem to be after him, and he takes a chance on discovering what he has always suspected: that the world is not quite what it seems to be and a sinister conspiracy is at work. ", "scoreThe Matrix Reloaded"=>"7", "released_onMatrix Dezionised"=>"2006-07-02 07:00:00 UTC", "scoreThe Matrix"=>"9", "scoreThe Matrix Revisited"=>"7", "descriptionThe Matrix Revisited"=>"The film goes behind the scenes of the 1999 sci-fi movie The Matrix. ", "ratingThe Matrix Revisited"=>"", "ratingMatrix Dezionised"=>"", "released_onThe Matrix Revolutions"=>"2003-10-27 08:00:00 UTC", "descriptionMatrix Dezionised"=>"This fanedit combines Matrix Reloaded and Matrix Revolutions to one improved movie, leaving out all scenes on and about Zion. A worthy sequel to a masterpiece.", "released_onThe Matrix"=>"1999-03-31 08:00:00 UTC", "titleThe Matrix"=>"The Matrix", "titleThe Matrix Revolutions"=>"The Matrix Revolutions", "titleThe Matrix Reloaded"=>"The Matrix Reloaded", "scoreMatrix Dezionised"=>"7"} and HTTP headers {"HTTP_REFERER"=>"/results"}
+
+
+Processing MoviesController#add (for 127.0.0.1 at 2010-10-19 19:36:35) [POST]
+  Parameters: {"descriptionThe Matrix Revolutions"=>"In the third installment, the epic war between man and machine reaches a thundering crescendo: the Zion military, aided by courageous civilian volunteers like Zee and the Kid, desperately battles to hold back the Sentinel invasion as the Machine army bores into their stronghold. Facing total annihilation, the citizens of the last bastion of humanity fight not only for their own lives but future...", "released_onThe Matrix Reloaded"=>"2003-05-07 07:00:00 UTC", "commit"=>"Choose", "ratingThe Matrix Revolutions"=>"R", "released_onThe Matrix Revisited"=>"2001-11-20 08:00:00 UTC", "ratingThe Matrix Reloaded"=>"R", "titleThe Matrix Revisited"=>"The Matrix Revisited", "titleMatrix Dezionised"=>"Matrix Dezionised", "ratingThe Matrix"=>"R", "method"=>"post", "scoreThe Matrix Revolutions"=>"7", "descriptionThe Matrix Reloaded"=>"In this second chapter of the \"Matrix\" trilogy, Neo assumes greater command of his extraordinary powers as Zion falls under siege to the Machine Army. Only a matter of hours separates the last human enclave on Earth from 250,000 Sentinels programmed to destroy mankind. But the citizens of Zion stand firm, emboldened by Morpheus conviction that the One will fulfill the Oracle's Prophecy and end the war...", "descriptionThe Matrix"=>"Neo is a young software engineer and part-time hacker who is singled out by some mysterious figures who want to introduce him into the secret of 'the matrix'. The cops also seem to be after him, and he takes a chance on discovering what he has always suspected: that the world is not quite what it seems to be and a sinister conspiracy is at work. ", "scoreThe Matrix Reloaded"=>"7", "released_onMatrix Dezionised"=>"2006-07-02 07:00:00 UTC", "scoreThe Matrix"=>"9", "scoreThe Matrix Revisited"=>"7", "descriptionThe Matrix Revisited"=>"The film goes behind the scenes of the 1999 sci-fi movie The Matrix. ", "ratingThe Matrix Revisited"=>"", "ratingMatrix Dezionised"=>"", "released_onThe Matrix Revolutions"=>"2003-10-27 08:00:00 UTC", "descriptionMatrix Dezionised"=>"This fanedit combines Matrix Reloaded and Matrix Revolutions to one improved movie, leaving out all scenes on and about Zion. A worthy sequel to a masterpiece.", "released_onThe Matrix"=>"1999-03-31 08:00:00 UTC", "titleThe Matrix"=>"The Matrix", "titleThe Matrix Revolutions"=>"The Matrix Revolutions", "titleThe Matrix Reloaded"=>"The Matrix Reloaded", "scoreMatrix Dezionised"=>"7"}
+Redirected to http://www.example.com/movies
+Completed in 1ms (DB: 0) | 302 Found [http://www.example.com/add?method=post]
+REQUESTING PAGE: GET http://www.example.com/movies with {} and HTTP headers {"HTTP_REFERER"=>"/add?method=post"}
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-19 19:36:35) [GET]
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.example.com/movies]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:36:36) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"The Matrix"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 19:36:36) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"The Matrix"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 702ms (View: 16, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:36:36) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"Glaskdjf"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 19:36:36) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"Glaskdjf"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 907ms (View: 16, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:41:57) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:41:57) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"The Matrix"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 19:41:58) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"The Matrix"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 637ms (View: 19, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: POST /add?method=post with {"descriptionThe Matrix Revolutions"=>"In the third installment, the epic war between man and machine reaches a thundering crescendo: the Zion military, aided by courageous civilian volunteers like Zee and the Kid, desperately battles to hold back the Sentinel invasion as the Machine army bores into their stronghold. Facing total annihilation, the citizens of the last bastion of humanity fight not only for their own lives but future...", "released_onThe Matrix Reloaded"=>"2003-05-07 07:00:00 UTC", "commit"=>"Choose", "ratingThe Matrix Revolutions"=>"R", "released_onThe Matrix Revisited"=>"2001-11-20 08:00:00 UTC", "ratingThe Matrix Reloaded"=>"R", "titleThe Matrix Revisited"=>"The Matrix Revisited", "titleMatrix Dezionised"=>"Matrix Dezionised", "ratingThe Matrix"=>"R", "scoreThe Matrix Revolutions"=>"7", "descriptionThe Matrix Reloaded"=>"In this second chapter of the \"Matrix\" trilogy, Neo assumes greater command of his extraordinary powers as Zion falls under siege to the Machine Army. Only a matter of hours separates the last human enclave on Earth from 250,000 Sentinels programmed to destroy mankind. But the citizens of Zion stand firm, emboldened by Morpheus conviction that the One will fulfill the Oracle's Prophecy and end the war...", "descriptionThe Matrix"=>"Neo is a young software engineer and part-time hacker who is singled out by some mysterious figures who want to introduce him into the secret of 'the matrix'. The cops also seem to be after him, and he takes a chance on discovering what he has always suspected: that the world is not quite what it seems to be and a sinister conspiracy is at work. ", "scoreThe Matrix Reloaded"=>"7", "released_onMatrix Dezionised"=>"2006-07-02 07:00:00 UTC", "scoreThe Matrix"=>"9", "scoreThe Matrix Revisited"=>"7", "descriptionThe Matrix Revisited"=>"The film goes behind the scenes of the 1999 sci-fi movie The Matrix. ", "ratingThe Matrix Revisited"=>"", "ratingMatrix Dezionised"=>"", "released_onThe Matrix Revolutions"=>"2003-10-27 08:00:00 UTC", "descriptionMatrix Dezionised"=>"This fanedit combines Matrix Reloaded and Matrix Revolutions to one improved movie, leaving out all scenes on and about Zion. A worthy sequel to a masterpiece.", "released_onThe Matrix"=>"1999-03-31 08:00:00 UTC", "titleThe Matrix"=>"The Matrix", "titleThe Matrix Revolutions"=>"The Matrix Revolutions", "titleThe Matrix Reloaded"=>"The Matrix Reloaded", "scoreMatrix Dezionised"=>"7"} and HTTP headers {"HTTP_REFERER"=>"/results"}
+
+
+Processing MoviesController#add (for 127.0.0.1 at 2010-10-19 19:41:58) [POST]
+  Parameters: {"descriptionThe Matrix Revolutions"=>"In the third installment, the epic war between man and machine reaches a thundering crescendo: the Zion military, aided by courageous civilian volunteers like Zee and the Kid, desperately battles to hold back the Sentinel invasion as the Machine army bores into their stronghold. Facing total annihilation, the citizens of the last bastion of humanity fight not only for their own lives but future...", "released_onThe Matrix Reloaded"=>"2003-05-07 07:00:00 UTC", "commit"=>"Choose", "ratingThe Matrix Revolutions"=>"R", "released_onThe Matrix Revisited"=>"2001-11-20 08:00:00 UTC", "ratingThe Matrix Reloaded"=>"R", "titleThe Matrix Revisited"=>"The Matrix Revisited", "titleMatrix Dezionised"=>"Matrix Dezionised", "ratingThe Matrix"=>"R", "method"=>"post", "scoreThe Matrix Revolutions"=>"7", "descriptionThe Matrix Reloaded"=>"In this second chapter of the \"Matrix\" trilogy, Neo assumes greater command of his extraordinary powers as Zion falls under siege to the Machine Army. Only a matter of hours separates the last human enclave on Earth from 250,000 Sentinels programmed to destroy mankind. But the citizens of Zion stand firm, emboldened by Morpheus conviction that the One will fulfill the Oracle's Prophecy and end the war...", "descriptionThe Matrix"=>"Neo is a young software engineer and part-time hacker who is singled out by some mysterious figures who want to introduce him into the secret of 'the matrix'. The cops also seem to be after him, and he takes a chance on discovering what he has always suspected: that the world is not quite what it seems to be and a sinister conspiracy is at work. ", "scoreThe Matrix Reloaded"=>"7", "released_onMatrix Dezionised"=>"2006-07-02 07:00:00 UTC", "scoreThe Matrix"=>"9", "scoreThe Matrix Revisited"=>"7", "descriptionThe Matrix Revisited"=>"The film goes behind the scenes of the 1999 sci-fi movie The Matrix. ", "ratingThe Matrix Revisited"=>"", "ratingMatrix Dezionised"=>"", "released_onThe Matrix Revolutions"=>"2003-10-27 08:00:00 UTC", "descriptionMatrix Dezionised"=>"This fanedit combines Matrix Reloaded and Matrix Revolutions to one improved movie, leaving out all scenes on and about Zion. A worthy sequel to a masterpiece.", "released_onThe Matrix"=>"1999-03-31 08:00:00 UTC", "titleThe Matrix"=>"The Matrix", "titleThe Matrix Revolutions"=>"The Matrix Revolutions", "titleThe Matrix Reloaded"=>"The Matrix Reloaded", "scoreMatrix Dezionised"=>"7"}
+Redirected to http://www.example.com/movies
+Completed in 1ms (DB: 0) | 302 Found [http://www.example.com/add?method=post]
+REQUESTING PAGE: GET http://www.example.com/movies with {} and HTTP headers {"HTTP_REFERER"=>"/add?method=post"}
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-19 19:41:58) [GET]
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.example.com/movies]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:41:58) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"The Matrix"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 19:41:58) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"The Matrix"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 676ms (View: 16, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:41:59) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"Glaskdjf"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 19:41:59) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"Glaskdjf"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 809ms (View: 18, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:43:25) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 13ms (View: 10, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:43:26) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"The Matrix"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 19:43:26) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"The Matrix"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 662ms (View: 19, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:43:26) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"The Matrix"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 19:43:26) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"The Matrix"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 622ms (View: 16, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:43:27) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"Glaskdjf"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 19:43:27) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"Glaskdjf"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 811ms (View: 16, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:44:39) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:44:39) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"The Matrix"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 19:44:39) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"The Matrix"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 603ms (View: 17, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:44:39) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"The Matrix"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 19:44:40) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"The Matrix"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 600ms (View: 17, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:44:40) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"Glaskdjf"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 19:44:40) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"Glaskdjf"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 790ms (View: 16, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:45:46) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:45:46) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"The Matrix"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 19:45:46) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"The Matrix"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 749ms (View: 17, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:45:47) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"The Matrix"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 19:45:47) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"The Matrix"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 1064ms (View: 16, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:45:48) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"Glaskdjf"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 19:45:48) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"Glaskdjf"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 955ms (View: 17, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:47:25) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:47:25) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"The Matrix"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 19:47:25) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"The Matrix"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 710ms (View: 17, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:47:26) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"The Matrix"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 19:47:26) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"The Matrix"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 607ms (View: 16, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:47:26) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"lksjdoquwer"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 19:47:26) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"lksjdoquwer"}
+Redirected to http://www.example.com/search
+Completed in 404ms (DB: 0) | 302 Found [http://www.example.com/results]
+REQUESTING PAGE: GET http://www.example.com/search with {} and HTTP headers {"HTTP_REFERER"=>"/results"}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:47:27) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:47:55) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:47:55) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"The Matrix"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 19:47:55) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"The Matrix"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 680ms (View: 17, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:47:56) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"The Matrix"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 19:47:56) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"The Matrix"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 617ms (View: 16, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:47:57) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"lksjdoquwer"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 19:47:57) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"lksjdoquwer"}
+Redirected to http://www.example.com/search
+Completed in 277ms (DB: 0) | 302 Found [http://www.example.com/results]
+REQUESTING PAGE: GET http://www.example.com/search with {} and HTTP headers {"HTTP_REFERER"=>"/results"}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:47:57) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:48:43) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:48:43) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"The Matrix"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 19:48:43) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"The Matrix"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 710ms (View: 17, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:48:43) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"The Matrix"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 19:48:43) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"The Matrix"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 601ms (View: 16, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:48:44) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"lksjdoquwer"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 19:48:44) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"lksjdoquwer"}
+Redirected to http://www.example.com/search
+Completed in 269ms (DB: 0) | 302 Found [http://www.example.com/results]
+REQUESTING PAGE: GET http://www.example.com/search with {} and HTTP headers {"HTTP_REFERER"=>"/results"}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:48:44) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>""} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 19:48:44) [POST]
+  Parameters: {"commit"=>"Results", "title"=>""}
+
+
+Processing ApplicationController#results (for 127.0.0.1 at 2010-10-19 19:48:45) [POST]
+  Parameters: {"commit"=>"Results", "title"=>""}
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:50:05) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 12ms (View: 9, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:50:05) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"The Matrix"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 19:50:05) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"The Matrix"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 671ms (View: 17, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:50:06) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"The Matrix"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 19:50:06) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"The Matrix"}
+Rendering template within layouts/movies
+Rendering movies/results
+Completed in 631ms (View: 16, DB: 0) | 200 OK [http://www.example.com/results]
+REQUESTING PAGE: GET /search with {} and HTTP headers {}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:50:06) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
+REQUESTING PAGE: POST /results with {"commit"=>"Results", "title"=>"lksjdoquwer"} and HTTP headers {"HTTP_REFERER"=>"/search"}
+
+
+Processing MoviesController#results (for 127.0.0.1 at 2010-10-19 19:50:06) [POST]
+  Parameters: {"commit"=>"Results", "title"=>"lksjdoquwer"}
+Redirected to http://www.example.com/search
+Completed in 287ms (DB: 0) | 302 Found [http://www.example.com/results]
+REQUESTING PAGE: GET http://www.example.com/search with {} and HTTP headers {"HTTP_REFERER"=>"/results"}
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 19:50:07) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://www.example.com/search]
