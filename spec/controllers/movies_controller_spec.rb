@@ -30,21 +30,22 @@ describe MoviesController do
     
 	it "adds one of the 5 returned movies to the DB" do
 		@movies = mock_choice().findTopFive("not nil title")
-		@db = Array.new
+		db = Array.new
 		@mov = @movies[0]
 		Movie.stub(:save) do
-		  @db << @mov
+		  db << @mov
 		end
-		Movie.stub(:title=).with(@mov.title).and_return(0)
-		Movie.stub(:find).and_return{@db[0]}
+		Movie.stub(:find) do
+		  db[0]
+		end
 		@params = {:movieChoice => @mov.title, "title"+@mov.title => @mov.title, "description"+@mov.title => @mov.description, "score"+@mov.title => @mov.score, "rating"+@mov.title => @mov.rating, "released_on"+@mov.title => @mov.released_on}
-		post :add, @params
-		Movie.find.should == @mov
+		post "add", @params
+		Movie.find.should == @movi
 	end
 	it "returns no values for an API result with no movies" do
 		Hpricot.stub(:search).with("movie").and_return("")
 		@choice = Choice.new()
-		@choice.findTopFive("Anything").should_be nil
+		@choice.findTopFive("Anything").length.should == 0
 	end
   end
   

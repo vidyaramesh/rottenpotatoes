@@ -20,6 +20,9 @@ class Choice
       if eles[i] == nil: 
         break 
       end
+	  if eles.length >= i:
+		break
+	  end
       movie = Movie.new
       movie.title = eles[i].search("name").inner_html
       movie.description = eles[i].search("overview").inner_html
