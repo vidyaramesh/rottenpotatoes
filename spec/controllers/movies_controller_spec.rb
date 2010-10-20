@@ -5,7 +5,7 @@ describe MoviesController do
   def mock_movie(stubs={})
     @mock_movie ||= mock_model(Movie, stubs)
   end
-
+  
   describe "GET index" do
     it "assigns all movies as @movies" do
       Movie.stub(:find).with(:all).and_return([mock_movie])
@@ -39,7 +39,7 @@ describe MoviesController do
   end
 
   describe "POST create" do
-
+  
     describe "with valid params" do
       it "assigns a newly created movie as @movie" do
         Movie.stub(:new).with({'these' => 'params'}).and_return(mock_movie(:save => true))
@@ -51,6 +51,23 @@ describe MoviesController do
         Movie.stub(:new).and_return(mock_movie(:save => true))
         post :create, :movie => {}
         response.should redirect_to(movie_url(mock_movie))
+      end
+    end
+	
+	describe "with valid params and stubbed DB" do
+      it "assigns a newly created movie as @movie and checks persistance to mock DB" do
+        Movie.stub(:new).with({'these' => 'params'}).and_return(mock_movie)
+		db = Array.new
+		mock_movie.stub(:save) do 
+		  db << mock_movie
+		end
+		Movie.stub(:find) do
+		  ind = db.index(mock_movie)
+		  db[ind]
+		end
+        post :create, :movie => {:these => 'params'}
+        assigns[:movie].should equal(mock_movie)
+		Movie.find(mock_movie).should ==mock_movie
       end
     end
 
