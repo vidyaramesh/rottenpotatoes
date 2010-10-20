@@ -8,15 +8,15 @@ Feature: User wants to add a movie
 	
 	Scenario: see search results
 	Given the user is on the search page with "The Matrix" as the title of the movie entered
-	When the user clicks results
+	When the user clicks search
 	Then the user should see a listing of at most 5 possible results 
 	
 	Scenario: add from search results
 	Given the user is looking at the not empty search results for a query
-	When the user selects one of the results and clicks submit
+	When the user selects one of the results
 	Then the user should see a page with the information for that movie filled out
 	
 	Scenario: no results
 	Given the user is looking for a query and there are no results
 	When the user clicks search
-	Then the user should see a message saying "Movie is not found" and should stay on search page
+	Then the user should see a message saying "No movies found"
